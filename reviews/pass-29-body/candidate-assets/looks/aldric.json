@@ -1,0 +1,23 @@
+{
+  "name": "Aldric",
+  "base": "male",
+  "race": "human",
+  "hair": "swept",
+  "outfit": "frontier_vest",
+  "sliders": {
+    "Height": 0.2,
+    "Shoulders": 0.3,
+    "Muscle": 0.35,
+    "JawWidth": 0.1,
+    "NoseLength": 0.05
+  },
+  "colours": {
+    "skin": "c08e6a",
+    "hair": "352e29",
+    "eyes": "3b6370",
+    "shirt": "cfc6b0",
+    "vest": "3f5a45"
+  },
+  "face": "rugged",
+  "beard": "stubble"
+}

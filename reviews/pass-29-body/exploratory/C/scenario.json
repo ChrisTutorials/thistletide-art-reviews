@@ -1,0 +1,840 @@
+{
+  "schema": 2,
+  "scenario": "character-kit",
+  "seed": 137,
+  "hudSkin": "shipped",
+  "rendered": true,
+  "build": {
+    "godot": "4.8.0",
+    "status": "4.8-dev6 (official)",
+    "assembly": "1.0.0.0"
+  },
+  "adapter": {
+    "kind": "in-process-script",
+    "model": "none"
+  },
+  "ok": true,
+  "error": null,
+  "category": "pass",
+  "expected": null,
+  "observed": null,
+  "firstBadTick": null,
+  "firstBadState": null,
+  "stage": null,
+  "artifacts": [
+    "body_day_z9.png",
+    "body_dusk_z9.png",
+    "body_day_z5.png",
+    "body_dusk_z5.png",
+    "body_rest_0.png",
+    "body_rest_90.png",
+    "body_detail_0.png",
+    "body_detail_45.png",
+    "body_detail_90.png",
+    "body_detail_180.png",
+    "body_Walk.png",
+    "body_PickUp.png"
+  ],
+  "cleanup": {
+    "owner": "run.sh",
+    "exitCode": 0,
+    "passMarker": true,
+    "orphanedProcesses": []
+  },
+  "elapsedMs": 16679.9115,
+  "tick": 0,
+  "player": {
+    "Id": 13,
+    "X": 20.5,
+    "Z": 50.5,
+    "Hp": 100,
+    "MaxHp": 100,
+    "Hunger": 0.03,
+    "Energy": 0.95000005,
+    "Stamina": 1,
+    "MaxStamina": 1,
+    "State": "idle",
+    "Talk": {
+      "Partner": 0,
+      "RemainingTicks": 0
+    },
+    "Faction": 0,
+    "FactionName": "Thistle",
+    "Fighting": null,
+    "Gathering": null,
+    "Alive": true,
+    "Arrived": false,
+    "Following": false,
+    "Failed": false,
+    "Status": [
+      {
+        "Kind": 1,
+        "Severity": 1,
+        "Urgency": 10,
+        "Icon": "fed",
+        "MoveSpeedMult": 1.05,
+        "WorkTimeMult": 0.95
+      }
+    ],
+    "Activity": null,
+    "Preference": "",
+    "Equipped": "",
+    "Carried": "",
+    "Look": {
+      "Hair": "long",
+      "Headwear": "cap",
+      "Beard": false,
+      "Vest": true,
+      "Apron": false,
+      "Cloak": false,
+      "Scarf": false,
+      "FaceWidth": 0.8296462,
+      "EyeSpacing": -0.5378812,
+      "NoseLength": -0.0023698928,
+      "FaceLength": 0.2657886,
+      "EyeTone": 55,
+      "Skin": 41,
+      "HairTone": 56,
+      "Cloth": 124,
+      "Trousers": 138,
+      "Leather": 113,
+      "Felt": 66,
+      "Stature": 0.93852925,
+      "Mass": -0.941447,
+      "Frame": 0.29529285
+    },
+    "Dest": [
+      20,
+      50
+    ],
+    "DestFine": [
+      -0.5,
+      -0.5
+    ]
+  },
+  "visibleEntities": 11,
+  "projectedCells": 183,
+  "homes": 1,
+  "buildings": 0,
+  "construction": 0,
+  "projectiles": 0,
+  "appliedPhase": 0,
+  "appliedWeather": "storm",
+  "hallsRendered": 1,
+  "sheen": 0,
+  "lanterns": 1,
+  "smoothLerps": 0,
+  "smoothSnaps": 0,
+  "sfx": [],
+  "events": [
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 10130,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.00089222693,
+          0.00019567418,
+          0.00089222693,
+          0.00019567418
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 10177,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.00013134308,
+          0,
+          0.00013134308,
+          0
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 10566,
+      "result": {
+        "shot": "body_rest_0.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "bind-rest",
+            "at": 0,
+            "turn": 0,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "bind-rest",
+            "at": 0,
+            "turn": 0,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 10991,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.00089222693,
+          0.00019567418,
+          0.00089222693,
+          0.00019567418
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 11037,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.00013134308,
+          0,
+          0.00013134308,
+          0
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 11416,
+      "result": {
+        "shot": "body_rest_90.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "bind-rest",
+            "at": 0,
+            "turn": 90,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "bind-rest",
+            "at": 0,
+            "turn": 90,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 11847,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.0024723185,
+          0.00061753485,
+          0.0024723134,
+          0.00061754184
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 11897,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          8.312054e-08,
+          0.0010314551,
+          0,
+          0.0010313864
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 12281,
+      "result": {
+        "shot": "body_detail_0.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 0,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 0,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 12707,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.0024723185,
+          0.00061753485,
+          0.0024723134,
+          0.00061754184
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 12755,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          8.312054e-08,
+          0.0010314551,
+          0,
+          0.0010313864
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 13137,
+      "result": {
+        "shot": "body_detail_45.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 45,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 45,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 13553,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.0024723185,
+          0.00061753485,
+          0.0024723134,
+          0.00061754184
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 13600,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          8.312054e-08,
+          0.0010314551,
+          0,
+          0.0010313864
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 13979,
+      "result": {
+        "shot": "body_detail_90.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 90,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 90,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 14402,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          0.0024723185,
+          0.00061753485,
+          0.0024723134,
+          0.00061754184
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 14451,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "Idle",
+        "floor": 0,
+        "heels_and_toes": [
+          8.312054e-08,
+          0.0010314551,
+          0,
+          0.0010313864
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 14834,
+      "result": {
+        "shot": "body_detail_180.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 180,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "Idle",
+            "at": 0,
+            "turn": 180,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 15259,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "Walk",
+        "floor": 0,
+        "heels_and_toes": [
+          0.0024794675,
+          0.00061705336,
+          0.08603022,
+          0.18277642
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 15308,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "Walk",
+        "floor": 0,
+        "heels_and_toes": [
+          0,
+          0.001036562,
+          0.071693264,
+          0.14890422
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 15685,
+      "result": {
+        "shot": "body_Walk.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "Walk",
+            "at": 0.27,
+            "turn": 25,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "Walk",
+            "at": 0.27,
+            "turn": 25,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 16095,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Aldric",
+        "clip": "PickUp",
+        "floor": 0,
+        "heels_and_toes": [
+          0.0024723709,
+          0.00061677396,
+          0.00247233,
+          0.00061678514
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 16140,
+      "result": {
+        "shot": "sole_contact",
+        "Name": "Wren",
+        "clip": "PickUp",
+        "floor": 0,
+        "heels_and_toes": [
+          0,
+          0.0010313913,
+          1.6018748e-07,
+          0.0010315143
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 16523,
+      "result": {
+        "shot": "body_PickUp.png",
+        "people": 2,
+        "profiles": [
+          {
+            "Base": "male",
+            "Name": "Aldric",
+            "Outfit": "frontier_vest",
+            "Face": "rugged",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "clip": "PickUp",
+            "at": 0.625,
+            "turn": 25,
+            "BodyOnly": true
+          },
+          {
+            "Base": "female",
+            "Name": "Wren",
+            "Outfit": "frontier_cloak",
+            "Face": "soft",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "clip": "PickUp",
+            "at": 0.625,
+            "turn": 25,
+            "BodyOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "character_kit",
+      "tick": 0,
+      "ms": 16523,
+      "result": {
+        "shot": "body_study",
+        "staged": true,
+        "pair": [
+          {
+            "Name": "Aldric",
+            "Base": "male",
+            "Race": "human",
+            "Hair": "swept",
+            "Outfit": "frontier_vest",
+            "Sliders": {
+              "Height": 0.2,
+              "Shoulders": 0.3,
+              "Muscle": 0.35,
+              "JawWidth": 0.1,
+              "NoseLength": 0.05
+            },
+            "Colours": {
+              "skin": "c08e6a",
+              "hair": "352e29",
+              "eyes": "3b6370",
+              "shirt": "cfc6b0",
+              "vest": "3f5a45"
+            },
+            "Headwear": "none",
+            "Beard": "stubble",
+            "Neckwear": "none",
+            "Face": "rugged"
+          },
+          {
+            "Name": "Wren",
+            "Base": "female",
+            "Race": "human",
+            "Hair": "bob",
+            "Outfit": "frontier_cloak",
+            "Sliders": {
+              "Height": -0.2,
+              "Weight": -0.12,
+              "Hips": 0.14,
+              "EyeSpacing": 0.06
+            },
+            "Colours": {
+              "skin": "d4a688",
+              "hair": "9b7042",
+              "eyes": "4c6540",
+              "shirt": "7f97a3",
+              "trousers": "5d6450"
+            },
+            "Headwear": "none",
+            "Beard": "none",
+            "Neckwear": "scarf",
+            "Face": "soft"
+          }
+        ],
+        "finish": "painted",
+        "clothingApproval": "paused until owner approves bodies",
+        "humanArtApproval": false
+      }
+    }
+  ],
+  "overIdeal": [
+    {
+      "operation": "character_kit",
+      "kind": "Rendered",
+      "ms": 10130,
+      "idealMs": 5000
+    }
+  ],
+  "renderLoop": {
+    "samples": 0,
+    "p50ProcessMs": null,
+    "p95ProcessMs": null,
+    "drawCalls": 594,
+    "primitives": 577982,
+    "renderingDevice": "llvmpipe (LLVM 22.1.8, 256 bits)"
+  },
+  "checkout": {
+    "commit": "1a2797feded9",
+    "branch": "art/painterly-body-first-20261012",
+    "behindOriginMain": "0",
+    "dirty": false
+  }
+}

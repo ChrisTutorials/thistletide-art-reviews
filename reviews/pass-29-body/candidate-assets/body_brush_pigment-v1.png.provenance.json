@@ -1,0 +1,24 @@
+{
+  "producer": "image_gen.imagegen built-in tool",
+  "model": "unknown; tool did not expose backend model",
+  "generated_utc": "2026-10-12T22:50:36.208281+00:00",
+  "input_images": [],
+  "prompt": "Use case: stylized-concept. Asset type: one square seamless brush-pigment modulation tile for the albedo of animated 3D adult skin in Thistletide, a Weathered Folklore illustrated medieval-frontier fantasy game. Generate ONLY the texture tile, edge-to-edge, 1024x1024. Opaque. This is a neutral data texture, NOT a character painting or concept render. Broad deliberate matte gouache and dry oil-paint brush marks overlapping into low-contrast cloudy planes. Large strokes 120-350 pixels wide, varied directions, subtle broken dragged edges, irregular soft feathered blending, a few gentle brush streaks. Strictly grayscale, centered on medium gray RGB128, darkest RGB95 and lightest RGB166, no black or white. Even illumination, no cast shadows, no identifiable objects or skin anatomy. Seamless tileable opposite edges. The intended result is quiet painterly pigment breakup for believable volumetric human skin, with no pore noise or dirt. No speckles, no cracks, no scars, no grime, no grunge, no fabric weave, no stone texture, no paper grain, no canvas grain, no tiny noise, no text, no watermark, no border, no human figure, no face, no UV islands. Only broad softly illustrated paint pigment shapes.",
+  "sha256": "a876a21860b83a99da727e98cfeb09108e01d772610f49cf90dba6f835824518",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "scope": "One shared neutral coefficient bitmap shaping soft illustrated light transitions in opt-in CharacterBodyPainted material. Original anatomical skin pigment, UV0/UV2, saved skin colour, MakeHuman rig and actual scene lighting retained. No dirt or scars painted onto albedo.",
+  "approval": "pending explicit owner BODY PASS; no production default change",
+  "authorship": "AI-generated bitmap; integration and anatomical fields authored procedurally in repository",
+  "requested_dimensions": [
+    1024,
+    1024
+  ],
+  "measured_dimensions": [
+    1254,
+    1254
+  ],
+  "note": "Tool returned1254x1254; bitmap retained without resampling. Red channel is neutral modulation data sampled without sRGB conversion; saved skin colour remains source_color."
+}

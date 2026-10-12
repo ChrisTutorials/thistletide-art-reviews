@@ -1,0 +1,230 @@
+18:40:51 | INFO: Data are loaded, start creating Blender stuff
+18:40:51 | INFO: Blender create Mesh node eyebrow001.001
+18:40:51 | INFO: Blender create Mesh node eyelashes01.001
+18:40:51 | INFO: Blender create Mesh node low-poly.001
+18:40:51 | INFO: Blender create Mesh node male_worksuit01.001
+18:40:51 | INFO: Blender create Mesh node short02.001
+18:40:51 | INFO: Blender create Mesh node teeth_base.001
+18:40:51 | INFO: Blender create Mesh node base.002
+18:40:51 | INFO: glTF import finished in 0.09s
+18:40:51 | INFO: Data are loaded, start creating Blender stuff
+18:40:51 | INFO: Blender create Mesh node eyebrow001.001
+18:40:51 | INFO: Blender create Mesh node eyelashes01.001
+18:40:51 | INFO: Blender create Mesh node female_casualsuit01.001
+18:40:51 | INFO: Blender create Mesh node long01.001
+18:40:51 | INFO: Blender create Mesh node low-poly.001
+18:40:51 | INFO: Blender create Mesh node teeth_base.001
+18:40:51 | INFO: Blender create Mesh node base.002
+18:40:51 | INFO: glTF import finished in 0.08s
+18:41:05 | INFO: Data are loaded, start creating Blender stuff
+18:41:05 | INFO: Blender create Mesh node Apron
+18:41:05 | INFO: Blender create Mesh node Beard
+18:41:05 | INFO: Blender create Mesh node Belt
+18:41:05 | INFO: Blender create Mesh node Body
+18:41:05 | INFO: Blender create Mesh node Boots
+18:41:05 | INFO: Blender create Mesh node Brows
+18:41:05 | INFO: Blender create Mesh node Buckle
+18:41:05 | INFO: Blender create Mesh node Cloak
+18:41:05 | INFO: Blender create Mesh node Collar
+18:41:05 | INFO: Blender create Mesh node Cuffs
+18:41:05 | INFO: Blender create Mesh node Face
+18:41:05 | INFO: Blender create Mesh node HairBun
+18:41:05 | INFO: Blender create Mesh node HairCrop
+18:41:05 | INFO: Blender create Mesh node HairLong
+18:41:05 | INFO: Blender create Mesh node HairTail
+18:41:05 | INFO: Blender create Mesh node HatBand
+18:41:05 | INFO: Blender create Mesh node HatBrim
+18:41:05 | INFO: Blender create Mesh node HatCap
+18:41:05 | INFO: Blender create Mesh node Mouth
+18:41:05 | INFO: Blender create Mesh node Scarf
+18:41:05 | INFO: Blender create Mesh node Shine
+18:41:05 | INFO: Blender create Mesh node Shirt
+18:41:05 | INFO: Blender create Mesh node Trousers
+18:41:05 | INFO: Blender create Mesh node Tusks
+18:41:05 | INFO: Blender create Mesh node Vest
+18:41:05 | INFO: glTF import finished in 0.18s
+KIT retarget: 19 clips from frontier_folk.glb, longest 75 frames
+KIT socket Grip on hand_r at (-0.487, -0.217, 1.073)
+KIT socket Shoulder on spine_03 at (-0.234, -0.034, 1.556)
+KIT socket Hug on spine_03 at (-0.043, -0.289, 1.111)
+INFO Draco mesh compression is available, use library at /home/chris/.local/share/blender-4.5/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.so
+18:41:08 | INFO: Starting glTF 2.0 export
+18:41:08 | INFO: Extracting primitive: Apron
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: BeardFull
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: BeardShort
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: BeardStubble
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Belt
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Body
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Boots
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Brows
+18:41:08 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Buckle
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Cloak
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Eyes
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: EyeShine
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairBob
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairBraid
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairBun
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairCloseCrop
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairCurls
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairLong
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairShort
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairSidePart
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairSwept
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HairWaves
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HatBrim
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: HatCap
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Irises
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Lashes
+18:41:08 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Moustache
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Scarf
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Shirt
+18:41:08 | INFO: Primitives created: 1
+18:41:08 | INFO: Extracting primitive: Shoes
+18:41:09 | INFO: Primitives created: 1
+18:41:09 | INFO: Extracting primitive: Trousers
+18:41:09 | INFO: Primitives created: 1
+18:41:09 | INFO: Extracting primitive: Tusks
+18:41:09 | INFO: Primitives created: 1
+18:41:09 | INFO: Extracting primitive: Vest
+18:41:09 | INFO: Primitives created: 1
+18:41:09 | INFO: Extracting primitive: VestButtons
+18:41:09 | INFO: Primitives created: 1
+18:41:14 | INFO: Finished glTF 2.0 export in 5.775285005569458 s
+
+wrote /home/chris/gamedev/tt-character-art-wt/assets/characters/kit/kit_male.glb (25185 KiB); 6.46 heads tall
+18:41:28 | INFO: Data are loaded, start creating Blender stuff
+18:41:28 | INFO: Blender create Mesh node Apron
+18:41:28 | INFO: Blender create Mesh node Beard
+18:41:28 | INFO: Blender create Mesh node Belt
+18:41:28 | INFO: Blender create Mesh node Body
+18:41:28 | INFO: Blender create Mesh node Boots
+18:41:28 | INFO: Blender create Mesh node Brows
+18:41:28 | INFO: Blender create Mesh node Buckle
+18:41:28 | INFO: Blender create Mesh node Cloak
+18:41:28 | INFO: Blender create Mesh node Collar
+18:41:28 | INFO: Blender create Mesh node Cuffs
+18:41:28 | INFO: Blender create Mesh node Face
+18:41:28 | INFO: Blender create Mesh node HairBun
+18:41:28 | INFO: Blender create Mesh node HairCrop
+18:41:28 | INFO: Blender create Mesh node HairLong
+18:41:28 | INFO: Blender create Mesh node HairTail
+18:41:28 | INFO: Blender create Mesh node HatBand
+18:41:28 | INFO: Blender create Mesh node HatBrim
+18:41:28 | INFO: Blender create Mesh node HatCap
+18:41:28 | INFO: Blender create Mesh node Mouth
+18:41:28 | INFO: Blender create Mesh node Scarf
+18:41:28 | INFO: Blender create Mesh node Shine
+18:41:28 | INFO: Blender create Mesh node Shirt
+18:41:28 | INFO: Blender create Mesh node Trousers
+18:41:28 | INFO: Blender create Mesh node Tusks
+18:41:28 | INFO: Blender create Mesh node Vest
+18:41:28 | INFO: glTF import finished in 0.19s
+KIT retarget: 19 clips from frontier_folk.glb, longest 75 frames
+KIT socket Grip on hand_r at (-0.422, -0.168, 0.974)
+KIT socket Shoulder on spine_03 at (-0.215, -0.031, 1.433)
+KIT socket Hug on spine_03 at (-0.039, -0.266, 1.023)
+18:41:33 | INFO: Starting glTF 2.0 export
+18:41:33 | INFO: Extracting primitive: Apron
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: BeardFull
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: BeardShort
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: BeardStubble
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: Belt
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: Body
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: Boots
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: Brows
+18:41:33 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: Buckle
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: Cloak
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: Eyes
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: EyeShine
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: HairBob
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: HairBraid
+18:41:33 | INFO: Primitives created: 1
+18:41:33 | INFO: Extracting primitive: HairBun
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HairCloseCrop
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HairCurls
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HairLong
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HairShort
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HairSidePart
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HairSwept
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HairWaves
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HatBrim
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: HatCap
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Irises
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Lashes
+18:41:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Moustache
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Scarf
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Shirt
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Shoes
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Trousers
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Tusks
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: Vest
+18:41:34 | INFO: Primitives created: 1
+18:41:34 | INFO: Extracting primitive: VestButtons
+18:41:34 | INFO: Primitives created: 1
+18:41:40 | INFO: Finished glTF 2.0 export in 7.505012512207031 s
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+
+wrote /home/chris/gamedev/tt-character-art-wt/assets/characters/kit/kit_female.glb (24831 KiB); 6.30 heads tall

@@ -1,0 +1,757 @@
+{
+  "schema": 2,
+  "scenario": "character-review",
+  "seed": 137,
+  "hudSkin": "shipped",
+  "rendered": false,
+  "build": {
+    "godot": "4.8.0",
+    "status": "4.8-dev6 (official)",
+    "assembly": "1.0.0.0"
+  },
+  "adapter": {
+    "kind": "in-process-script",
+    "model": "none"
+  },
+  "ok": false,
+  "error": "System.InvalidOperationException: Axe held by 13 (stature 0.94) is 0.652 of their height, not 0.45.\ntick=0 stage=equip_unnamed player=(20.5,50.5) state=idle faction=0 rows=11 cells=183\n  pawn 22 Visible alive=True faction=0 at (20.7,50.5) state=idle label=Thole\n  pawn 31 Visible alive=True faction=0 at (20.9,50.5) state=idle label=Verity\n  pawn 40 Visible alive=True faction=0 at (20.5,50.7) state=idle label=Linnet\n  pawn 49 Visible alive=True faction=0 at (20.7,50.7) state=idle label=Verity\n  pawn 58 Visible alive=True faction=0 at (20.9,50.7) state=idle label=Nell\n  + 6 non-pawn rows: 6 resource/Visible/stone/stock=4, 67 resource/Visible/food_berries/stock=6, 72 resource/Visible/wood/stock=40, 75 resource/Visible/wood/stock=40, 105 resource/Visible/stone/stock=6, 110 resource/Visible/stone/stock=6\n   at Thistletide.Presentation.ProofRun.Require(Boolean condition, String message, String category) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/ProofRun.cs:line 1345\n   at Thistletide.Presentation.ProofRun.ScenarioCommittedActivityAsync() in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.Interaction.cs:line 409\n   at Thistletide.Presentation.ProofRun._Ready() in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/ProofRun.cs:line 679",
+  "category": "gameplay_logic",
+  "expected": "Axe held by 13 (stature 0.94) is 0.652 of their height, not 0.45.",
+  "observed": "tick=0 stage=equip_unnamed player=(20.5,50.5) state=idle faction=0 rows=11 cells=183\n  pawn 22 Visible alive=True faction=0 at (20.7,50.5) state=idle label=Thole\n  pawn 31 Visible alive=True faction=0 at (20.9,50.5) state=idle label=Verity\n  pawn 40 Visible alive=True faction=0 at (20.5,50.7) state=idle label=Linnet\n  pawn 49 Visible alive=True faction=0 at (20.7,50.7) state=idle label=Verity\n  pawn 58 Visible alive=True faction=0 at (20.9,50.7) state=idle label=Nell\n  + 6 non-pawn rows: 6 resource/Visible/stone/stock=4, 67 resource/Visible/food_berries/stock=6, 72 resource/Visible/wood/stock=40, 75 resource/Visible/wood/stock=40, 105 resource/Visible/stone/stock=6, 110 resource/Visible/stone/stock=6",
+  "firstBadTick": 0,
+  "firstBadState": "idle",
+  "stage": "equip_unnamed",
+  "artifacts": [],
+  "cleanup": {
+    "owner": "run.sh",
+    "exitCode": 1,
+    "passMarker": false,
+    "orphanedProcesses": []
+  },
+  "elapsedMs": 10959.7364,
+  "tick": 0,
+  "player": {
+    "Id": 13,
+    "X": 20.5,
+    "Z": 50.5,
+    "Hp": 100,
+    "MaxHp": 100,
+    "Hunger": 0.03,
+    "Energy": 0.95000005,
+    "Stamina": 1,
+    "MaxStamina": 1,
+    "State": "idle",
+    "Talk": {
+      "Partner": 0,
+      "RemainingTicks": 0
+    },
+    "Faction": 0,
+    "FactionName": "Thistle",
+    "Fighting": null,
+    "Gathering": null,
+    "Alive": true,
+    "Arrived": false,
+    "Following": false,
+    "Failed": false,
+    "Status": [
+      {
+        "Kind": 1,
+        "Severity": 1,
+        "Urgency": 10,
+        "Icon": "fed",
+        "MoveSpeedMult": 1.05,
+        "WorkTimeMult": 0.95
+      }
+    ],
+    "Activity": null,
+    "Preference": "",
+    "Equipped": "",
+    "Carried": "",
+    "Look": {
+      "Hair": "long",
+      "Headwear": "cap",
+      "Beard": false,
+      "Vest": true,
+      "Apron": false,
+      "Cloak": false,
+      "Scarf": false,
+      "FaceWidth": 0.8296462,
+      "EyeSpacing": -0.5378812,
+      "NoseLength": -0.0023698928,
+      "FaceLength": 0.2657886,
+      "EyeTone": 55,
+      "Skin": 41,
+      "HairTone": 56,
+      "Cloth": 124,
+      "Trousers": 138,
+      "Leather": 113,
+      "Felt": 66,
+      "Stature": 0.93852925,
+      "Mass": -0.941447,
+      "Frame": 0.29529285
+    },
+    "Dest": [
+      20,
+      50
+    ],
+    "DestFine": [
+      -0.5,
+      -0.5
+    ]
+  },
+  "visibleEntities": 11,
+  "projectedCells": 183,
+  "homes": 1,
+  "buildings": 0,
+  "construction": 0,
+  "projectiles": 0,
+  "appliedPhase": 0,
+  "appliedWeather": "storm",
+  "hallsRendered": 1,
+  "sheen": 0,
+  "lanterns": 1,
+  "smoothLerps": 2746,
+  "smoothSnaps": 18,
+  "sfx": [],
+  "events": [
+    {
+      "operation": "boot",
+      "tick": 0,
+      "ms": 191,
+      "result": {
+        "Id": 13,
+        "X": 20.5,
+        "Z": 50.5,
+        "Hp": 100,
+        "MaxHp": 100,
+        "Hunger": 0.03,
+        "Energy": 0.95000005,
+        "Stamina": 1,
+        "MaxStamina": 1,
+        "State": "idle",
+        "Talk": {
+          "Partner": 0,
+          "RemainingTicks": 0
+        },
+        "Faction": 0,
+        "FactionName": "Thistle",
+        "Fighting": null,
+        "Gathering": null,
+        "Alive": true,
+        "Arrived": false,
+        "Following": false,
+        "Failed": false,
+        "Status": [
+          {
+            "Kind": 1,
+            "Severity": 1,
+            "Urgency": 10,
+            "Icon": "fed",
+            "MoveSpeedMult": 1.05,
+            "WorkTimeMult": 0.95
+          }
+        ],
+        "Activity": null,
+        "Preference": "",
+        "Equipped": "",
+        "Carried": "",
+        "Look": {
+          "Hair": "long",
+          "Headwear": "cap",
+          "Beard": false,
+          "Vest": true,
+          "Apron": false,
+          "Cloak": false,
+          "Scarf": false,
+          "FaceWidth": 0.8296462,
+          "EyeSpacing": -0.5378812,
+          "NoseLength": -0.0023698928,
+          "FaceLength": 0.2657886,
+          "EyeTone": 55,
+          "Skin": 41,
+          "HairTone": 56,
+          "Cloth": 124,
+          "Trousers": 138,
+          "Leather": 113,
+          "Felt": 66,
+          "Stature": 0.93852925,
+          "Mass": -0.941447,
+          "Frame": 0.29529285
+        },
+        "Dest": [
+          20,
+          50
+        ],
+        "DestFine": [
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "operation": "roster_select",
+      "tick": 0,
+      "ms": 212,
+      "result": 22
+    },
+    {
+      "operation": "roster",
+      "tick": 0,
+      "ms": 215,
+      "result": {
+        "actors": 5,
+        "rows": [
+          "Stone  \u00b7  4 left",
+          "You",
+          "Thole  \u00b7  Your camp",
+          "Verity  \u00b7  Your camp",
+          "Linnet  \u00b7  Your camp",
+          "Verity  \u00b7  Your camp",
+          "Nell  \u00b7  Your camp",
+          "Berries  \u00b7  6 left",
+          "Wood  \u00b7  40 left",
+          "Wood  \u00b7  40 left",
+          "Stone  \u00b7  6 left",
+          "Stone  \u00b7  6 left"
+        ]
+      }
+    },
+    {
+      "operation": "stale_select",
+      "tick": 0,
+      "ms": 219,
+      "result": {
+        "target": 999999
+      }
+    },
+    {
+      "operation": "select_spam",
+      "tick": 0,
+      "ms": 236,
+      "result": {
+        "rounds": 25
+      }
+    },
+    {
+      "operation": "population",
+      "tick": 112,
+      "ms": 467,
+      "result": {
+        "census": 6,
+        "factions": {
+          "0": 6
+        }
+      }
+    },
+    {
+      "operation": "signals",
+      "tick": 256,
+      "ms": 703,
+      "result": {
+        "marks": [
+          {
+            "id": 22,
+            "x": 20.6875,
+            "z": 50.5,
+            "signal": "\u2717"
+          },
+          {
+            "id": 31,
+            "x": 20.875,
+            "z": 50.5,
+            "signal": "\u2713"
+          },
+          {
+            "id": 40,
+            "x": 20.5,
+            "z": 50.6875,
+            "signal": "Zzz"
+          },
+          {
+            "id": 49,
+            "x": 20.6875,
+            "z": 50.6875,
+            "signal": "KO"
+          }
+        ]
+      }
+    },
+    {
+      "operation": "rest",
+      "tick": 396,
+      "ms": 1584,
+      "result": {
+        "breaths": 4
+      }
+    },
+    {
+      "operation": "pick",
+      "tick": 396,
+      "ms": 1633,
+      "result": {
+        "stacks": 16,
+        "clickWindow": "452.62,259.04",
+        "viewport": "1280x720"
+      }
+    },
+    {
+      "operation": "mouse",
+      "tick": 396,
+      "ms": 1650,
+      "result": {
+        "yaw": 0.66104317
+      }
+    },
+    {
+      "operation": "freecam",
+      "tick": 396,
+      "ms": 1683,
+      "result": {
+        "dx": 6.7676096
+      }
+    },
+    {
+      "operation": "cutaway",
+      "tick": 832,
+      "ms": 2990,
+      "result": {
+        "faction": 0
+      }
+    },
+    {
+      "operation": "hall-lantern",
+      "tick": 832,
+      "ms": 3139,
+      "result": {
+        "faction": 0
+      }
+    },
+    {
+      "operation": "canopy",
+      "tick": 832,
+      "ms": 3667,
+      "result": {
+        "trees": 8
+      }
+    },
+    {
+      "operation": "wildlife",
+      "tick": 832,
+      "ms": 4036,
+      "result": {
+        "wolf": 900040,
+        "rabbit": 900041,
+        "settler": 900039
+      }
+    },
+    {
+      "operation": "races",
+      "tick": 832,
+      "ms": 4168,
+      "result": {
+        "human": 900049,
+        "orc": 900050,
+        "goblin": 900051,
+        "vampire": 900052
+      }
+    },
+    {
+      "operation": "carried",
+      "tick": 832,
+      "ms": 4894,
+      "result": {
+        "loads": [
+          "wood",
+          "stone",
+          "food_berries",
+          ""
+        ]
+      }
+    },
+    {
+      "operation": "daycycle",
+      "tick": 832,
+      "ms": 5375,
+      "result": {
+        "rigs": [
+          "dawn",
+          "day",
+          "dusk"
+        ]
+      }
+    },
+    {
+      "operation": "weather",
+      "tick": 832,
+      "ms": 5774,
+      "result": {
+        "clear": {
+          "drops": 0,
+          "leaves": 0,
+          "tilt": 0,
+          "sun": 1.04,
+          "glyph": ""
+        },
+        "wind": {
+          "drops": 0,
+          "leaves": 96,
+          "tilt": 0.039994508,
+          "sun": 0.9568,
+          "glyph": "wind"
+        },
+        "rain": {
+          "drops": 315,
+          "leaves": 0,
+          "tilt": 0.011141427,
+          "sun": 0.57199997,
+          "glyph": "rain"
+        },
+        "storm": {
+          "drops": 900,
+          "leaves": 96,
+          "tilt": 0.066977575,
+          "sun": 0.39519998,
+          "glyph": "storm"
+        }
+      }
+    },
+    {
+      "operation": "faction-dyes",
+      "tick": 832,
+      "ms": 5862,
+      "result": {
+        "sides": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "operation": "chatter",
+      "tick": 832,
+      "ms": 6425,
+      "result": {
+        "cast": [
+          31,
+          22,
+          40,
+          49,
+          58
+        ],
+        "drawnPairs": 3,
+        "tiePixels": -1,
+        "tieFloor": 0,
+        "tiePixelCheck": "NOT RUN (headless)"
+      }
+    },
+    {
+      "operation": "roster_activity",
+      "tick": 832,
+      "ms": 6429,
+      "result": {
+        "rows": [
+          "You",
+          "Thole  \u00b7  Your camp",
+          "Verity  \u00b7  gathering, Your camp",
+          "Linnet  \u00b7  working, Your camp",
+          "Verity  \u00b7  gathering, Your camp",
+          "Nell  \u00b7  working, Your camp"
+        ]
+      }
+    },
+    {
+      "operation": "defeat",
+      "tick": 832,
+      "ms": 6458,
+      "result": {
+        "shown": true
+      }
+    },
+    {
+      "operation": "disabled_reason",
+      "tick": 832,
+      "ms": 6475,
+      "result": {
+        "target": 6
+      }
+    },
+    {
+      "operation": "factions",
+      "tick": 832,
+      "ms": 6476,
+      "result": [
+        "Thistle 6 people seen"
+      ]
+    },
+    {
+      "operation": "first_contact",
+      "tick": 832,
+      "ms": 6511,
+      "result": {
+        "halls": 2
+      }
+    },
+    {
+      "operation": "resource_forms",
+      "tick": 832,
+      "ms": 6514,
+      "result": [
+        {
+          "Id": 6,
+          "Label": "stone",
+          "form": "Rock"
+        },
+        {
+          "Id": 67,
+          "Label": "food_berries",
+          "form": "Bush"
+        },
+        {
+          "Id": 70,
+          "Label": "food_berries",
+          "form": "Bush"
+        },
+        {
+          "Id": 71,
+          "Label": "wood",
+          "form": "Tree"
+        },
+        {
+          "Id": 72,
+          "Label": "wood",
+          "form": "Tree"
+        },
+        {
+          "Id": 75,
+          "Label": "wood",
+          "form": "Tree"
+        },
+        {
+          "Id": 76,
+          "Label": "wood",
+          "form": "Tree"
+        },
+        {
+          "Id": 110,
+          "Label": "stone",
+          "form": "Rock"
+        },
+        {
+          "Id": 113,
+          "Label": "stone",
+          "form": "Rock"
+        }
+      ]
+    },
+    {
+      "operation": "resource_form_table",
+      "tick": 832,
+      "ms": 6514,
+      "result": {
+        "wood": "Tree",
+        "timber": "Tree",
+        "food_berries": "Bush",
+        "berry": "Bush",
+        "stone": "Rock",
+        "ore": "Rock",
+        "iron_ore": "Rock",
+        "coal": "Rock"
+      }
+    },
+    {
+      "operation": "spent",
+      "tick": 832,
+      "ms": 6527,
+      "result": {
+        "sites": 10
+      }
+    },
+    {
+      "operation": "post_gather_offers",
+      "tick": 178,
+      "ms": 7373,
+      "result": {
+        "context": [
+          {
+            "Kind": 2,
+            "Target": 0,
+            "Enabled": false,
+            "Reason": "not_moving",
+            "Detail": ""
+          },
+          {
+            "Kind": 4,
+            "Target": 0,
+            "Enabled": true,
+            "Reason": "ready",
+            "Detail": ""
+          },
+          {
+            "Kind": 17,
+            "Target": 0,
+            "Enabled": true,
+            "Reason": "ready",
+            "Detail": ""
+          },
+          {
+            "Kind": 16,
+            "Target": 0,
+            "Enabled": false,
+            "Reason": "no_materials",
+            "Detail": "Needs 2 wood, 1 stone. In your pack: 0 wood, 0 stone. Still needed: 2 wood, 1 stone."
+          },
+          {
+            "Kind": 19,
+            "Target": 0,
+            "Enabled": false,
+            "Reason": "no_materials",
+            "Detail": "Needs 2 wood, 1 stone. In your pack: 0 wood, 0 stone. Still needed: 2 wood, 1 stone."
+          },
+          {
+            "Kind": 23,
+            "Target": 0,
+            "Enabled": false,
+            "Reason": "no_soil",
+            "Detail": ""
+          },
+          {
+            "Kind": 24,
+            "Target": 0,
+            "Enabled": false,
+            "Reason": "no_soil",
+            "Detail": ""
+          },
+          {
+            "Kind": 3,
+            "Target": 67,
+            "Enabled": true,
+            "Reason": "ready",
+            "Detail": ""
+          }
+        ],
+        "inventory": [
+          {
+            "Item": 10,
+            "Label": "food_berries",
+            "Count": 1,
+            "Equipped": false,
+            "Food": true
+          }
+        ]
+      }
+    },
+    {
+      "operation": "gather",
+      "tick": 178,
+      "ms": 7395,
+      "result": {}
+    },
+    {
+      "operation": "eat_offer",
+      "tick": 178,
+      "ms": 7395,
+      "result": [
+        {
+          "Kind": 4,
+          "Target": 0,
+          "Enabled": true,
+          "Reason": "ready",
+          "Detail": ""
+        }
+      ]
+    },
+    {
+      "operation": "equip_offer",
+      "tick": 178,
+      "ms": 7395,
+      "result": []
+    },
+    {
+      "operation": "eat",
+      "tick": 178,
+      "ms": 7462,
+      "result": {
+        "Ok": true,
+        "Reason": "ate",
+        "Target": 0,
+        "Item": 10,
+        "Amount": 1,
+        "Request": 4
+      }
+    },
+    {
+      "operation": "eat_second",
+      "tick": 260,
+      "ms": 8134,
+      "result": {
+        "Ok": true,
+        "Reason": "ate",
+        "Target": 0,
+        "Item": 10,
+        "Amount": 1,
+        "Request": 8
+      }
+    },
+    {
+      "operation": "eat_empty",
+      "tick": 260,
+      "ms": 8135,
+      "result": {
+        "Ok": false,
+        "Reason": "no_meal",
+        "Target": 0,
+        "Item": 0,
+        "Amount": 0,
+        "Request": 9
+      }
+    },
+    {
+      "operation": "verb_buttons",
+      "tick": 340,
+      "ms": 8833,
+      "result": {
+        "item": 10
+      }
+    },
+    {
+      "operation": "depleted",
+      "tick": 578,
+      "ms": 10796,
+      "result": {
+        "takes": 3
+      }
+    },
+    {
+      "operation": "equip_unprofiled",
+      "tick": 578,
+      "ms": 10798,
+      "result": {
+        "reason": "rejected_no_combat_profile"
+      }
+    },
+    {
+      "operation": "equip_unnamed",
+      "tick": 578,
+      "ms": 10798,
+      "result": {
+        "reason": "rejected_unknown_item"
+      }
+    }
+  ],
+  "overIdeal": [],
+  "renderLoop": {
+    "samples": 0,
+    "p50ProcessMs": null,
+    "p95ProcessMs": null,
+    "drawCalls": 0,
+    "primitives": 0,
+    "renderingDevice": ""
+  },
+  "checkout": {
+    "commit": "ffce2b623f63",
+    "branch": "art/painterly-body-first-20261012",
+    "behindOriginMain": "0",
+    "dirty": false
+  }
+}

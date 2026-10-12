@@ -1,0 +1,134 @@
+{
+  "schema": 2,
+  "scenario": "character-kit",
+  "seed": 137,
+  "hudSkin": "shipped",
+  "rendered": true,
+  "build": {
+    "godot": "4.8.0",
+    "status": "4.8-dev6 (official)",
+    "assembly": "1.0.0.0"
+  },
+  "adapter": {
+    "kind": "in-process-script",
+    "model": "none"
+  },
+  "ok": false,
+  "error": "System.InvalidOperationException: Missing CharacterBodyPainted.tres.\n   at Thistletide.Presentation.CharacterKit.Material(String hex, MeshInstance3D mesh, Boolean outlined) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/CharacterKit.cs:line 230\n   at Thistletide.Presentation.CharacterKit.Build(CharacterLook look) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/CharacterKit.cs:line 117\n   at Thistletide.Presentation.ProofRun.KitFigure(Node3D studio, CharacterLook look, Vector3 at, Vector2 toward, Single turn) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.CharacterKit.cs:line 559\n   at Thistletide.Presentation.ProofRun.KitBodyReviewAsync(Node3D studio, Vector3 centre, Vector2 toward, ViewFrame meadow, UInt64 self) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.CharacterBody.cs:line 48\n   at Thistletide.Presentation.ProofRun.ScenarioCharacterKitAsync() in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.CharacterKit.cs:line 70\n   at Thistletide.Presentation.ProofRun._Ready() in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/ProofRun.cs:line 266",
+  "category": "proof_harness",
+  "expected": "System.InvalidOperationException: Missing CharacterBodyPainted.tres.\n   at Thistletide.Presentation.CharacterKit.Material(String hex, MeshInstance3D mesh, Boolean outlined) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/CharacterKit.cs:line 230\n   at Thistletide.Presentation.CharacterKit.Build(CharacterLook look) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/CharacterKit.cs:line 117\n   at Thistletide.Presentation.ProofRun.KitFigure(Node3D studio, CharacterLook look, Vector3 at, Vector2 toward, Single turn) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.CharacterKit.cs:line 559\n   at Thistletide.Presentation.ProofRun.KitBodyReviewAsync(Node3D studio, Vector3 centre, Vector2 toward, ViewFrame meadow, UInt64 self) in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.CharacterBody.cs:line 48\n   at Thistletide.Presentation.ProofRun.ScenarioCharacterKitAsync() in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.CharacterKit.cs:line 70\n   at Thistletide.Presentation.ProofRun._Ready() in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/ProofRun.cs:line 266",
+  "observed": "tick=0 stage=boot player=(20.5,50.5) state=idle faction=0 rows=11 cells=183\n  pawn 22 Visible alive=True faction=0 at (20.7,50.5) state=idle label=Thole\n  pawn 31 Visible alive=True faction=0 at (20.9,50.5) state=idle label=Verity\n  pawn 40 Visible alive=True faction=0 at (20.5,50.7) state=idle label=Linnet\n  pawn 49 Visible alive=True faction=0 at (20.7,50.7) state=idle label=Verity\n  pawn 58 Visible alive=True faction=0 at (20.9,50.7) state=idle label=Nell\n  + 6 non-pawn rows: 6 resource/Visible/stone/stock=4, 67 resource/Visible/food_berries/stock=6, 72 resource/Visible/wood/stock=40, 75 resource/Visible/wood/stock=40, 105 resource/Visible/stone/stock=6, 110 resource/Visible/stone/stock=6",
+  "firstBadTick": 0,
+  "firstBadState": "idle",
+  "stage": "boot",
+  "artifacts": [
+    "failure.png"
+  ],
+  "cleanup": {
+    "owner": "run.sh",
+    "exitCode": 1,
+    "passMarker": false,
+    "orphanedProcesses": []
+  },
+  "elapsedMs": 6169.9682,
+  "tick": 0,
+  "player": {
+    "Id": 13,
+    "X": 20.5,
+    "Z": 50.5,
+    "Hp": 100,
+    "MaxHp": 100,
+    "Hunger": 0.03,
+    "Energy": 0.95000005,
+    "Stamina": 1,
+    "MaxStamina": 1,
+    "State": "idle",
+    "Talk": {
+      "Partner": 0,
+      "RemainingTicks": 0
+    },
+    "Faction": 0,
+    "FactionName": "Thistle",
+    "Fighting": null,
+    "Gathering": null,
+    "Alive": true,
+    "Arrived": false,
+    "Following": false,
+    "Failed": false,
+    "Status": [
+      {
+        "Kind": 1,
+        "Severity": 1,
+        "Urgency": 10,
+        "Icon": "fed",
+        "MoveSpeedMult": 1.05,
+        "WorkTimeMult": 0.95
+      }
+    ],
+    "Activity": null,
+    "Preference": "",
+    "Equipped": "",
+    "Carried": "",
+    "Look": {
+      "Hair": "long",
+      "Headwear": "cap",
+      "Beard": false,
+      "Vest": true,
+      "Apron": false,
+      "Cloak": false,
+      "Scarf": false,
+      "FaceWidth": 0.8296462,
+      "EyeSpacing": -0.5378812,
+      "NoseLength": -0.0023698928,
+      "FaceLength": 0.2657886,
+      "EyeTone": 55,
+      "Skin": 41,
+      "HairTone": 56,
+      "Cloth": 124,
+      "Trousers": 138,
+      "Leather": 113,
+      "Felt": 66,
+      "Stature": 0.93852925,
+      "Mass": -0.941447,
+      "Frame": 0.29529285
+    },
+    "Dest": [
+      20,
+      50
+    ],
+    "DestFine": [
+      -0.5,
+      -0.5
+    ]
+  },
+  "visibleEntities": 11,
+  "projectedCells": 183,
+  "homes": 1,
+  "buildings": 0,
+  "construction": 0,
+  "projectiles": 0,
+  "appliedPhase": 0,
+  "appliedWeather": "storm",
+  "hallsRendered": 1,
+  "sheen": 0,
+  "lanterns": 1,
+  "smoothLerps": 0,
+  "smoothSnaps": 0,
+  "sfx": [],
+  "events": [],
+  "overIdeal": [],
+  "renderLoop": {
+    "samples": 0,
+    "p50ProcessMs": null,
+    "p95ProcessMs": null,
+    "drawCalls": 595,
+    "primitives": 580862,
+    "renderingDevice": "llvmpipe (LLVM 22.1.8, 256 bits)"
+  },
+  "checkout": {
+    "commit": "a988ffecaeed",
+    "branch": "art/painterly-body-first-20261012",
+    "behindOriginMain": "0",
+    "dirty": false
+  }
+}

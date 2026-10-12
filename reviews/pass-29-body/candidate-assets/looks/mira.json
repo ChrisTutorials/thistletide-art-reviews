@@ -1,0 +1,20 @@
+{
+  "name": "Mira",
+  "base": "female",
+  "race": "human",
+  "hair": "short",
+  "outfit": "frontier_apron",
+  "sliders": {
+    "Height": 0.7,
+    "Weight": -0.6,
+    "LegLength": 0.4,
+    "Cheekbones": 0.5
+  },
+  "colours": {
+    "skin": "a26c48",
+    "hair": "231e1b",
+    "shirt": "b8a24a",
+    "trousers": "46536b",
+    "eyes": "7d6a3a"
+  }
+}

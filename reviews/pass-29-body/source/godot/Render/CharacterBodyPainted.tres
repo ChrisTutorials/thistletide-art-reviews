@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://shaders/character_body_painted.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/cool_glaze = Vector3(0.74, 0.84, 1.04)
+shader_parameter/warm_glaze = Vector3(1.06, 1.02, 0.96)
+shader_parameter/shadow_level = 0.22
+shader_parameter/middle_level = 0.62
+shader_parameter/light_level = 0.94

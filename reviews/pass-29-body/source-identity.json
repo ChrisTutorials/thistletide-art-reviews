@@ -1,0 +1,33 @@
+{
+  "game_repo": "ChrisTutorials/thistletide-gd",
+  "candidate_head": "ae29a2ed5499ce12a5fcbf559f4c78436554889b",
+  "baseline_head": "7db79e9503bd",
+  "seed": 137,
+  "resolution": [
+    1280,
+    720
+  ],
+  "staged": true,
+  "owner_body_approval": "pending",
+  "production_default": "unchanged",
+  "geometry_B_C": "same exact candidate GLBs; B capture d279d4ba4f5f and C capture ffce2b623f63 differ only in host material/lighting code and shared bitmap",
+  "variants": {
+    "A": [
+      "A-clean",
+      "Original body / material"
+    ],
+    "B": [
+      "B-final",
+      "Improved anatomy / original material"
+    ],
+    "C": [
+      "C-brush-light",
+      "Same B geometry / painted skin and softer lighting"
+    ]
+  },
+  "lighting_C": {
+    "phase_weather_fill_multiplier": 1.6,
+    "sun_shadow_opacity": 0.65,
+    "sun_shadow_blur": 2
+  }
+}
