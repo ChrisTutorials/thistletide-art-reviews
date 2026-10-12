@@ -1,0 +1,494 @@
+land: waiting for shared integration slot (up to 300s)
+[13:47:26] --- preflight ---
+[13:47:27] --- preflight done in 1s ---
+[13:47:27] --- rebase onto origin/main ---
+[13:47:31] rebased onto 621178d6a
+[13:47:31] --- rebase onto origin/main done in 4s ---
+[13:47:31] --- push ---
+ + 7d8b28291...aa1b9e4dc HEAD -> art/makehuman-frontier-20261011 (forced update)
+[13:47:57] --- push done in 26s ---
+[13:47:57] --- gate ---
+test_affected: selecting coverage for origin/main...HEAD
+wrote /tmp/tmp.aBaBBxyNpa
+=== test_affected dry-run ===
+base: origin/main
+head: HEAD
+changed files (37):
+  - assets/characters/kit/README.md
+  - assets/characters/kit/character_kit.spec.json
+  - assets/characters/kit/kit_female.bones.json
+  - assets/characters/kit/kit_female.glb
+  - assets/characters/kit/kit_female.glb.provenance.json
+  - assets/characters/kit/kit_male.bones.json
+  - assets/characters/kit/kit_male.glb
+  - assets/characters/kit/kit_male.glb.provenance.json
+  - assets/characters/kit/looks/aldric.json
+  - assets/characters/kit/looks/bram.json
+  - assets/characters/kit/looks/mira.json
+  - assets/characters/kit/looks/vesna.json
+  - assets/characters/kit/looks/wren.json
+  - clients/godot-csharp/ActorPerformance.cs
+  - clients/godot-csharp/CharacterKit.cs
+  - clients/godot-csharp/CharacterKitSpec.cs
+  - clients/godot-csharp/KitFootContact.cs
+  - clients/godot-csharp/KitLook.cs
+  - clients/godot-csharp/KitPawnAppearance.cs
+  - clients/godot-csharp/ManagedSession.Appearance.cs
+  - clients/godot-csharp/Proof/ProofRun.CharacterKit.cs
+  - clients/godot-csharp/Proof/ProofRun.CharacterReview.cs
+  - clients/godot-csharp/Render/CharacterKitStubble.tres
+  - clients/godot-csharp/Render/CharacterKitSurface.tres
+  - clients/godot-csharp/Render/RenderWorld.Actors.cs
+  - clients/godot-csharp/tests/EntryGuard/CharacterKitSpecTests.cs
+  - clients/godot-csharp/tests/EntryGuard/EntryGuard.csproj
+  - clients/godot-csharp/tests/EntryGuard/KitLookTests.cs
+  - scripts/asset_pipeline/build_character_kit.py
+  - scripts/asset_pipeline/character_kit_glb.py
+  - scripts/asset_pipeline/kit_equipment.py
+  - scripts/asset_pipeline/kit_garments.py
+  - scripts/asset_pipeline/kit_hair.py
+  - scripts/asset_pipeline/kit_preview.py
+  - scripts/asset_pipeline/kit_retarget.py
+  - scripts/asset_pipeline/test_character_kit_art.py
+  - scripts/asset_pipeline/test_character_kit_retarget.py
+matched rules: ['presentation-client', 'entryguard-contracts', 'tooling-quiet']
+selected tests (1):
+  [affected_integration] clients/godot-csharp/run.sh
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/README.md)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/character_kit.spec.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/kit_female.bones.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/kit_female.glb)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/kit_female.glb.provenance.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/kit_male.bones.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/kit_male.glb)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/kit_male.glb.provenance.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/looks/aldric.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/looks/bram.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/looks/mira.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/looks/vesna.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:assets/characters/kit/looks/wren.json)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/ActorPerformance.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/CharacterKit.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/CharacterKitSpec.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/KitFootContact.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/KitLook.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/KitPawnAppearance.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/ManagedSession.Appearance.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/Proof/ProofRun.CharacterKit.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/Proof/ProofRun.CharacterReview.cs)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/Render/CharacterKitStubble.tres)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/Render/CharacterKitSurface.tres)
+      reason: EntryGuard contracts and the production proof pass (rule:presentation-client, path:clients/godot-csharp/Render/RenderWorld.Actors.cs)
+      reason: folded standalone EntryGuard lane: the proof runs it first and fails fast (folded 3 lane reason(s))
+=== end ===
+gdscript_hard_cut_guard: OK (no first-party *.gd outside archive/; #3438)
+PASS: every scripted test target resolves
+......................scene_reference_guard: OK - every tracked scene names resources that exist
+PASS: retired C++/Flecs core is archive-only and dependency-free
+.
+----------------------------------------------------------------------
+Ran 23 tests in 0.075s
+
+OK
+tuning_inventory_guard: wired=32 pending=0 dark=442 missing=0 coverage=6.8% (32/474)
+tuning_inventory_guard: OK - wired=32 pending=0 dark=442 missing=0 coverage=6.8% (32/474)
+file_shape_guard: OK (444 file(s), 11 baselined)
+sfx_cue_guard: OK judged 0 played cues across 12 clients/godot-csharp files
+check_docs_links: OK (81 Markdown files scanned)
+..................................
+----------------------------------------------------------------------
+Ran 27 tests in 0.062s
+
+OK
+.............................
+----------------------------------------------------------------------
+Ran 17 tests in 0.680s
+
+OK
+........
+----------------------------------------------------------------------
+Ran 6 tests in 0.049s
+
+OK
+................
+----------------------------------------------------------------------
+Ran 37 tests in 1.374s
+
+OK
+item_icon_resolution_guard: OK — 38/38 item ids resolve to a real atlas cell (16 via an 'item.<id>' semantic, 22 via a same-named cell).
+item_icon_resolution_guard: 17 'item.*' semantics, 16 naming a live item and a real cell, 1 documented-unfilled. 0 items declare an unread 'icon' path.
+hud_label_icon_gap_guard: OK — 38/38 item ids and 0/10 building ids reach a real atlas cell; the 10 uncovered building ids are recorded in hud_label_icon_gap.json and stated in ICON_SPEC.md with that exact number.
+hud_label_icon_gap_guard: the 10 uncovered building ids (shelter, depot, market_stall, watchtower, wall, town_hall, campfire, workbench, chest, alchemy_table) remain a measured, recorded gap pending the owner's decision. One number in one pinned sentence is the only thing read out of ICON_SPEC.md: whether the document's claims are true is not judged, so an overclaim elsewhere in it cannot make this pass, and a stale count fails. 
+test_a_dangling_item_semantic_fails (__main__.ItemIconResolutionGuardTest.test_a_dangling_item_semantic_fails) ... ok
+test_a_deleted_claim_is_still_a_failure (__main__.ItemIconResolutionGuardTest.test_a_deleted_claim_is_still_a_failure) ... ok
+test_a_reader_in_the_bare_getproperty_idiom_is_caught (__main__.ItemIconResolutionGuardTest.test_a_reader_in_the_bare_getproperty_idiom_is_caught) ... ok
+test_a_reintroduced_reader_is_caught (__main__.ItemIconResolutionGuardTest.test_a_reintroduced_reader_is_caught) ... ok
+test_a_second_read_of_one_shape_on_a_line_is_visible (__main__.ItemIconResolutionGuardTest.test_a_second_read_of_one_shape_on_a_line_is_visible) ... ok
+test_a_semantic_naming_a_missing_cell_fails (__main__.ItemIconResolutionGuardTest.test_a_semantic_naming_a_missing_cell_fails) ... ok
+test_a_semantic_with_a_non_atlas_source_does_not_count_as_a_mapping (__main__.ItemIconResolutionGuardTest.test_a_semantic_with_a_non_atlas_source_does_not_count_as_a_mapping) ... ok
+test_an_item_declaring_an_icon_path_fails (__main__.ItemIconResolutionGuardTest.test_an_item_declaring_an_icon_path_fails) ... ok
+test_an_item_with_no_picture_fails (__main__.ItemIconResolutionGuardTest.test_an_item_with_no_picture_fails) ... ok
+test_both_claim_sites_agree (__main__.ItemIconResolutionGuardTest.test_both_claim_sites_agree) ... ok
+test_display_name_is_read_and_is_not_claimed_unread (__main__.ItemIconResolutionGuardTest.test_display_name_is_read_and_is_not_claimed_unread) ... ok
+test_every_claim_group_in_a_site_is_graded_not_just_the_first (__main__.ItemIconResolutionGuardTest.test_every_claim_group_in_a_site_is_graded_not_just_the_first) ... ok
+test_every_runtime_source_root_is_classified (__main__.ItemIconResolutionGuardTest.test_every_runtime_source_root_is_classified) ... ok
+test_every_scanned_root_exists_and_scans_real_files (__main__.ItemIconResolutionGuardTest.test_every_scanned_root_exists_and_scans_real_files) ... ok
+test_the_bare_getproperty_form_is_the_house_idiom (__main__.ItemIconResolutionGuardTest.test_the_bare_getproperty_form_is_the_house_idiom) ... ok
+test_the_claim_scan_can_actually_fail (__main__.ItemIconResolutionGuardTest.test_the_claim_scan_can_actually_fail) ... ok
+test_the_committed_tree_passes (__main__.ItemIconResolutionGuardTest.test_the_committed_tree_passes) ... ok
+test_the_committed_two_key_lines_enumerate_every_key (__main__.ItemIconResolutionGuardTest.test_the_committed_two_key_lines_enumerate_every_key) ... ok
+test_the_other_three_leaves_really_are_unread (__main__.ItemIconResolutionGuardTest.test_the_other_three_leaves_really_are_unread) ... ok
+test_the_reader_scan_is_not_vacuous (__main__.ItemIconResolutionGuardTest.test_the_reader_scan_is_not_vacuous) ... ok
+test_the_scan_reaches_a_subdirectory_of_a_root (__main__.ItemIconResolutionGuardTest.test_the_scan_reaches_a_subdirectory_of_a_root) ... ok
+test_the_shape_scan_still_refuses_the_known_false_positive (__main__.ItemIconResolutionGuardTest.test_the_shape_scan_still_refuses_the_known_false_positive) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.359s
+
+OK
+runtime_icon_atlas_layout_guard: OK
+  committed cells: 64/64 unchanged (integer partition of 1254x1254)
+  committed pixels: top 1254x1254 region hash matches the pre-append value
+  appended cells: ['craft']
+  schema fields: 58/59 entries carry all of id/description/category/provenance/confidence
+  resolution: 59/59 entries point at a real cell; 38/38 registry items reach a picture by an entry or a same-named cell
+  item labels: 15/18 labels the client's item tables dispatch on reach a picture by an entry or a same-named cell
+  client coverage: 38/38 meanings the C# client asks Icons.For() for have an entry
+  call sites: matched 23/23 Icons.For( sites in the client (a mismatch is a finding above, not a pass)
+  (craft's semantic and word mapping are proved by OverheadWordsTests, not here)
+asset_registry_completeness_guard: OK — all 11 third-party families are named in ASSET-LICENSE-REGISTRY.md and each has licence evidence in the tree: emanuelledev, farm_rpg_ingested, kenney_audio, kenney_impact, kenney_rpg_audio, kenney_voiceover, lucid_icons, poly, quaternius, seaeees, ui_chrome.
+test_a_baseline_id_the_catalogue_lacks_fails (__main__.HudLabelIconGapGuardTest.test_a_baseline_id_the_catalogue_lacks_fails) ... test_a_stale_count_is_reported_with_the_prose_starved (__main__.NoProseProperty.test_a_stale_count_is_reported_with_the_prose_starved)
+The sanctioned stale-count finding, on a document with no prose. ... test_an_overclaim_cannot_break_the_honest_tree (__main__.OverclaimFalsification.test_an_overclaim_cannot_break_the_honest_tree) ... ok
+test_a_missing_documented_count_fails (__main__.HudLabelIconGapGuardTest.test_a_missing_documented_count_fails) ... ok
+test_every_data_failure_branch_fires_with_the_prose_starved (__main__.NoProseProperty.test_every_data_failure_branch_fires_with_the_prose_starved)
+Each data-only failure branch, on a document with no prose. ... ok
+test_a_missing_input_fails_loudly (__main__.HudLabelIconGapGuardTest.test_a_missing_input_fails_loudly) ... ok
+test_a_semantic_naming_a_missing_atlas_cell_fails (__main__.HudLabelIconGapGuardTest.test_a_semantic_naming_a_missing_atlas_cell_fails) ... ok
+ok
+test_an_overclaim_cannot_turn_a_broken_tree_green (__main__.OverclaimFalsification.test_an_overclaim_cannot_turn_a_broken_tree_green) ... test_no_string_the_guard_holds_can_reach_the_verdict (__main__.NoProseProperty.test_no_string_the_guard_holds_can_reach_the_verdict)
+Put the guard's own words in the document; the verdict must not move. ... ok
+test_a_stale_documented_count_fails (__main__.HudLabelIconGapGuardTest.test_a_stale_documented_count_fails) ... ok
+test_a_stale_ledger_fails (__main__.HudLabelIconGapGuardTest.test_a_stale_ledger_fails) ... ok
+test_a_tenth_building_outside_the_baseline_fails (__main__.HudLabelIconGapGuardTest.test_a_tenth_building_outside_the_baseline_fails) ... ok
+test_the_anchor_still_exists_in_the_committed_doc (__main__.OverclaimFalsification.test_the_anchor_still_exists_in_the_committed_doc) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.016s
+
+OK
+ok
+test_an_uncovered_item_id_fails (__main__.HudLabelIconGapGuardTest.test_an_uncovered_item_id_fails) ... ok
+test_the_committed_tree_passes (__main__.HudLabelIconGapGuardTest.test_the_committed_tree_passes) ... ok
+test_the_missing_doc_message_names_the_catalogue (__main__.HudLabelIconGapGuardTest.test_the_missing_doc_message_names_the_catalogue) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.026s
+
+OK
+ok
+test_the_pinned_number_is_read_and_only_the_pinned_number (__main__.NoProseProperty.test_the_pinned_number_is_read_and_only_the_pinned_number)
+Change the one number it may read; it must fail, naming both. ... ok
+test_the_wording_is_scrambled_and_the_verdict_does_not_move (__main__.NoProseProperty.test_the_wording_is_scrambled_and_the_verdict_does_not_move)
+Mirror every letter the pinned count does not cover; nothing moves. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.033s
+
+OK
+port_register_guard: OK docs/development/csharp-port-gaps.md declares itself a retired historical reference; the live-completeness promise check is out of scope until the document promises it again (see #4298)
+test_a_family_without_evidence_fails (__main__.AssetRegistryCompletenessGuardTest.test_a_family_without_evidence_fails) ... check_registry_policy [working tree]
+  PASS  R0 policy bullet states the registry entry requirement
+  PASS  R0 policy bullet states the provenance.json requirement
+  PASS  R0 policy bullet states the committed SHA-256 requirement
+  PASS  R0 policy bullet states the owner approval date requirement
+  PASS  R0 policy bullet states the rebuild command requirement
+  PASS  R1 thistletide_core_icon_atlas_v1 thistletide_icons_1.png matches recorded SHA-256
+  PASS  R1 thistletide_core_icon_atlas_v1 thistletide_core_icon_atlas_v1_spritesheet.json matches recorded SHA-256
+  PASS  R2 thistletide_core_icon_atlas_v1 has a registry entry naming it
+  PASS  R2 thistletide_core_icon_atlas_v1 entry points at its provenance.json
+  PASS  R4 thistletide_core_icon_atlas_v1 rebuild exemption is stated in the clause
+  PASS  R1 thistletide_core_icon_atlas_v2 thistletide_icons_2.png matches recorded SHA-256
+  PASS  R1 thistletide_core_icon_atlas_v2 thistletide_core_icon_atlas_v2_spritesheet.json matches recorded SHA-256
+  PASS  R2 thistletide_core_icon_atlas_v2 has a registry entry naming it
+  PASS  R2 thistletide_core_icon_atlas_v2 entry points at its provenance.json
+  PASS  R4 thistletide_core_icon_atlas_v2 rebuild exemption is stated in the clause
+  PASS  R1 thistletide_runtime_atlas_v3 thistletide_runtime_atlas_v3.png matches recorded SHA-256
+  PASS  R1 thistletide_runtime_atlas_v3 thistletide_runtime_atlas_v3_spritesheet.json matches recorded SHA-256
+  PASS  R1 thistletide_runtime_atlas_v3 weather_leaves.png matches recorded SHA-256
+  PASS  R1 thistletide_runtime_atlas_v3 craft.png matches recorded SHA-256
+  PASS  R2 thistletide_runtime_atlas_v3 has a registry entry naming it
+  PASS  R2 thistletide_runtime_atlas_v3 entry points at its provenance.json
+  PASS  R4 thistletide_runtime_atlas_v3 rebuild script scripts/asset_pipeline/build_thistletide_runtime_atlas.py exists
+  PASS  A1 family named by policy has an entry
+  PASS  A1 family named by policy has an entry
+  PASS  A1 family named by policy has an entry
+  PASS  A2 v1 `unknown` is governed
+  PASS  A2 v2 `unknown` is governed
+  PASS  A2 v3 `unknown` is governed
+  PASS  B claim: v3 has no generator_note
+  PASS  B claim: v1 and v2 do carry a generator_note
+  PASS  B claim: v3 names its API as `unknown web image API`
+  PASS  C refusal list does not ban the art the registry registers
+  32/32 assertions passed
+PASS: registry policy invariant holds in both directions
+..ok
+test_a_renamed_family_fails (__main__.AssetRegistryCompletenessGuardTest.test_a_renamed_family_fails) ... .ok
+test_an_unnamed_family_fails (__main__.AssetRegistryCompletenessGuardTest.test_an_unnamed_family_fails) ... .ok
+test_the_committed_tree_passes (__main__.AssetRegistryCompletenessGuardTest.test_the_committed_tree_passes) ... ok
+test_the_registry_entry_names_match_the_tree (__main__.AssetRegistryCompletenessGuardTest.test_the_registry_entry_names_match_the_tree) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.074s
+
+OK
+.........== the code's count comparison (AST-extracted from probe()) ==
+   len(intended) != len(manifest) - len(split.readers) - len(LANE_EXCLUDED)
+
+== leg 1: no citation pins a literal reader count ==
+   ok     scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py:427  `len(intended) != len(manifest) - len(split.readers) - len(LANE_EXCLUDED)`, is
+   ok     scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py:459  `len(intended) != len(manifest) - len(split.readers) - len(LANE_EXCLUDED)`,
+
+== leg 2: every citation names the same things the code does ==
+   ok     scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py:427  carries len(intended), len(manifest), len(split.readers), len(LANE_EXCLUDED)
+   ok     scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py:459  carries len(intended), len(manifest), len(split.readers), len(LANE_EXCLUDED)
+   checked 2 citation(s) separately, so one correct citation cannot stand in for another
+
+== legs 3 and 4: the rules reject the prose they were written for ==
+   ok     the argument for the backstop is an invariant, so a lane change cannot falsify it
+   the stale citation, with a correct one beside it: 1 finding(s)
+       scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py:1 cites 'len(readers)', which the code does not: it subtracts len(split.readers): `len(i
+   the pinned lane figures: 1 finding(s)
+       scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py:1 pins a lane entry count in prose about a check whose lane changes: this head: 33 lane 
+
+== legs 3/4 against the real history (a demonstration, not the verdict) ==
+   6 revision(s) of scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py in the last 20 commits are readable here
+   the stale citation: present at 95f5c46fa, and the rule rejects it with 1 finding(s)
+   a pinned lane figure: present at 95f5c46fa, and the rule rejects it with 2 finding(s)
+
+== leg 5: one correct citation cannot carry a wrong one ==
+   a two-line fixture, one correct citation and one that pins a literal 2:
+     the union rule passes it: True (that is the defect: the correct line carries the wrong one)
+     the per-citation rule finds 1 drifted citation(s)
+   ok     caught on its own: the wrong line is missing len(split.readers), and the correct line is missing nothing
+
+== leg 6: a wrong citation BESIDE the right one is rejected ==
+   a fixture carrying every required token (4/4) and one forbidden expression
+     missing required tokens: none, so the token-presence rule cannot see it
+     forbidden tokens hit:    ['len(readers)']
+     the token-presence rule finds 0 finding(s); stale_lines finds 1
+   ok     rejected on the expression itself, not on a missing token: 'len(readers)'
+
+======================================================================
+measured against scripts/ci/runtime_icon_atlas_layout_guard_overlap_falsify.py and scripts/ci/runtime_icon_atlas_layout_guard_overlap_test.py at aa1b9e4dc
+RESULT: the prose cites the count check the way the code computes it, every citation does so on its own with no wrong expression beside it, it pins no measured lane figure, and each rule still rejects the prose it was written for
+............................................
+----------------------------------------------------------------------
+Ran 57 tests in 0.408s
+
+OK
+AUDIO_MUTE_OK
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.008s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.081s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 6 tests in 0.216s
+
+OK
+{
+  "architecture_violations": [
+    {
+      "check": "conflict_marker",
+      "detail": "<<<<<<< HEAD",
+      "file": "src/bad.gd",
+      "line": 1
+    },
+    {
+      "check": "conflict_marker",
+      "detail": ">>>>>>> stale",
+      "file": "src/bad.gd",
+      "line": 3
+    }
+  ],
+  "base": "25d4ff48a420",
+  "duplicates": [],
+  "final_candidate": "205264d523a9",
+  "head": "205264d523a9",
+  "instruction_drift": [],
+  "instructions": [
+    {
+      "base": "c220e833db9d9791e6fedd851b873bbc70836143",
+      "candidate": "c220e833db9d9791e6fedd851b873bbc70836143",
+      "changed_on_base": false,
+      "merge_base": "c220e833db9d9791e6fedd851b873bbc70836143",
+      "path": "AGENTS.md"
+    },
+    {
+      "base": "6b17c46dc109cec69cc3aab182b128db0651e8a5",
+      "candidate": "6b17c46dc109cec69cc3aab182b128db0651e8a5",
+      "changed_on_base": false,
+      "merge_base": "6b17c46dc109cec69cc3aab182b128db0651e8a5",
+      "path": "DECISIONS.md"
+    },
+    {
+      "base": "908cb6aef6cb5313d6e02b2a0300184040a79711",
+      "candidate": "908cb6aef6cb5313d6e02b2a0300184040a79711",
+      "changed_on_base": false,
+      "merge_base": "908cb6aef6cb5313d6e02b2a0300184040a79711",
+      "path": "clients/godot-csharp/project.godot"
+    }
+  ],
+  "merge_base": "25d4ff48a420",
+  "recommendation": {
+    "action": "architecture_violation",
+    "reasons": [
+      "candidate contains conflict marker or retired runtime reference"
+    ]
+  }
+}
+............
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+OK
+.........RUN_ARGS_OK
+........
+----------------------------------------------------------------------
+Ran 5 tests in 0.046s
+
+OK
+....
+----------------------------------------------------------------------
+Ran 16 tests in 0.091s
+
+OK
+  PASS ProofRun.cs exists and assigns Engine.MaxFps
+  PASS the cap is not guarded by `if (Headless)` (assignment lines: [70])
+  PASS cap value is a finite positive number
+  PASS no stale 'pinned to 60 only under if (Headless)' comment remains
+
+all tests passed
+................
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 8 tests in 0.007s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.422s
+
+OK
+canonical_script_paths_guard: OK judged 45 tracked shell scripts
+.........
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 2 tests in 0.007s
+
+OK
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.029s
+
+OK
+test_a_family_absent_from_the_floors_is_shown_but_not_judged (__main__.CampaignFloorTest.test_a_family_absent_from_the_floors_is_shown_but_not_judged) ... ok
+test_a_family_at_its_floor_passes (__main__.CampaignFloorTest.test_a_family_at_its_floor_passes) ... ok
+test_a_family_that_never_ran_fails (__main__.CampaignFloorTest.test_a_family_that_never_ran_fails) ... ok
+test_a_malformed_floor_file_is_refused (__main__.CampaignFloorTest.test_a_malformed_floor_file_is_refused) ... ok
+test_a_seed_out_of_wall_time_budget_is_not_a_pass (__main__.CampaignFloorTest.test_a_seed_out_of_wall_time_budget_is_not_a_pass) ... ok
+test_default_campaign_reports_use_a_unique_run_directory (__main__.CampaignFloorTest.test_default_campaign_reports_use_a_unique_run_directory) ... ok
+test_families_share_one_build_and_run_in_bounded_parallel (__main__.CampaignFloorTest.test_families_share_one_build_and_run_in_bounded_parallel) ... ok
+test_one_seed_below_the_floor_fails_and_names_the_family (__main__.CampaignFloorTest.test_one_seed_below_the_floor_fails_and_names_the_family) ... ok
+test_the_shipped_floors_cover_every_scenario_family (__main__.CampaignFloorTest.test_the_shipped_floors_cover_every_scenario_family) ... ok
+test_a_budget_seed_is_not_ready (__main__.StrictCertificationTest.test_a_budget_seed_is_not_ready) ... ok
+test_a_clean_whole_matrix_certifies_ready (__main__.StrictCertificationTest.test_a_clean_whole_matrix_certifies_ready) ... ok
+test_a_missing_family_report_is_not_ready (__main__.StrictCertificationTest.test_a_missing_family_report_is_not_ready) ... ok
+test_a_stale_commit_does_not_certify (__main__.StrictCertificationTest.test_a_stale_commit_does_not_certify) ... ok
+test_an_unparseable_seed_range_fails_closed (__main__.StrictCertificationTest.test_an_unparseable_seed_range_fails_closed) ... ok
+test_duplicate_seed_rows_do_not_fake_coverage (__main__.StrictCertificationTest.test_duplicate_seed_rows_do_not_fake_coverage) ... ok
+test_one_failed_seed_is_not_ready_even_when_the_floor_holds (__main__.StrictCertificationTest.test_one_failed_seed_is_not_ready_even_when_the_floor_holds) ... ok
+test_unvaried_seeds_do_not_certify (__main__.StrictCertificationTest.test_unvaried_seeds_do_not_certify) ... ok
+test_wrong_pop_or_ticks_do_not_certify (__main__.StrictCertificationTest.test_wrong_pop_or_ticks_do_not_certify) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.024s
+
+OK
+test_fast: static guards OK (46 run, 0 NOT RUN)
+test_fast: OK in 4232ms (budget 12000ms)
+test_affected: running clients/godot-csharp/run.sh
+run.sh: using 2 job(s) (TT_JOBS)
+run.sh: checkout aa1b9e4dc835 (art/makehuman-frontier-20261011) behind_origin_main=0 dirty=false
+run.sh: entry guard
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.96
+Test run for /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/tests/EntryGuard/bin/Release/net10.0/EntryGuard.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:  2015, Skipped:     0, Total:  2015, Duration: 14 s - EntryGuard.dll (net10.0)
+test_entryguard: OK
+run.sh: C# client
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.38
+run.sh: PASS (headless; screenshots and pixel checks NOT RUN)  seed=137  report=/home/chris/tmp/agent-tmp/tt-cs-proof-tt-character-art-wt-91fd42ea6f1d/scenario.json
+run.sh: log    /home/chris/tmp/agent-tmp/tt-cs-proof-tt-character-art-wt-91fd42ea6f1d/run.log
+run.sh: shots  /home/chris/tmp/agent-tmp/tt-cs-proof-tt-character-art-wt-91fd42ea6f1d
+test_affected: OK for origin/main...HEAD
+[13:48:23] --- gate done in 26s ---
+[13:48:23] --- base race check ---
+[13:48:24] base stable at 621178d6a
+[13:48:24] --- base race check done in 1s ---
+[13:48:24] --- merge ---
+[13:48:24] repo: ChrisTutorials/thistletide-gd  PR: #4413
+[13:48:26] pre-state: PR head=aa1b9e4dc835bbdf62e42bb7e7abff0b80a6a6eb  base=main @ 621178d6a7ebbe14a492b2221135bf1eccf8f470
+[13:48:26] note: known-parent is informational only — verification is ancestry-based
+[13:48:26] running gh pr merge 4413 --squash --delete-branch --admin
+[gh ] ! Branch art/makehuman-frontier-20261011 is checked out in the current worktree (/home/chris/gamedev/tt-character-art-wt); skipping local delete
+[gh ]   To finish cleanup, first navigate out of the worktree, then run:
+[gh ]   git worktree remove /home/chris/gamedev/tt-character-art-wt && git branch -D art/makehuman-frontier-20261011
+[13:48:32] polling GitHub state (10 attempts * 3s) for authoritative merge_commit_sha
+[13:48:32] GitHub reports MERGED: merge_commit_sha=cf311d24cdee6cf3ea73a4128a5526cad5e032d5
+[13:48:32] polling origin/main (5 attempts * 3s) until merge_commit_sha is reachable
+[13:48:33] PASS: merge_commit_sha cf311d24cdee6cf3ea73a4128a5526cad5e032d5 is an ancestor of origin/main
+[13:48:33] post-verify: GitHub's squash result confirmed on the base branch
+[13:48:33] --- merge done in 9s ---
+[13:48:33] --- cleanup ---
+[13:48:33] deleted local branch art/makehuman-frontier-20261011
+[13:48:33] when done with this worktree: git worktree remove /home/chris/gamedev/tt-character-art-wt
+[13:48:33] --- cleanup done in 0s ---
+[13:48:33] land: PR #4413 landed and verified
+flock: getting lock took 0.000002 seconds
+flock: executing env

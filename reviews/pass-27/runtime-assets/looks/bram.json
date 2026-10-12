@@ -1,0 +1,25 @@
+{
+  "name": "Bram",
+  "base": "male",
+  "race": "human",
+  "hair": "close_crop",
+  "outfit": "frontier_apron",
+  "sliders": {
+    "Height": -0.4,
+    "Weight": 1,
+    "Waist": 0.85,
+    "Muscle": 0.4,
+    "Shoulders": 0.4,
+    "NeckLength": -0.25
+  },
+  "colours": {
+    "skin": "a26c48",
+    "hair": "352e29",
+    "shirt": "b6ac8f",
+    "apron": "8d887b",
+    "leather": "54392a",
+    "eyes": "4f3322"
+  },
+  "face": "mature",
+  "beard": "short"
+}

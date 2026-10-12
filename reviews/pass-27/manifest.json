@@ -1,0 +1,1921 @@
+{
+  "review": "pass-27",
+  "owner_art_approval": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1928,
+      "sha256": "5b366035943c4fe982cfc76b2dd8e227325a3f6c9bd31748610dd5128662bb4a"
+    },
+    {
+      "path": "gallery/index.html",
+      "bytes": 84951,
+      "sha256": "53bce0f57139f512936ee861ca3aa6dea0a6a27781cca1a4e3b8962c958fccdd"
+    },
+    {
+      "path": "gallery/kit_archetypes_female_neutral.png",
+      "bytes": 2946318,
+      "sha256": "862a9f1584114591acaf2ed5ebccbb343f6ed7cac3ff3903353d3d5def67eb72"
+    },
+    {
+      "path": "gallery/kit_archetypes_female_open.png",
+      "bytes": 2946057,
+      "sha256": "cf38da8027bdfd77cb63c466d3dc71bd54b3dd46721cddaa8c68647a89630a39"
+    },
+    {
+      "path": "gallery/kit_archetypes_female_smile.png",
+      "bytes": 2948270,
+      "sha256": "e259931312fc27921acb5afc8e398626d09b08c9cb5d4ddeb4fb69ce4dfb0240"
+    },
+    {
+      "path": "gallery/kit_archetypes_male_neutral.png",
+      "bytes": 2877517,
+      "sha256": "b070c19101395df45b5ecdff7634c26f4da350c6fbee1eb66a7ada42535b1c36"
+    },
+    {
+      "path": "gallery/kit_archetypes_male_open.png",
+      "bytes": 2881125,
+      "sha256": "6ab75ec0cf8ab0ec66205546da1e6faefe7e5367135a58fb04608580e9b786e7"
+    },
+    {
+      "path": "gallery/kit_archetypes_male_smile.png",
+      "bytes": 2877480,
+      "sha256": "ffa5cc0802022fa78b75592d1876bc71423f3e400134c0803ea2c52379154843"
+    },
+    {
+      "path": "gallery/kit_bases.png",
+      "bytes": 3034334,
+      "sha256": "5b7c5faf28c62b41813ac97eaec77d54aaaff909959ae74b7088a071a15011ac"
+    },
+    {
+      "path": "gallery/kit_body_ArmLength.png",
+      "bytes": 3050562,
+      "sha256": "eb17ec7f39db8631b83148fd3e3c0dcbd0df0d5a1ccf3f071f9d61da0159cd36"
+    },
+    {
+      "path": "gallery/kit_body_Chest.png",
+      "bytes": 3034403,
+      "sha256": "3c6033a0115276b0dfa3d5a56bf7aff4bfa53df8e97d48f8ec9718854c5244e2"
+    },
+    {
+      "path": "gallery/kit_body_HeadSize.png",
+      "bytes": 3048769,
+      "sha256": "5c4c978b284fac4dfae06fab45b0bb8705d2c3649a9667f28a0f8ba894dd71e2"
+    },
+    {
+      "path": "gallery/kit_body_Height.png",
+      "bytes": 3077008,
+      "sha256": "97f396235dab6145768b973a19b7cde31e7ae870d4c3b1cb1f1c5349b89bd17f"
+    },
+    {
+      "path": "gallery/kit_body_Hips.png",
+      "bytes": 3029715,
+      "sha256": "ac64c4e2967370e79b3ecb58bbbf42e23d13d25ecf8b9827e5b269e2b0802001"
+    },
+    {
+      "path": "gallery/kit_body_LegLength.png",
+      "bytes": 3072055,
+      "sha256": "4ebc6718dc5e8b093c9bccffc4d702cb7da1efb8a082b1b81cb4d618ed97a8e8"
+    },
+    {
+      "path": "gallery/kit_body_Muscle.png",
+      "bytes": 3043269,
+      "sha256": "da01fd148549493f428047035465376cd02a578f49d74dd95bfa75a9508168a6"
+    },
+    {
+      "path": "gallery/kit_body_NeckLength.png",
+      "bytes": 3053425,
+      "sha256": "64aa0d8b5ff74126dd071f96ad579f4b9444d2162d9fc8602f3060ff2854805a"
+    },
+    {
+      "path": "gallery/kit_body_Shoulders.png",
+      "bytes": 3043824,
+      "sha256": "05eeb51a24e20cb1dcd4b19b5dbae6757bb4991cc5e656272a7b2075f348979f"
+    },
+    {
+      "path": "gallery/kit_body_TorsoLength.png",
+      "bytes": 3059499,
+      "sha256": "e19fba6ef48bfe60911ececdb5297e0d5392c4bc11f8b3f8215f24741e12318d"
+    },
+    {
+      "path": "gallery/kit_body_Waist.png",
+      "bytes": 3036913,
+      "sha256": "af6d3bcabb1c8dcd20d6df71b8f0714efe59b2968c18bb43c86c4a89e54ae99f"
+    },
+    {
+      "path": "gallery/kit_body_Weight.png",
+      "bytes": 3042431,
+      "sha256": "13f1a006bea6121ad047f25c9d2258b38c391f4aa5d0520ba90873234c0ba959"
+    },
+    {
+      "path": "gallery/kit_community_30.png",
+      "bytes": 2918729,
+      "sha256": "5b5bcb8c9bff86891f004492111379144f54ffddd8b3fdd30287d8a9d48e0002"
+    },
+    {
+      "path": "gallery/kit_comparison_z5.png",
+      "bytes": 2726339,
+      "sha256": "1c3d3f91eb629d61f7b4b23997ea96bdc31b835a3852ff28a5cf8c5cceb6b1cc"
+    },
+    {
+      "path": "gallery/kit_comparison_z9.png",
+      "bytes": 2760234,
+      "sha256": "68e7d44b27c842bb3434336c17a465f8154f6c60b14cb9c00f7f95fd021646cb"
+    },
+    {
+      "path": "gallery/kit_expressions_female.png",
+      "bytes": 2862862,
+      "sha256": "1f85082a873094c1a2fded8ae8186d3c09104b6f4397eea32f1f77831e751f25"
+    },
+    {
+      "path": "gallery/kit_expressions_male.png",
+      "bytes": 2777346,
+      "sha256": "3cda79317b7f807c613375798cb95eac91d2d12fd037cd2ba52b53c60c19e6d9"
+    },
+    {
+      "path": "gallery/kit_face_Brow.png",
+      "bytes": 2848330,
+      "sha256": "68255968b77139fb84d0ad0e2fc1ce46c4464c2b661f14f0db76ab5ded3abc0e"
+    },
+    {
+      "path": "gallery/kit_face_Cheekbones.png",
+      "bytes": 2846958,
+      "sha256": "4a136b7d49d06b3f07412715247d2baf37f43259737336207cb66dd24ffca746"
+    },
+    {
+      "path": "gallery/kit_face_Chin.png",
+      "bytes": 2837579,
+      "sha256": "9f4b53fa951c007a91e6cca241a8b11b7610a15dc80b782b6e8f57492ccb27e0"
+    },
+    {
+      "path": "gallery/kit_face_EarPoint.png",
+      "bytes": 2841104,
+      "sha256": "847c2aa889323ef055b70c40a06c20a93daa8f1a9a2bb18f8d0cfdc7dfc36050"
+    },
+    {
+      "path": "gallery/kit_face_EarSize.png",
+      "bytes": 2842632,
+      "sha256": "120de92f690b91599c25816f609a90a52eef6e95b7dae9e8d1973e583c070280"
+    },
+    {
+      "path": "gallery/kit_face_EarWing.png",
+      "bytes": 2844775,
+      "sha256": "c5cb35a37345ab4426b8b1dd31fd21c96067bf4feee32eb64cdb5ee25b0bbccd"
+    },
+    {
+      "path": "gallery/kit_face_EyeSize.png",
+      "bytes": 2843403,
+      "sha256": "57534cad7d9126d703cb0e31fd1f579e3842f356ea6b8e0133baace0c90e0b60"
+    },
+    {
+      "path": "gallery/kit_face_EyeSpacing.png",
+      "bytes": 2848590,
+      "sha256": "e911e4287ff5267f8b10f5e4c4378772cca3aa4ecb54b4f63b1f6ebeb245cfe5"
+    },
+    {
+      "path": "gallery/kit_face_FaceLength.png",
+      "bytes": 2850025,
+      "sha256": "ef09bfe5de3df009edd1c527f63139afb2e2874029e34c6e98996de9e71af0bf"
+    },
+    {
+      "path": "gallery/kit_face_JawWidth.png",
+      "bytes": 2845258,
+      "sha256": "ae39c40f17f7259193e3d931ad1ce51b73a93a65de6d5613713e2a34831458e2"
+    },
+    {
+      "path": "gallery/kit_face_Lips.png",
+      "bytes": 2836201,
+      "sha256": "ab10b89968adc38839f057b43f2470a6e4f237e0c739c930bac05aca9596d66d"
+    },
+    {
+      "path": "gallery/kit_face_MouthWidth.png",
+      "bytes": 2845951,
+      "sha256": "fac79366b58a6dfa02c193c948d21aeb9333c7ae35e3785d058703a4bf878f52"
+    },
+    {
+      "path": "gallery/kit_face_NoseLength.png",
+      "bytes": 2848687,
+      "sha256": "0cc1a4ef00e1219e6b4cb59aa4db69cd80dc789582e32b641d277c34b2f3a04d"
+    },
+    {
+      "path": "gallery/kit_face_NoseSize.png",
+      "bytes": 2845105,
+      "sha256": "c5085f03976dacea6e5c26fd8eaf1f3d90229adbd372d29992df0056ab7d716e"
+    },
+    {
+      "path": "gallery/kit_face_NoseWidth.png",
+      "bytes": 2844906,
+      "sha256": "ad7a880b2c29ad22174b5f1c9136e8cf8e2852a25c07367840bb3c2ee6d961df"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_Chop.png",
+      "bytes": 3037699,
+      "sha256": "d5ac556abd42ec43028d88f68fd162fdb87ba104c35812629947ba4498c1bba8"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_Craft.png",
+      "bytes": 3054142,
+      "sha256": "190f980a1bdc104fd47705f1f5238129e29556ffb56caccb137eadb7cfc6b018"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_HugWalk.png",
+      "bytes": 3051090,
+      "sha256": "180d47a1aac4311701156f56cece240b35bb9f4751d19e767806cf250a843a81"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_Idle.png",
+      "bytes": 3042930,
+      "sha256": "b00eac638aa0b9d9e36b5e70b09aaa8788fe627f9f8ca1eab1f717daa9ca5fc3"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_PickUp.png",
+      "bytes": 3018784,
+      "sha256": "25f39311ee22cb8a0b0cb23ce345612590662dc793273e8dd064fae7214fcfc7"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_ShoulderWalk.png",
+      "bytes": 3039419,
+      "sha256": "dae006bf2b9a37f3ccbb0702c7804c2590264082c8925e9b2f2a51d377886a22"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_Sleep_0.png",
+      "bytes": 2825950,
+      "sha256": "7dee87899901cfabcfee71f95a17dce95da5a14f3f38c22de22a03091b34c5fa"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_Sleep_1.png",
+      "bytes": 2827781,
+      "sha256": "459ac900ed89e9fe4228758e528ff65aba588f21741d20ed12445548c765b182"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_Sword_Attack.png",
+      "bytes": 3035308,
+      "sha256": "c1763883ceacc2dd2c8ebc80e1754de2968a2d76a48c2651d5fc0cd178d69a41"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_apron_Walk.png",
+      "bytes": 3049079,
+      "sha256": "caf82d63a53b8c3707fef99acc7d17a97dbe8ef0fd134e3c80ac6be51688d657"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_Chop.png",
+      "bytes": 3046161,
+      "sha256": "ea55ee3ad33c784c055e7b65f98114d0b49b3baf5974c60297decc28260adca1"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_Craft.png",
+      "bytes": 3052803,
+      "sha256": "8bb8e67b15264f1cca8a021cfa37c50562bc8bdc8efdc0c46b149ce80fff3489"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_HugWalk.png",
+      "bytes": 3053920,
+      "sha256": "7eaa23ee6c090f5a651212c5d1e7a6010b633995feb4e672b01884756742bec4"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_Idle.png",
+      "bytes": 3054874,
+      "sha256": "ecd403b3093ba6b1f1593368ec285cd3f7af12cfec5d3a042caf23fb94f8a775"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_PickUp.png",
+      "bytes": 3020940,
+      "sha256": "ea2a0e77cbc75c7a835ae8b5c44b2e62cfdce4c3702b0e76889fd828f73593c0"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_ShoulderWalk.png",
+      "bytes": 3050360,
+      "sha256": "8cb0e6c2005214869a2ff75561fcc2c49c9cec13eaf42aa1fbcc68b9de2eba7f"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_Sleep_0.png",
+      "bytes": 2831179,
+      "sha256": "67a8e7b36291f757a0a2424b8f06988e4643efa2d013be33d1ba8dfe3c931d45"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_Sleep_1.png",
+      "bytes": 2833354,
+      "sha256": "eb88358c0ffac0f710a6ec819dff934076474ce14ec663380e49fea7d3d18291"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_Sword_Attack.png",
+      "bytes": 3018998,
+      "sha256": "c62281b0bd0a401e387b249e74971f829a6aac63ac37afbc443d015ad74c963c"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_cloak_Walk.png",
+      "bytes": 3057783,
+      "sha256": "9360cae538064febc1a981319c50b8b2a90ff9cb6273902de2d93452bb6e1c2b"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_Chop.png",
+      "bytes": 3044862,
+      "sha256": "ac56bbf8130eaac1f6f49f63619682269bfcfc832bb8a659db2933f5ef929f9b"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_Craft.png",
+      "bytes": 3046758,
+      "sha256": "206402c421a4c832fd154b9b597ed7fb8e17cbf2dd3f28f1a17a63e0ed051ed1"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_HugWalk.png",
+      "bytes": 3056169,
+      "sha256": "e25f2449286bd15709e5933ce2b0a4b132726ea0da394c3afd53ea8f2aaf9019"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_Idle.png",
+      "bytes": 3054678,
+      "sha256": "fbd3d40ee4203dc22a68e6224960d9e3b990bc0249ed2512bdc61afdb1eee4f2"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_PickUp.png",
+      "bytes": 3011609,
+      "sha256": "4d902149c7d560ef3d826e413001f969435243a02244ab531dd7950833fa2c01"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_ShoulderWalk.png",
+      "bytes": 3055825,
+      "sha256": "460a995595f963b1770c013a1bac402faad956193ea27096e5c775d126795315"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_Sleep_0.png",
+      "bytes": 2826225,
+      "sha256": "e4261cea3dc6b5967339fbaabd2e77e7af60371143312e984c32cc5715b5facf"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_Sleep_1.png",
+      "bytes": 2827975,
+      "sha256": "058f8ed3b66203a7ca145a3f2a0f08dba947c3418d203d75ea7c0d5f8bfe3139"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_Sword_Attack.png",
+      "bytes": 3024939,
+      "sha256": "a123c3eddd44c93f4ebc809ac69960a8e8af9cb67187a1d47634cb685ce04a56"
+    },
+    {
+      "path": "gallery/kit_fit_female_frontier_vest_Walk.png",
+      "bytes": 3059516,
+      "sha256": "33e9538a76e703519a197ea3c5269fe1bc305de6c3c6f8c4575c245d4ea730fd"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_Chop.png",
+      "bytes": 3041798,
+      "sha256": "f4c22baae05c7e4a273549890cc5a5b562718c3e08260f28f6b3cae5ed5f7c77"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_Craft.png",
+      "bytes": 3053468,
+      "sha256": "2544cdf9cd5e16f48fa9f3a749ac7d281b7194cc501247616786a68961c969a3"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_HugWalk.png",
+      "bytes": 3047130,
+      "sha256": "c2b0f81f4e0da8adc7844b93a6cbeda4d7231ee2f565cd669a8e175b8dca8c7c"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_Idle.png",
+      "bytes": 3046244,
+      "sha256": "26e434363504b84ba65700d3fe429a151891cd81f648977db61a4bded5668c45"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_PickUp.png",
+      "bytes": 3010847,
+      "sha256": "b874bcaa84306ed8b1b2bfc993071734713231916a2873cfbafc56c679034632"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_ShoulderWalk.png",
+      "bytes": 3032971,
+      "sha256": "95c9e73ecf056a4d1b5bc4b5171c718c03e7e8ba709590f2932d257d2df6cb1e"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_Sleep_0.png",
+      "bytes": 2821377,
+      "sha256": "16a248e96b85b945f79d6be8d1200fc7f7d0acd9df8d7d72c95efd6005177bc0"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_Sleep_1.png",
+      "bytes": 2825475,
+      "sha256": "f7946f1c38ed317a5c53736a619ade144d30afa93a8d591747d6da1cba3f492d"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_Sword_Attack.png",
+      "bytes": 3023824,
+      "sha256": "ccb483ae2f3608744ae67e6b848a134848141019ca74afeb82804ee1dcd21128"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_apron_Walk.png",
+      "bytes": 3057960,
+      "sha256": "0462a68e84877006fec8b29c7353e2ecb73d581aed92f8ad86aac95450698365"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_Chop.png",
+      "bytes": 3041991,
+      "sha256": "ffe1fabb9aa7d421a1ba99d23eabbaafda665b37842735bed0e3f3abea1b173f"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_Craft.png",
+      "bytes": 3052795,
+      "sha256": "9a86c1ab80ef6a597cd8c2903fd2c910c2278ac954b1b9931368d6cd48b92783"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_HugWalk.png",
+      "bytes": 3045989,
+      "sha256": "5ec816c59f5680cba51ce000b69e064ea2561cb7dee2f648b5f19d9944cbcc4b"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_Idle.png",
+      "bytes": 3042370,
+      "sha256": "5969222905126345785c3d8da7293b36c182cbee5eb6765d93d7116db6bcb3a8"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_PickUp.png",
+      "bytes": 3025880,
+      "sha256": "da797c2172834e573d19a90e31840881b76b93839a6aea0ba6c782e9061f0a1c"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_ShoulderWalk.png",
+      "bytes": 3032371,
+      "sha256": "98935e1c2e06cefbf59c8c7405ec0716f909918b5d76ad688085d7a65c60f161"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_Sleep_0.png",
+      "bytes": 2832932,
+      "sha256": "0620a162df955a420d3316b6c64dc56036d4253ff6a1164234a6e5dbc52092ae"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_Sleep_1.png",
+      "bytes": 2839697,
+      "sha256": "dad2d4385626e5103148a69bde68b71ff5584b2aafce41abd6403cdcfaf8eafb"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_Sword_Attack.png",
+      "bytes": 3014146,
+      "sha256": "387520d0f7408cdfc6f1e90867180970e9cd99e0bd4f6e0a2ec4a8ea9dcd215f"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_cloak_Walk.png",
+      "bytes": 3054141,
+      "sha256": "44e609f130e2f6efcaab5a8c4a98282c57bc7a88486d788fc7f1479ede4e398d"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_Chop.png",
+      "bytes": 3038577,
+      "sha256": "85d14f15f1596257b695ffb331bba3ddfee1cbf052a7a24c4281cd50ec00e486"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_Craft.png",
+      "bytes": 3053677,
+      "sha256": "c9198ec7c33751bd63da467ed99ddf9a0e42ce0980a8ce5b6f2f561526084ae6"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_HugWalk.png",
+      "bytes": 3052410,
+      "sha256": "1a3c9c97171f58d8c60ddaf6ab09b3e4e50169d2472b01472bc00e7153f3e716"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_Idle.png",
+      "bytes": 3053577,
+      "sha256": "7586d6acd7c330721611074adaa1f8db36d2fd6b5f3c3fa6caf9fe6e82f72868"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_PickUp.png",
+      "bytes": 3008211,
+      "sha256": "e8617e5248959ec4583d33af51dcd209677c8547e0db725ad074e7aa98fce9e2"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_ShoulderWalk.png",
+      "bytes": 3042681,
+      "sha256": "7c98950afd629cd4debc95f039d06180951d788f29f5e76d6aceaf906ba7bc97"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_Sleep_0.png",
+      "bytes": 2819535,
+      "sha256": "e9f36c00823a7bae27e136312f34f99ab186bd29d167bc5fc74d443f8b7f305f"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_Sleep_1.png",
+      "bytes": 2822014,
+      "sha256": "0964ef27d0407767e37a29c4d79b952e085962b7e47987e0a7a944bb08b2e1c9"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_Sword_Attack.png",
+      "bytes": 3013581,
+      "sha256": "9d257abac7bc170ce748d7dfaede5549ab70b8469327b7de15ddbe5acf7cb2e1"
+    },
+    {
+      "path": "gallery/kit_fit_male_frontier_vest_Walk.png",
+      "bytes": 3065826,
+      "sha256": "3871e77ccbb6b057f6807064053041801565b172dbc53079816c1f20998c5d2e"
+    },
+    {
+      "path": "gallery/kit_hair_female.png",
+      "bytes": 2990722,
+      "sha256": "49f0ccd717c5a70d12899d36684064f6771ae0c88eba18b39a9dfc885c06776b"
+    },
+    {
+      "path": "gallery/kit_hair_male.png",
+      "bytes": 2995165,
+      "sha256": "3f56bdadc38a439b6fd803dd2be613b7824a6cd31d052709452df1b277638fdd"
+    },
+    {
+      "path": "gallery/kit_hair_masculine_0.png",
+      "bytes": 2892028,
+      "sha256": "a993488ff0471b814762f197f75bbf1eb668a8559fa3f557ab8f3538933f3ae4"
+    },
+    {
+      "path": "gallery/kit_hair_masculine_180.png",
+      "bytes": 2848135,
+      "sha256": "39bd6d23cb17a2a0115934e089aa08d22089665a48d955c51a4e3582d6f5fec1"
+    },
+    {
+      "path": "gallery/kit_hair_masculine_45.png",
+      "bytes": 2912391,
+      "sha256": "81ae4b6f133c726b919b84d3e8d242d646b06c1e24fa03310ca55fe6dd04d075"
+    },
+    {
+      "path": "gallery/kit_hair_masculine_90.png",
+      "bytes": 2920760,
+      "sha256": "40d534004eda4d08dc5abe97dff7a76a888c13608f4c4771b3ca28a340760aa2"
+    },
+    {
+      "path": "gallery/kit_hero_faces.png",
+      "bytes": 2758085,
+      "sha256": "7cb7dbdc19ddb1af89b4255da1af12e4fac17c3005207d98c48863908d59234d"
+    },
+    {
+      "path": "gallery/kit_heroes_0.png",
+      "bytes": 2948274,
+      "sha256": "e83b2f253ca12280ebddde86b2786ac6649235b389bc93cb082730ea4976d900"
+    },
+    {
+      "path": "gallery/kit_heroes_180.png",
+      "bytes": 2923727,
+      "sha256": "c96684544c40eb196abba618bd5b9ffca12e9bff3ca23b1a6e4c2d27e5a20c60"
+    },
+    {
+      "path": "gallery/kit_heroes_45.png",
+      "bytes": 2927074,
+      "sha256": "f42c99ad6bc83101e07e30ccb43048806125e2f861554a3d9bdb77eb16b8f49b"
+    },
+    {
+      "path": "gallery/kit_heroes_90.png",
+      "bytes": 2894189,
+      "sha256": "60792150a952f37cf7adbdd68f8fc0472f4958d51fa5982c3c26dd88db9bdfa5"
+    },
+    {
+      "path": "gallery/kit_lineup_z5.png",
+      "bytes": 2731505,
+      "sha256": "0297d1ce70ed80520d97f10f569f53e93b9845faadae593aedfcb591cd65e56e"
+    },
+    {
+      "path": "gallery/kit_lineup_z9.png",
+      "bytes": 2764307,
+      "sha256": "efe8f0d4911115601784dc8a739ad635652b2cab6f2cea479d259b4734225802"
+    },
+    {
+      "path": "gallery/kit_outfits.png",
+      "bytes": 3043700,
+      "sha256": "f23f21e5bd3676815d595c92b342e014ec76604ffe53a06afb96df5f650a34ac"
+    },
+    {
+      "path": "gallery/kit_races.png",
+      "bytes": 3086821,
+      "sha256": "6cd56e3d55920350910c376183e7243462fa41f48c0f6554de5f8384cf95d8f1"
+    },
+    {
+      "path": "gallery/kit_races_face_female.png",
+      "bytes": 2895241,
+      "sha256": "cc4d895d9cbcc30adecde0388c919887790c4d8378d189c73d0cce2239dc08da"
+    },
+    {
+      "path": "gallery/kit_races_face_male.png",
+      "bytes": 2796999,
+      "sha256": "3ac9867eb92bebc5be34b2cc5834d792cf42904623a93eff7cb6ad9e07178ab5"
+    },
+    {
+      "path": "gallery/kit_walk.png",
+      "bytes": 2977608,
+      "sha256": "f2d18509bc71c8c16818332e24cc47ddcd49ac7d2bee04d6f6b08380eb7cc1aa"
+    },
+    {
+      "path": "gallery/scenario.json",
+      "bytes": 455613,
+      "sha256": "2c4150c2bfdc9bb7d03b6f10ba9c746106b76cfa23aeba5313182d78edac96d2"
+    },
+    {
+      "path": "generator-source/build_character_kit.py",
+      "bytes": 71804,
+      "sha256": "8ba1fe7234991b684b08919bcc14bd0167a87bbdb06549adfa8c36ede0e3bec2"
+    },
+    {
+      "path": "generator-source/character_kit_glb.py",
+      "bytes": 2050,
+      "sha256": "f1833351e3546e050f09cebbc0ce9f12c4dd9eb640f977b99622e8df15bc8119"
+    },
+    {
+      "path": "generator-source/character_kit_source.py",
+      "bytes": 8105,
+      "sha256": "ad655cec75e849d091bc8f93d9416b005c0ea8d3b5dabfb8335e6968b1db21ef"
+    },
+    {
+      "path": "generator-source/kit_equipment.py",
+      "bytes": 8083,
+      "sha256": "43eff70c80867eda79c8e22d407233236d96312e278dc6bc5cba8f398c8b8a62"
+    },
+    {
+      "path": "generator-source/kit_garments.py",
+      "bytes": 12118,
+      "sha256": "a2ab3289b8e11250ff42ffa394acbebe8593ac0eef49070b1c3643f51e1cce7f"
+    },
+    {
+      "path": "generator-source/kit_hair.py",
+      "bytes": 30177,
+      "sha256": "f6363548f5fea298f564697c760e090fa601ddc860cbf2b42f397422a2f5da2c"
+    },
+    {
+      "path": "generator-source/kit_retarget.py",
+      "bytes": 28650,
+      "sha256": "0e7697c6182598f87fde9cc92eff4776dbd1c7c40ade7d471bde8abdffd347c9"
+    },
+    {
+      "path": "generator-source/mpfb2_cc0_sources.json",
+      "bytes": 17279,
+      "sha256": "1275d9ab8aa596a5243529a1009188d37d23ce828ebca75f07d192a5b1b7559e"
+    },
+    {
+      "path": "generator-source/test_character_kit_art.py",
+      "bytes": 15075,
+      "sha256": "8853ea47efbd97fb9ef8d33ea4575ce05d7d8148f46d905ae5a59129d8ace5cc"
+    },
+    {
+      "path": "generator-source/test_character_kit_retarget.py",
+      "bytes": 23245,
+      "sha256": "d9742d0a2857187ad0430f42cb3b36e2621011a7c275f7cb5493e7ad9d24c23d"
+    },
+    {
+      "path": "production-kit-r26/figures_z5.png",
+      "bytes": 1326807,
+      "sha256": "d001e1f145ff67cbf813c853ce0618fa4a2f5fbd79561d08be3228bf7e0721d4"
+    },
+    {
+      "path": "production-kit-r26/figures_z9.png",
+      "bytes": 1261397,
+      "sha256": "951d9318a4d92d0234ec35c6c1b0f4277aa91f68a0bbcc42772961a6f2967c9a"
+    },
+    {
+      "path": "production-kit-r26/folk_review_day_z9.png",
+      "bytes": 1319772,
+      "sha256": "40c08d1ba6a38e0b2db27bc8bf946188bccec8ff64320af4dcfb0311ed451e96"
+    },
+    {
+      "path": "production-kit-r26/folk_review_dusk_z9.png",
+      "bytes": 1261776,
+      "sha256": "ab70c7a64eca98737a84472702bf0c6fcac31665a2362434707320ccf7169274"
+    },
+    {
+      "path": "production-kit-r26/folk_review_front_z5.png",
+      "bytes": 1368938,
+      "sha256": "5e6400171736e9b9b960634f2bbcbf7f0fa7d1a60e8fb07cef34aa80675888d4"
+    },
+    {
+      "path": "production-kit-r26/folk_review_profile_z5.png",
+      "bytes": 1365343,
+      "sha256": "42cd3cdd7c5720b7160f777ed65921289809540411ca5ac8dccdffa7b5923fa2"
+    },
+    {
+      "path": "production-kit-r26/folk_review_rear_z5.png",
+      "bytes": 1368767,
+      "sha256": "652b59126abc831ae6dfab1557c73497ab60154dfc3d6aec37740dd3c91b5533"
+    },
+    {
+      "path": "production-kit-r26/folk_review_silhouettes_z5.png",
+      "bytes": 1370824,
+      "sha256": "49417dcdd38f8fa1e5ae70945abde5591604e278c4efac5b12bccee2f6ad5d4e"
+    },
+    {
+      "path": "production-kit-r26/folk_review_silhouettes_z9.png",
+      "bytes": 1319479,
+      "sha256": "b58ba3d9759a7f0e641c2645481fbb57e0cae571067af52a5ee64c0d7935a48b"
+    },
+    {
+      "path": "production-kit-r26/folk_review_threequarter_z5.png",
+      "bytes": 1367907,
+      "sha256": "4aa3152c4bca0f72bb8fe2f11f6a3f3b9c995f4e19a9bb88a3fca9dc8255bab1"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0000.png",
+      "bytes": 1317937,
+      "sha256": "39cda8b7991b6c62f58848ac3d68eeb8f0acecf6fbf99d73b7f76727555da2f2"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0001.png",
+      "bytes": 1316470,
+      "sha256": "647a3f0cd96e258abadb755d9ba29ab468e294da2169dc91ce58f516bcc0598c"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0002.png",
+      "bytes": 1316545,
+      "sha256": "cb0d75e4d35388faf2684ffc4cb59999527ab2aec1d94d8fbd9f61d6c59afdf3"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0003.png",
+      "bytes": 1317647,
+      "sha256": "02edf3c2c30bbdd37190397b7794a7f645d0e395bd2818989ea14e49ec0d2b4e"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0004.png",
+      "bytes": 1317552,
+      "sha256": "6f5c39f3750b70e5628b2e536d72c5412e9656890f584212efc3f4d4585b94a4"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0005.png",
+      "bytes": 1317426,
+      "sha256": "c08f3f34d58db50720fb8b33f1f899ed3854c888cb2a4335e4abadb6b25a392d"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0006.png",
+      "bytes": 1317714,
+      "sha256": "fe07cb5aeabc8c6a6c9df671363e5c967be3cb186e7035eff040f9cd9f8e4c3c"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0007.png",
+      "bytes": 1319101,
+      "sha256": "d9e7b747044c41475bcedfe6dfd855eeabae609bc917a17b7b035bd6a24914e5"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0008.png",
+      "bytes": 1319893,
+      "sha256": "627c815ee9ad770f2f954f685c2f20840d6b30a0b4ae471d08f12a11fe81b582"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0009.png",
+      "bytes": 1321166,
+      "sha256": "8bacfe7829dda425dce94ebdabe057d43e5c8e33478cb5a74f54d0cb8b03009a"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0010.png",
+      "bytes": 1315575,
+      "sha256": "17984a383cf356d8215b469cd6eed21ef1d1150972f05e852787086863ef3b00"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0011.png",
+      "bytes": 1315384,
+      "sha256": "42eafb188cd191b56cb8633e2e9b2c9d13122a1311f8f18a88e68a41546fbe49"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0012.png",
+      "bytes": 1315723,
+      "sha256": "fc2a23c2bd5f6732cd834e88d81b16435eef7e043c789cf10d8973cf9ab376e8"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0013.png",
+      "bytes": 1316013,
+      "sha256": "cf6fc9623a01bb8e043257118bc1437629038dd92a1ee40bd264a415fa616a96"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0014.png",
+      "bytes": 1317958,
+      "sha256": "1ced702b9b79c75c14a723a1438868d3d4737d481058492f76c1ca816289e23f"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0015.png",
+      "bytes": 1317760,
+      "sha256": "cfb661b835bd9a047b62b2f381e351b3fdff3ec8a53e9c37a3291858b62db3e1"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0016.png",
+      "bytes": 1313539,
+      "sha256": "ddcc73b865d16d1c383f3486a434b1ac3a64b62e2609b91d7b07a7cb1fd414f7"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0017.png",
+      "bytes": 1313063,
+      "sha256": "20abfdd945653d5bd234a82610c376fc38999546d68916fd29dc3080a6e29318"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0018.png",
+      "bytes": 1313305,
+      "sha256": "473073680544c8655a60dd3daaaba30319e2e06e5d7cf81b2675b82ba4b2dd2c"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0019.png",
+      "bytes": 1319285,
+      "sha256": "e490c72a0436a6e4599e289cdcf455f68858afc5652c98742d02f2387c93608a"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0020.png",
+      "bytes": 1319772,
+      "sha256": "e86c45018f9392ef742caaa66c189bdc6d80bb8ce02b97c7eb1c7cf15a67bd4c"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0021.png",
+      "bytes": 1319532,
+      "sha256": "7bc8bf9f9bce0eaae7b52e37ca4d86596f41e29a70379682aaf12f2ad05e9375"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0022.png",
+      "bytes": 1315695,
+      "sha256": "985f72d925f238bf57aeff50f18f57da6320110e67b63cf56f36ee19abfed30e"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0023.png",
+      "bytes": 1315427,
+      "sha256": "c2ae9c64bc9d62643df9f428f2d0171d0b1c1f116c378c4242a0ffa9f1ef0569"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0024.png",
+      "bytes": 1315367,
+      "sha256": "a6145980b326d594676baf26ab305f84e5210ca54e80cad021b490134b2a924c"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0025.png",
+      "bytes": 1316901,
+      "sha256": "fa5d216688244d9c43f7f4f6ef51406696dad67380bfb2be515649154db09ff7"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0026.png",
+      "bytes": 1318477,
+      "sha256": "a92bc268a8292fc29ed3dc569e22d1572f6991b45c947c4c17e14abcdbd39672"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0027.png",
+      "bytes": 1318242,
+      "sha256": "9ed9a7839c8c7d6b3f438d235a5ee1195beb6bc493c721e7a63f5180feea4f2b"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0028.png",
+      "bytes": 1314530,
+      "sha256": "6fcf61fd6a95ecd35de8ce4e2aa8173e1ce84a07e953276c9816bf5e38b800a8"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0029.png",
+      "bytes": 1314011,
+      "sha256": "4ac8a723fd90a6e51f39c1df75dbe407810ff97c7f4cac7aa00437c25d60f1b1"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0030.png",
+      "bytes": 1314530,
+      "sha256": "abc3fd0ab0ec95345a6e6b0283410e49cbeba78cb19cb5981158cdda11b52e39"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0031.png",
+      "bytes": 1320460,
+      "sha256": "d6119043cde14aac63d3c8ec15f615a85c3fec6597b3d7f04e600aadc986e81e"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0032.png",
+      "bytes": 1322032,
+      "sha256": "7ca18812e19b7f5a84330b9a6fcf9dbba1bfe969b607ef31c2822a7347e7fb02"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0033.png",
+      "bytes": 1321432,
+      "sha256": "4ee23c2bca59f5bf5cf42913f98420273939da0f94166f84fe0bfe027c52a445"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0034.png",
+      "bytes": 1316924,
+      "sha256": "9bdba61732ab18dd2593d448d8a10498d765fc8f1e5c5092c93747e851f617b5"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0035.png",
+      "bytes": 1316706,
+      "sha256": "10371b2be5973f1ba7e1e344250b30976ccaab7fb92de49f1eb328ed91d45188"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0036.png",
+      "bytes": 1316454,
+      "sha256": "405ec9cd9a8faf7fba2cd63f4efa8f424a6c855a17f3bfe4c1b1c83325c6b0c9"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0037.png",
+      "bytes": 1322222,
+      "sha256": "c112583db310aa38139b92000149f828aeae219dded9540c7e4c56f3f92472ea"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0038.png",
+      "bytes": 1322932,
+      "sha256": "2c119a1acc6ae719a8420b0c4454291ed79f2304febe0302c42ce3f072eaa81f"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0039.png",
+      "bytes": 1323108,
+      "sha256": "0b6057237a0154bfc0865fe67ba850f51fe4a130c676cb91629ba391a10dba1d"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0040.png",
+      "bytes": 1318955,
+      "sha256": "4cd04ce5a9a3010cb0fa80f50628ab2923a58b78538426788d0842aad8ff2fcc"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0041.png",
+      "bytes": 1318241,
+      "sha256": "fa972c21dbba550ffa34f7c6c12062397ef6e11bd4d5f79099409c762752c4b8"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0042.png",
+      "bytes": 1319150,
+      "sha256": "00434aeeba12b61359af21d5ed65aef30a4ebef446ecf2c6564314123e80bf19"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0043.png",
+      "bytes": 1324653,
+      "sha256": "0f8cb4e167976c3d12fb4e91c490f2dc69ded0381b1ce200c92a2b4552ca1765"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0044.png",
+      "bytes": 1325715,
+      "sha256": "8110996b5cffe382e14db3c792d8ce67e102dd01bbeca1e599fa68d0feb6e14c"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0045.png",
+      "bytes": 1324477,
+      "sha256": "210ace74f74c915000e263654fea01e2e3ed6a39c40e88bb518abaa062675d4d"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0046.png",
+      "bytes": 1321375,
+      "sha256": "32430a2e565da07355fd91549745dc4ca2e4f6fe800a0cbabc3fb037e8ab0185"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0047.png",
+      "bytes": 1321266,
+      "sha256": "2e851d3391ebe0b09df46f1b827b667ce8f19c874f602b4d69f2cfa63d1a1991"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0048.png",
+      "bytes": 1321526,
+      "sha256": "0947e6c67829ed9fb0053c7ae261e1ca45b8ee50a404694def38d1dd95977f0b"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0049.png",
+      "bytes": 1322598,
+      "sha256": "c87abd81d32a385c5ec08289eee18c3c504303af45453451b1a4cc27d2a5267d"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0050.png",
+      "bytes": 1324000,
+      "sha256": "de232dd8c4b968799060bc1de4c00b6de4349d54e0200c7d3b813b1ac4cf85ae"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0051.png",
+      "bytes": 1323919,
+      "sha256": "e17fd7c5047a55d4bfa2a0b19e401c8d30299c3a90cdc6b7adf5664a2a384ed7"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0052.png",
+      "bytes": 1318620,
+      "sha256": "47b057d030c284d16be2d961c5a8c554b0a9c6847e19c3e9ca396eef27ebc337"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0053.png",
+      "bytes": 1319172,
+      "sha256": "4395545344950a43befa6589c2b66afaaa36ad6ad0e2080ad26975492372aa9a"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0054.png",
+      "bytes": 1318417,
+      "sha256": "3373a823246ca37dd4fedf9907a3b8afad365f48b75469cc216caf584e6c110f"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0055.png",
+      "bytes": 1319071,
+      "sha256": "9b45d0efa0e047b901820146d0db8896909b9bffc89b4366d069d04bcf4fc069"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0056.png",
+      "bytes": 1320773,
+      "sha256": "42c6bef40a615479d3117bea5f324724737039946eee1e3cd756d28e9a0ac637"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0057.png",
+      "bytes": 1320896,
+      "sha256": "5e76500066270dbb0ba4c4e39aa2729f6de98655c69bd81ffac6e90ba670abd0"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0058.png",
+      "bytes": 1315039,
+      "sha256": "bbdf86e75726762e6805cff153f7d26eb39a5d8b2affbd6845274aaa31fd7b20"
+    },
+    {
+      "path": "production-kit-r26/folk_review_walk_0059.png",
+      "bytes": 1315495,
+      "sha256": "4d0a54b5e558888819b5789fbb091ba9ab3a8446716625521f667a65a39de744"
+    },
+    {
+      "path": "production-kit-r26/read_z12.png",
+      "bytes": 1212271,
+      "sha256": "38919406c69e93042f06ff9d57b52144671e8c3c9fab223f8b4736c32e6ab130"
+    },
+    {
+      "path": "production-kit-r26/read_z5.png",
+      "bytes": 1295243,
+      "sha256": "e28355baccbc4743f9703a4e8e4abe3040dd8015157f8b30d00d765db838a18c"
+    },
+    {
+      "path": "production-kit-r26/read_z9.png",
+      "bytes": 1249243,
+      "sha256": "b5819c1d2a39aa33af12cc69f175ee4f3d6547b58d745effd5251c6247878f2c"
+    },
+    {
+      "path": "production-kit-r26/run.log",
+      "bytes": 765,
+      "sha256": "a6c42b140c2305bcc07d855e548d921b58cb8aa13cab5e47cebdd7bbb9ae13a5"
+    },
+    {
+      "path": "production-kit-r26/scenario.json",
+      "bytes": 12222,
+      "sha256": "cde46125251e6535967385e21d06f57407783b9a938c1f8291e5b43048425b00"
+    },
+    {
+      "path": "production-kit-r26/wild_z5.png",
+      "bytes": 1322981,
+      "sha256": "0c64207323b83c3d8d41ad9743e3b3bfb9d574d0bf5f4bfd63500395cf5a2b6a"
+    },
+    {
+      "path": "production-kit-r26/wild_z9.png",
+      "bytes": 1259167,
+      "sha256": "3d6dc4bf4003b2b53e01cfd2c256b59a674beee7d0052d344895c098d9759fe5"
+    },
+    {
+      "path": "production-kit-r27/figures_z5.png",
+      "bytes": 1328362,
+      "sha256": "bca0e6e423f837ec5919afd839e3c91f9695e10ef5fff19aac994ef2b907bf90"
+    },
+    {
+      "path": "production-kit-r27/figures_z9.png",
+      "bytes": 1261489,
+      "sha256": "08a360510ed65ac05f657bd328272e00af938e443e6dfc90cdfdf0e3a503eafe"
+    },
+    {
+      "path": "production-kit-r27/folk_review_day_z9.png",
+      "bytes": 1319839,
+      "sha256": "956d677ab0bf993e5c0fa116233226462c12fad5b416a39f44e314b45f504e5c"
+    },
+    {
+      "path": "production-kit-r27/folk_review_dusk_z9.png",
+      "bytes": 1261120,
+      "sha256": "6674c20ef1ff856023d7c9cbf3838b22184d25ca55df31b06bf76d3d6e53c48b"
+    },
+    {
+      "path": "production-kit-r27/folk_review_front_z5.png",
+      "bytes": 1369593,
+      "sha256": "e0f0882ab54f247c2848cac3c0d5764921363706e8d8fed58647a4882e2a4d83"
+    },
+    {
+      "path": "production-kit-r27/folk_review_profile_z5.png",
+      "bytes": 1363248,
+      "sha256": "0c88990b7a5fa27d17a7ce18c42ed62577b412c75e1f2968593a60033dd60502"
+    },
+    {
+      "path": "production-kit-r27/folk_review_rear_z5.png",
+      "bytes": 1368035,
+      "sha256": "e00b9e3d44b149f0690286688f957861ce136abf7d508f2d0c4f82a07fe72ce6"
+    },
+    {
+      "path": "production-kit-r27/folk_review_silhouettes_z5.png",
+      "bytes": 1371039,
+      "sha256": "b21f43de8d6e9168326fb7a360b77a47d67a27fca14e00aa1b211bd5493d6e6f"
+    },
+    {
+      "path": "production-kit-r27/folk_review_silhouettes_z9.png",
+      "bytes": 1318888,
+      "sha256": "8942693a2ae267b763af8181fb064fc81ba621fa86aec78793eedda5d2456ded"
+    },
+    {
+      "path": "production-kit-r27/folk_review_threequarter_z5.png",
+      "bytes": 1368922,
+      "sha256": "4206b37f681934fc73ed327e78a3aaada8ed1b182a8745b634fad4840497935c"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0000.png",
+      "bytes": 1320786,
+      "sha256": "b2338425719e68b5b1a190e301ace4c353d778e285d39ff0acc83cd9f2a728af"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0001.png",
+      "bytes": 1316615,
+      "sha256": "b8beb686d47316ad8f479330e0f1033d0b6f40ffb10631759c0add139f6e1ed3"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0002.png",
+      "bytes": 1316529,
+      "sha256": "0b15488fe675c63dcf813705ae6ec3434d8a07319149752679dfe80834dfe5fe"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0003.png",
+      "bytes": 1316785,
+      "sha256": "eb025b528f94034a1cbf44c2df4653f9a480e76e1ab98f8a272c7bbc5466d1d6"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0004.png",
+      "bytes": 1317114,
+      "sha256": "9b3fa55ceab4aaee29643421d6f93791a4e3e19cf9f4a91ed4bc4ea6da720fb8"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0005.png",
+      "bytes": 1316725,
+      "sha256": "2c8e44981664f52778a5f757ae8158174e1c999f39b20a811e5e796edfb378c4"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0006.png",
+      "bytes": 1317133,
+      "sha256": "386f2182544ad849cf959e8d62d49c04f5a3d041a5b891695ed1c60345b583bf"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0007.png",
+      "bytes": 1319252,
+      "sha256": "2aabf37585ed506a039936e7e1e2fbc0ae7effb9561f9425baa9326cba5322cb"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0008.png",
+      "bytes": 1319415,
+      "sha256": "62d300828bd2434d5d983d239f4f1fc7983f390939a86de9f6afffb0161ac25f"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0009.png",
+      "bytes": 1320919,
+      "sha256": "849e59baf271edb914d965a8f6d1ecece569a6b81d56e757f9d0b2f9fc5440d8"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0010.png",
+      "bytes": 1315087,
+      "sha256": "801ad571a6ffc3f4e55b8490ae4d0013c4175cf3d615c06b090a6ee71272a883"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0011.png",
+      "bytes": 1315092,
+      "sha256": "525a20f48086af4445385bfe5b2d3cfd35a07ce093ea61bf69a71b91f38af443"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0012.png",
+      "bytes": 1314717,
+      "sha256": "eab5e0578430c7d54b71b6b340f8fedf1ab4174d8df2992d9181ca2193861ad1"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0013.png",
+      "bytes": 1315610,
+      "sha256": "cf3cbcad4a9c0ba41d5e1518218b4e1b31894cf3f297d719afcc7227771e6242"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0014.png",
+      "bytes": 1316966,
+      "sha256": "c9559eb67b8f135f962e6e99a988f2193773993b244104cceadff5c81bbf50e5"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0015.png",
+      "bytes": 1317947,
+      "sha256": "cd825e32719fa56857f4b80203857e6d9fc0f342c47e8b3c9c2a6c0343e1d2ad"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0016.png",
+      "bytes": 1313133,
+      "sha256": "4b86de227d66f0e620e290dca0d6711c89689f7e889dc0fa55062047463988f1"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0017.png",
+      "bytes": 1313053,
+      "sha256": "0fed5602260167a30a628df42f374318fa6b634426923f7f7fbe5b7a73a0318d"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0018.png",
+      "bytes": 1313565,
+      "sha256": "2d1d6bd7f543aa1e24fd9699c67c41a6dd6a080cde9e5b14d2aff1d9a27a7316"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0019.png",
+      "bytes": 1319338,
+      "sha256": "3d0c2802591877cc2b9219f031d393601c61ee8bbbf8871bdba79104394518c5"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0020.png",
+      "bytes": 1319115,
+      "sha256": "1b9bf7e6bab9d28c08ab2062770896702620bfb9a51606d8339fd40523b4bc4f"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0021.png",
+      "bytes": 1319543,
+      "sha256": "fe336d92a0d952ec2d700fd2703e17a8300a8c897843a7bb51e8c1287ae0fa00"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0022.png",
+      "bytes": 1315713,
+      "sha256": "0db6606538d9e5f4f75c685d3e55c6e955181aa8c9838d92ab3d50a812aa3c08"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0023.png",
+      "bytes": 1314618,
+      "sha256": "a73f3d222b53126aad4d880a2ff7a3bdd6c21d869d9865e5d02316050ea6077c"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0024.png",
+      "bytes": 1315634,
+      "sha256": "f334f3bda0596e9fceada8d6caa85b0d2ac5ab0ecda1fefc63cf9b6e9ff13a51"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0025.png",
+      "bytes": 1316954,
+      "sha256": "68c907f58fc7d4e435226825374343cde7c41562f0674cbf8e57ee67f1e3094d"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0026.png",
+      "bytes": 1317854,
+      "sha256": "9e830edb32e3a9a9d1e69f4e99e6218eabac530183e114ba8dd0426ef7561b30"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0027.png",
+      "bytes": 1318258,
+      "sha256": "6bcc57d189bf26ea401f1f7f3dd73cb9f2c40b0db892af7e28c88c7b8b12f02d"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0028.png",
+      "bytes": 1312906,
+      "sha256": "19cb62429faceff4f91831cd0429f7a22230c6d6867d4f8f7a0c02bdd2232ff3"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0029.png",
+      "bytes": 1313604,
+      "sha256": "c13cb1a785397d1f4aba01c9c2719669d9f52bd6a721d316ed74809bf19013e8"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0030.png",
+      "bytes": 1314631,
+      "sha256": "21068e5a1a80eaff4c85e0f6e82fe24d86393e4004ca6ab449caa3a5e95af267"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0031.png",
+      "bytes": 1320171,
+      "sha256": "41e2d6bba4bed554e0a0e9bdd67a897655390a894d1c7c4552bed671b702733c"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0032.png",
+      "bytes": 1321805,
+      "sha256": "40618adc9b938b37fa4cddfadd2a9520085f8d757cc12420207b26f01b42fc6c"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0033.png",
+      "bytes": 1321327,
+      "sha256": "976ca4ae1750a36d78a7d88696bbd4152b37ec442b43f5e729d060752a11eba3"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0034.png",
+      "bytes": 1316105,
+      "sha256": "ed4baebe3ff41cf34ad2b6fed06ae1e7b945da04a8a4d161464ec86d774c1b8d"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0035.png",
+      "bytes": 1317074,
+      "sha256": "d7d456c8146a7f2ab616de4844b3d3e13dea8828c078f33db9b464c73f8fb2f1"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0036.png",
+      "bytes": 1316187,
+      "sha256": "e0e1dff61e7db1a4496be76ddf4634f842a1b33edada7f9e809a8a63f6091fdd"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0037.png",
+      "bytes": 1321522,
+      "sha256": "04e3b51dea90d3752f123456ba2ce95ff5eec87ec50ac80eac76689637b28a27"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0038.png",
+      "bytes": 1323587,
+      "sha256": "75215a47bb5f7c7c07fa9995ddc6ec5cac9e2877acb6d02bdd1704a4d909547e"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0039.png",
+      "bytes": 1324077,
+      "sha256": "21b195935347220ab7065330a3f3c5df1a998060e21e0a8931e1ee45cc7d7a01"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0040.png",
+      "bytes": 1318641,
+      "sha256": "9da1347c6b932ed599c9fac87b787a22f9636303e26f738b01434ec0f7971b78"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0041.png",
+      "bytes": 1319501,
+      "sha256": "f1fe5bb43cbdabaf059920c1e9655d6ed16aacf18fc6c0cef67e431a9903e743"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0042.png",
+      "bytes": 1318871,
+      "sha256": "e70b23305c97837d0b9d9fb0f137922dbf710eaebe720447ba745ac849f41df5"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0043.png",
+      "bytes": 1323524,
+      "sha256": "c48ede2f17b89c41df7036f475592872371e7cf141e36c5af65519d38b620120"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0044.png",
+      "bytes": 1325558,
+      "sha256": "c2ef83d0c6869f38d02303456d34837be76455e908aefe6b9d84c530ee96dd83"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0045.png",
+      "bytes": 1325672,
+      "sha256": "1dd4f52f2e4aeb6685e5de0ac629186f9c3ee10da8daf5daf9c1bac12392aaac"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0046.png",
+      "bytes": 1321652,
+      "sha256": "3d8a106fdb8f4072c7c8ec48368255bad97b4fb5a5236ce486eb55adf46cf043"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0047.png",
+      "bytes": 1321174,
+      "sha256": "95cb1f9ec07516b336194f3435d4b8bb257101a71625f7675e5825f074b99450"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0048.png",
+      "bytes": 1321883,
+      "sha256": "3c011b9f77cb3c08bcf28c04fefccfa995c469301053076a563f3154004e5fd7"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0049.png",
+      "bytes": 1322138,
+      "sha256": "841d9c6784de0b3c2c3ed08eb03a406edf70e842b8e573113b3feed9c8bf1cc3"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0050.png",
+      "bytes": 1322668,
+      "sha256": "492e3eecf879a826ae30a94a6faa7cc6a706e98055399cc3742c808a462ddb6b"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0051.png",
+      "bytes": 1323673,
+      "sha256": "429f7f93bc8a2632c833c72ba5de4612fe7256bd910c51595e85530db35b5bf5"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0052.png",
+      "bytes": 1318472,
+      "sha256": "b0224fd9031aad7c5ca443934b56ffa8e34d89732693d8c2858ef6d489fd506d"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0053.png",
+      "bytes": 1318582,
+      "sha256": "22281cdfa95075337be406d18a9b16531f7dab68ecc6b8ca66cd633f40169098"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0054.png",
+      "bytes": 1318787,
+      "sha256": "5276bdb0b7c0b2976701aeedaf2eddf61ad6c9d30fc326a2ec8b4c20d4ede73f"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0055.png",
+      "bytes": 1319435,
+      "sha256": "fecdfc4d459e64da3db3282a5c12fd855897591604bda72e496e5376298828c8"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0056.png",
+      "bytes": 1320660,
+      "sha256": "4b236cb5f277cd02ea413599a2c64fe98d8e14175f0eb24aa1264f395f61a614"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0057.png",
+      "bytes": 1320471,
+      "sha256": "f5e091c155c2ae0950a79a5a2d98ffd1aa799db7353974e72837801a5b560754"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0058.png",
+      "bytes": 1315210,
+      "sha256": "abe8e23abcac956ced7c4b2dfda8c04e01e23cc3838b5c3884ab956a5eefe75f"
+    },
+    {
+      "path": "production-kit-r27/folk_review_walk_0059.png",
+      "bytes": 1314674,
+      "sha256": "5d2c8743df9e11f879b71c00fde39f5cc6f088e5c25968187c216a988f7722b2"
+    },
+    {
+      "path": "production-kit-r27/read_z12.png",
+      "bytes": 1211425,
+      "sha256": "80dc4d60e6aa23271fbaf1f7d3d63ec81cb7a5be0d67852c04d2bd7d1af4dc19"
+    },
+    {
+      "path": "production-kit-r27/read_z5.png",
+      "bytes": 1295847,
+      "sha256": "8f60a165c808a806e662135c61206be7fecbc248a7fbd99a2ed5ea3e97842de4"
+    },
+    {
+      "path": "production-kit-r27/read_z9.png",
+      "bytes": 1248898,
+      "sha256": "a2c7538a00c2d271c0d071667d83bcdad8cf0031e96cca7bd3fa1bec501820bb"
+    },
+    {
+      "path": "production-kit-r27/run.log",
+      "bytes": 765,
+      "sha256": "1adabb6929aa5229c3e40b6ce92def9994847217c3656165bdabb0546f38683a"
+    },
+    {
+      "path": "production-kit-r27/scenario.json",
+      "bytes": 12220,
+      "sha256": "e86cc4041b33da7e386bcfdc2d841790959facfdb03b5c0d30899e493a53085f"
+    },
+    {
+      "path": "production-kit-r27/wild_z5.png",
+      "bytes": 1323492,
+      "sha256": "9a614f4ce037d9093ccc377fbd4abac8dac5c9cbf57c77bb768f094954fa7477"
+    },
+    {
+      "path": "production-kit-r27/wild_z9.png",
+      "bytes": 1260385,
+      "sha256": "16943b6bb03ceebb4c476e87770c5954a3b9f759073978038615eb7e7e1d8b8a"
+    },
+    {
+      "path": "production-legacy-r26/figures_z5.png",
+      "bytes": 1337455,
+      "sha256": "b4b7749cd48d43281033c55ab588bd6b3fd3097115563208753a2b3eccc862a2"
+    },
+    {
+      "path": "production-legacy-r26/figures_z9.png",
+      "bytes": 1263921,
+      "sha256": "81180c194f1d6359e826ebda870839b38749307cf4c28619071da4262b58ecf5"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_day_z9.png",
+      "bytes": 1321804,
+      "sha256": "26e670c71efaf1bdb266be16ec855b835ffcdd51c9cb65e0ac2d83867342d1d1"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_dusk_z9.png",
+      "bytes": 1264307,
+      "sha256": "23784188de8b2d22da360864dcfa123871bb89145ae80f95335ff036dbc52815"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_front_z5.png",
+      "bytes": 1374277,
+      "sha256": "a270af41f54cf723869dabb2b5f312b31b40bded7d7d4d17a36f9e3525741b87"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_profile_z5.png",
+      "bytes": 1364540,
+      "sha256": "c17ebe0a4ecdf236a0691f5877ed1bf9d9888c740998eac7a762ed7ede8c931b"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_rear_z5.png",
+      "bytes": 1369530,
+      "sha256": "38a9b988044bd99f760dd110fd5b31829d1b19616d8bd8c3fabda202e8acc74d"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_silhouettes_z5.png",
+      "bytes": 1375056,
+      "sha256": "4b64ef3fc639cef9baada888503c6af7714c239b07d4609f4a0e3ac102c3a261"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_silhouettes_z9.png",
+      "bytes": 1321010,
+      "sha256": "67e61e2ebb81a7f1beb138bb6fe2739da14e9bdd144ab0c59bc187192ab7051b"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_threequarter_z5.png",
+      "bytes": 1373065,
+      "sha256": "dbd3dffe6afcb7a98ac8313c2b3417791333277bcd87c3adb711081ec35b39fa"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0000.png",
+      "bytes": 1316736,
+      "sha256": "4d57ef009b08e05662dd901d8d8d081289e32570e37494a1718657eaa165f5f6"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0001.png",
+      "bytes": 1316652,
+      "sha256": "145a98340c7f901c38e6a6d36536aaf00d58313e87aa9487f4614fd4294ed4c1"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0002.png",
+      "bytes": 1317090,
+      "sha256": "287b6de570873fbefb8b656cc035e25cc62c7733b182b3c9efabcfbb13fe16e4"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0003.png",
+      "bytes": 1317093,
+      "sha256": "60069c15bbe11b581ac4dc933b1fe3c6bc0b681d0339f4a3cb6c737ac3ebe918"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0004.png",
+      "bytes": 1316356,
+      "sha256": "2e1e6d03275ec672a7e629210f39ecdeaddbd2bc65878b9d413897cc13b08d37"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0005.png",
+      "bytes": 1316424,
+      "sha256": "55646d0c42bf5b8a7e2a837318f2ee48b69feda3fbf7f4233f7e457415b68c67"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0006.png",
+      "bytes": 1317332,
+      "sha256": "9078287f74c4a7eaa2394cf51525f6fee3bcf3c0519aeb4cfb40e393bdbd9acb"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0007.png",
+      "bytes": 1314616,
+      "sha256": "9809eda62beb224695c6311275a6e444cf8ccf9bbac627a21b45aa1fcb0c71e8"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0008.png",
+      "bytes": 1317181,
+      "sha256": "869ef55504b844899c233d94beb8ed2dd6af852609e1507a47e474c4a3b55588"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0009.png",
+      "bytes": 1318070,
+      "sha256": "d41caa2a33f0b786d4cdac03b9fed5ea3186ed4f7c2e3af18f39c5fb46cfd953"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0010.png",
+      "bytes": 1313676,
+      "sha256": "f472f7330a5fc48034033b184eb8b45ec4eac167b6a9b28277336b509306817d"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0011.png",
+      "bytes": 1314514,
+      "sha256": "029296d78c8af0344f3f9a7754129e07f66c615fae3f0fc6c978adc323df6fef"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0012.png",
+      "bytes": 1314392,
+      "sha256": "de9b6922b31bd95d9e8008feabd683f6aac15584d0aea3e7fa56e8cad90ae880"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0013.png",
+      "bytes": 1313383,
+      "sha256": "b94b14a7d6a50fc97eaed0af115065664a96b30683dd1936fb4eb81fb912c989"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0014.png",
+      "bytes": 1315337,
+      "sha256": "ca1b846a9e4031a0bf8ea424901dd6e98e13339e71d82191e9e73447e1003add"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0015.png",
+      "bytes": 1315955,
+      "sha256": "2457e24ebf201b73452ebec8548fac42a4b1a6cf5321b8cd0f957916df4773d2"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0016.png",
+      "bytes": 1313953,
+      "sha256": "6bf9a8b304d2002534f998bb3027d457e0d5034d69f5fd952854d76a0847fa5a"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0017.png",
+      "bytes": 1313415,
+      "sha256": "a51264eb8d9fb092cfa8e23559885290c0b857e0f889803c5bd6a637df8e4847"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0018.png",
+      "bytes": 1313261,
+      "sha256": "081028e3cebfc19483b1c3208ccbc63f540388c1ded09aa180d41fbf53deff6a"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0019.png",
+      "bytes": 1314601,
+      "sha256": "52080c29d9f63efe3f40aca479cf68c5a8fd26a9141098084c1ed69df8da55ad"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0020.png",
+      "bytes": 1317979,
+      "sha256": "7a61dd5f9cd9dd55418fa98ae349e1c9f13845a6a7edddd67e1dd29696e1f530"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0021.png",
+      "bytes": 1318407,
+      "sha256": "e6b6b816cf30e9ae7deb0d6c5c9ffe927d24aec21d06431e7b35f2a0c8a05cc2"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0022.png",
+      "bytes": 1314444,
+      "sha256": "b1e4ed26ed053e423e52a8f5c2d915487dbb222dc19d00b2680684258a2105e8"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0023.png",
+      "bytes": 1314656,
+      "sha256": "5b758433c8926d0e6c1e01b4485a5089457ac03228d1b171e5e7ec9e7876f7dd"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0024.png",
+      "bytes": 1314541,
+      "sha256": "658e378221e8702d06da5e42e2ec336bfbb3be43f155d5589040172be26e7d4c"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0025.png",
+      "bytes": 1314588,
+      "sha256": "88d6453a3795599a8abfd4ed943cc14d8301f992f023d4ddc45f9d33a9959ea1"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0026.png",
+      "bytes": 1316801,
+      "sha256": "a9c8c4025db2ed8f28944ea69f50cfc7d2ab58e40072c7d8d2b59fc9d85aea92"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0027.png",
+      "bytes": 1317068,
+      "sha256": "df1560a335f8d80fbcb3250836896d797ecb6486d53867443c8a17043094905f"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0028.png",
+      "bytes": 1313923,
+      "sha256": "b87eb4c12cc12b6ac93499d0ff0ee32fa6b0ffc8f9eba053b64284902b97ce35"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0029.png",
+      "bytes": 1314295,
+      "sha256": "d4cad146471fb0c4297a08394f721217eec1afc7f4aab3955252eebbd0b5125d"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0030.png",
+      "bytes": 1314263,
+      "sha256": "9bb03b1650a73b05767010f58a609708af5df8f9137ce3ddbcf17a957f1dedd4"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0031.png",
+      "bytes": 1317176,
+      "sha256": "552ac9d720d4abcfe51cbf9c2534871ffa9ce00273a53810f0a6648cc3e91cf7"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0032.png",
+      "bytes": 1318173,
+      "sha256": "b86fed0905cb6e2ee3e9b6c8d72c00c337ccdef72ee8cc03356062d78dec8a2f"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0033.png",
+      "bytes": 1319619,
+      "sha256": "f5633494d9e81272482635e86f6702cd2ac127942439935945b1b0d909a08e95"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0034.png",
+      "bytes": 1317124,
+      "sha256": "98e48be0c418ea76b34d1003a3903f4e7b8498683dc0f03d731fc0fc18fd9034"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0035.png",
+      "bytes": 1316369,
+      "sha256": "183cdbf214fb0cd74e8bcccb005251810e985a3b76090a48e895f91bc4074d3f"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0036.png",
+      "bytes": 1317126,
+      "sha256": "35d7734d8ccc51fdde2da08b22e8ac3f4752ee9337287e178521c1ef0eee8147"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0037.png",
+      "bytes": 1320078,
+      "sha256": "3e0021f2d4b9876ab879a314149b64462d6b5f7fcbec3ed6a3647f3914beb106"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0038.png",
+      "bytes": 1321690,
+      "sha256": "fd433e007574bf1bb88fb0572cdf76740018b3b7cafa321cef72ff2b4e583abe"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0039.png",
+      "bytes": 1322347,
+      "sha256": "9137131494bdcd8c4700adbc1e346e8e29b15c40738c983b111a9f42d214457c"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0040.png",
+      "bytes": 1318880,
+      "sha256": "9581efbe69be1bdd0af9e665d2259c7a21e192747cb0e72c91b4542be4b8feff"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0041.png",
+      "bytes": 1318835,
+      "sha256": "c7866e0cd2e926009ca0bb901e00101632b074bd131fa4257a684326693956b4"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0042.png",
+      "bytes": 1320209,
+      "sha256": "7f9106d3eb74f5d9136db5dcf30b57cc7dd05e3845f0a9cf04a46ea0194abed8"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0043.png",
+      "bytes": 1320581,
+      "sha256": "e1be45adfb1c89dcbb1a6764d239fbbd4475cde3b8611583bc4d0aa783760027"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0044.png",
+      "bytes": 1323702,
+      "sha256": "9c4400c3c5bdf837e4b44cdf93fdb18254972266cc40dd9a6ef5461ddc27776e"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0045.png",
+      "bytes": 1324158,
+      "sha256": "92e4d431421c9c52e92090bdb9f64dd77d0b86d85a91d8cd2298b9ae457fc073"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0046.png",
+      "bytes": 1321766,
+      "sha256": "fcbeb5c727c1c76e3ff01a345687555ff5bf0bfc74f90a9028af4020a9751903"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0047.png",
+      "bytes": 1321243,
+      "sha256": "e6f32ff196ad05ae0d4d08f536a12a6e91541955ece33c6a351bc5790f7beb73"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0048.png",
+      "bytes": 1321111,
+      "sha256": "9b62bfa16b015b6b301b2b0adad3a1bf38907725e96d28090e8e6630dec2db3a"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0049.png",
+      "bytes": 1319718,
+      "sha256": "699456e60e81e0b82dd91f7a2d1bbb5a899ecaf53b367c992745f1e3ee07f18f"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0050.png",
+      "bytes": 1321956,
+      "sha256": "ef4436a30e32e41c498e43853c28f53184e14d5b840e4d9952a8b163fc4b4db2"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0051.png",
+      "bytes": 1322028,
+      "sha256": "538a29246de82f0aa4fa584f6779d1213dca9598d8c45250f0c344a70b1fb226"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0052.png",
+      "bytes": 1318794,
+      "sha256": "d06add5573ee88eb02c055eb41fde875708fbf90fe1a964d6d2feaf95d92238c"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0053.png",
+      "bytes": 1318821,
+      "sha256": "f7953f4b0177c51bc9c47d76b08c3abd76ad3bba02918f4bb702ba1df0993e87"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0054.png",
+      "bytes": 1318271,
+      "sha256": "36bdf5e84422ba0293e0118c661f52a5af7cea587620fbf64237c3c7a6c8581e"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0055.png",
+      "bytes": 1316193,
+      "sha256": "1640d42d809b21433aa692fa3dac2c2b04c56d505bc4858b25d23d24e6c9172b"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0056.png",
+      "bytes": 1318789,
+      "sha256": "d0ab3e0883d36218c917f07d760ec03267c3fa59164157642611b3342acf83e1"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0057.png",
+      "bytes": 1318998,
+      "sha256": "bfbfc5ea82c2063c24c4507bf701582da7aec27e6bff5d35a6b37021e6831630"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0058.png",
+      "bytes": 1315231,
+      "sha256": "73ebbaea2edb91d3001a6d56323ea6cd931dab16d6d343b46bf4ffa4b88d36f8"
+    },
+    {
+      "path": "production-legacy-r26/folk_review_walk_0059.png",
+      "bytes": 1315436,
+      "sha256": "4253c64af6ab90d104c2e9166214a97467b36c8102c9ab774661b8798443c43f"
+    },
+    {
+      "path": "production-legacy-r26/read_z12.png",
+      "bytes": 1214065,
+      "sha256": "e5878d8d1d93b98e94402d931e3418bc51afab2befd7b2707fd72e66179528d6"
+    },
+    {
+      "path": "production-legacy-r26/read_z5.png",
+      "bytes": 1302512,
+      "sha256": "74b4fd818032f9c3b6ff04f0f2531e95383188db463e6a6e2a3136701bdc39cf"
+    },
+    {
+      "path": "production-legacy-r26/read_z9.png",
+      "bytes": 1251665,
+      "sha256": "a79e689becae87ac7444ec3551606947f512a4b24e0d8b389d3451c2ac3d1edd"
+    },
+    {
+      "path": "production-legacy-r26/run.log",
+      "bytes": 768,
+      "sha256": "7f69abd535427377c1e274f703a4d0c53139fe12726da3002d43c2e420800631"
+    },
+    {
+      "path": "production-legacy-r26/scenario.json",
+      "bytes": 11850,
+      "sha256": "697b6b980ca82e0d1c4c0b8cfd6ee4795b3e76e0a1ce9e709c10a28d7af1e007"
+    },
+    {
+      "path": "production-legacy-r26/wild_z5.png",
+      "bytes": 1326318,
+      "sha256": "cfc8730ff03092042a72616dedfe6edc96e9654d079ff5ea5b9b082e5e390247"
+    },
+    {
+      "path": "production-legacy-r26/wild_z9.png",
+      "bytes": 1261674,
+      "sha256": "c08495ddff111daf4a6837aa4bcbe91e58aff13e961c62385ac080b37cb5ad14"
+    },
+    {
+      "path": "runtime-assets/MPFB2-LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "path": "runtime-assets/README.md",
+      "bytes": 5943,
+      "sha256": "b7b0b6fb00015511b616803dfa0611d8b3673adbe44bf7b06624dbfe2c7c98e5"
+    },
+    {
+      "path": "runtime-assets/character_kit.spec.json",
+      "bytes": 30275,
+      "sha256": "8d72f336eb3764423ab5caa06545656b10a957458660cfe59a4d857fcbddb2e3"
+    },
+    {
+      "path": "runtime-assets/kit_female.bones.json",
+      "bytes": 47547,
+      "sha256": "ff232a88fb0c44b3bcf3a8f1efd088526d321c6d8f5e5e1030008deb578f0d29"
+    },
+    {
+      "path": "runtime-assets/kit_female.glb",
+      "bytes": 25128612,
+      "sha256": "a1bd02b5c847c5b4b8fae21d826f8a8f8b7bca7ba8e47cff1aa20cf1997e2fbe"
+    },
+    {
+      "path": "runtime-assets/kit_female.glb.provenance.json",
+      "bytes": 2054,
+      "sha256": "b2b0c48e9c51c2d467007fa761b3cdbcbfa96b6bc24c9b8223364d72de0db7fb"
+    },
+    {
+      "path": "runtime-assets/kit_male.bones.json",
+      "bytes": 47441,
+      "sha256": "c27cc3c4a9ad2a763cac54df522c4dac59e3a0deb1016618ce420a17022ceaf4"
+    },
+    {
+      "path": "runtime-assets/kit_male.glb",
+      "bytes": 25588220,
+      "sha256": "e644e4519a6a0c613361bfe8bc6717b25dc49fb3392400eff83164efd8b41f46"
+    },
+    {
+      "path": "runtime-assets/kit_male.glb.provenance.json",
+      "bytes": 2004,
+      "sha256": "8ef01921ccb9347972f5fc2f9758ea41fa39e1d8dbffc752f2453486a0f90333"
+    },
+    {
+      "path": "runtime-assets/looks/aldric.json",
+      "bytes": 405,
+      "sha256": "d7253294b69beeef5c0858a0c1d116df081cb09f609555d19e735065605a6425"
+    },
+    {
+      "path": "runtime-assets/looks/bram.json",
+      "bytes": 449,
+      "sha256": "0646d4d75b661ec72adb55be9e687f99cfa81da08ea592864d2549af453110f6"
+    },
+    {
+      "path": "runtime-assets/looks/grub.json",
+      "bytes": 191,
+      "sha256": "090e29b9e72733631604d906fd70d5c7ac390a563272a7613c741a48bb8834ac"
+    },
+    {
+      "path": "runtime-assets/looks/mira.json",
+      "bytes": 346,
+      "sha256": "87c2a9aafb9843d777bab920ab74cf2ebe8d665403cb05318c7b7b2d39280eed"
+    },
+    {
+      "path": "runtime-assets/looks/thokk.json",
+      "bytes": 253,
+      "sha256": "bb44d4db715363ae9190ad01ccbf48e4ae6bc0508d0f5e4d36ba27806df9f0d3"
+    },
+    {
+      "path": "runtime-assets/looks/vesna.json",
+      "bytes": 239,
+      "sha256": "dcaec5b5cb93496ddd5dd44b86ea86a75fdd486a36a3097ef238b381f9194a98"
+    },
+    {
+      "path": "runtime-assets/looks/wren.json",
+      "bytes": 384,
+      "sha256": "a0ed5300aa42be90af7acb7b87b1cc9d819c4a6669491810712a1a48105653b9"
+    },
+    {
+      "path": "verification/art-r27-final.log",
+      "bytes": 115,
+      "sha256": "428a05a40f3fa8a97f9316c6ba66378c666b545b79917227ba1d02af78eabb5c"
+    },
+    {
+      "path": "verification/compile-r27-final.log",
+      "bytes": 743,
+      "sha256": "5658d90aa34a9877e4c68b6af2dadd72f4e55218b631524016f9e47bb6a4385a"
+    },
+    {
+      "path": "verification/land-r27.log",
+      "bytes": 30814,
+      "sha256": "4ba215ee37c68b0dea7429bf9ddf9d101a8c34136dd97ea6e4ae5f1ae373681b"
+    },
+    {
+      "path": "verification/pixel-review-r27-b.md",
+      "bytes": 5143,
+      "sha256": "7dd2e76ba68a8bae0fe306c5db36bff5446e5dd27426ad3cd863365cfdf6e06e"
+    },
+    {
+      "path": "verification/pixel-review-r27-c.md",
+      "bytes": 5627,
+      "sha256": "5e3b48554fe5934584840d6853dfb3b95cbc07dc3f484ee0107d11524817fe7a"
+    },
+    {
+      "path": "verification/retarget-r27.log",
+      "bytes": 114,
+      "sha256": "7c633b4cfae8c08223b9f7bf5ae386dfcd7fa61d4d6515a1b83b77e433a18a4d"
+    }
+  ]
+}
