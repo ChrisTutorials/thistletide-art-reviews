@@ -1,0 +1,22 @@
+run.sh: using 2 job(s) (TT_JOBS)
+run.sh: checkout 7d8b28291ff5 (art/makehuman-frontier-20261011) behind_origin_main=0 dirty=false
+run.sh: entry guard
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.98
+Test run for /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/tests/EntryGuard/bin/Release/net10.0/EntryGuard.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:  1994, Skipped:     0, Total:  1994, Duration: 13 s - EntryGuard.dll (net10.0)
+test_entryguard: OK
+run.sh: C# client
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.66
+run.sh: BUILD ONLY PASS (entry guard + client build green; Godot proof NOT RUN)

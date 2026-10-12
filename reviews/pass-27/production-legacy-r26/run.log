@@ -1,0 +1,9 @@
+Godot Engine v4.8.dev6.mono.official.8898c2b3d - https://godotengine.org
+WARNING: Failed to create wd.xic as the input method or its xim server may not have started yet.
+     at: _create_xic (platform/linuxbsd/x11/display_server_x11.cpp:6395)
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:372)
+OpenGL API 4.6 (Core Profile) Mesa 26.2.2-arch1.1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 22.1.8, 256 bits)
+
+Assemblies loaded: 49, duration: 2 ms, engine-dependants: [Friflo.Engine.ECS (9),  Thistletide.Sim (69),  Thistletide.Presentation (0)]
+CSHARP_PROOF_OK /home/chris/tmp/agent-tmp/kit-art-20261011/production-legacy-r26/scenario.json

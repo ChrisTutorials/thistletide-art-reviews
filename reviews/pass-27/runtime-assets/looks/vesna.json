@@ -1,0 +1,15 @@
+{
+  "name": "Vesna",
+  "base": "female",
+  "race": "vampire",
+  "hair": "long",
+  "outfit": "frontier_cloak",
+  "sliders": {
+    "Height": 0.2
+  },
+  "colours": {
+    "hair": "1e1a1c",
+    "shirt": "3f2a36",
+    "trousers": "2a2830"
+  }
+}

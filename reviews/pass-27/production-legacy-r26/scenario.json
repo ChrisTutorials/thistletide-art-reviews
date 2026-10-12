@@ -1,0 +1,489 @@
+{
+  "schema": 2,
+  "scenario": "readability",
+  "seed": 137,
+  "hudSkin": "shipped",
+  "rendered": true,
+  "build": {
+    "godot": "4.8.0",
+    "status": "4.8-dev6 (official)",
+    "assembly": "1.0.0.0"
+  },
+  "adapter": {
+    "kind": "in-process-script",
+    "model": "none"
+  },
+  "ok": true,
+  "error": null,
+  "category": "pass",
+  "expected": null,
+  "observed": null,
+  "firstBadTick": null,
+  "firstBadState": null,
+  "stage": null,
+  "artifacts": [
+    "read_z12.png",
+    "read_z9.png",
+    "read_z5.png",
+    "figures_z9.png",
+    "figures_z5.png",
+    "folk_review_day_z9.png",
+    "folk_review_dusk_z9.png",
+    "folk_review_front_z5.png",
+    "folk_review_threequarter_z5.png",
+    "folk_review_profile_z5.png",
+    "folk_review_rear_z5.png",
+    "folk_review_silhouettes_z5.png",
+    "folk_review_silhouettes_z9.png",
+    "folk_review_walk_0000.png",
+    "folk_review_walk_0001.png",
+    "folk_review_walk_0002.png",
+    "folk_review_walk_0003.png",
+    "folk_review_walk_0004.png",
+    "folk_review_walk_0005.png",
+    "folk_review_walk_0006.png",
+    "folk_review_walk_0007.png",
+    "folk_review_walk_0008.png",
+    "folk_review_walk_0009.png",
+    "folk_review_walk_0010.png",
+    "folk_review_walk_0011.png",
+    "folk_review_walk_0012.png",
+    "folk_review_walk_0013.png",
+    "folk_review_walk_0014.png",
+    "folk_review_walk_0015.png",
+    "folk_review_walk_0016.png",
+    "folk_review_walk_0017.png",
+    "folk_review_walk_0018.png",
+    "folk_review_walk_0019.png",
+    "folk_review_walk_0020.png",
+    "folk_review_walk_0021.png",
+    "folk_review_walk_0022.png",
+    "folk_review_walk_0023.png",
+    "folk_review_walk_0024.png",
+    "folk_review_walk_0025.png",
+    "folk_review_walk_0026.png",
+    "folk_review_walk_0027.png",
+    "folk_review_walk_0028.png",
+    "folk_review_walk_0029.png",
+    "folk_review_walk_0030.png",
+    "folk_review_walk_0031.png",
+    "folk_review_walk_0032.png",
+    "folk_review_walk_0033.png",
+    "folk_review_walk_0034.png",
+    "folk_review_walk_0035.png",
+    "folk_review_walk_0036.png",
+    "folk_review_walk_0037.png",
+    "folk_review_walk_0038.png",
+    "folk_review_walk_0039.png",
+    "folk_review_walk_0040.png",
+    "folk_review_walk_0041.png",
+    "folk_review_walk_0042.png",
+    "folk_review_walk_0043.png",
+    "folk_review_walk_0044.png",
+    "folk_review_walk_0045.png",
+    "folk_review_walk_0046.png",
+    "folk_review_walk_0047.png",
+    "folk_review_walk_0048.png",
+    "folk_review_walk_0049.png",
+    "folk_review_walk_0050.png",
+    "folk_review_walk_0051.png",
+    "folk_review_walk_0052.png",
+    "folk_review_walk_0053.png",
+    "folk_review_walk_0054.png",
+    "folk_review_walk_0055.png",
+    "folk_review_walk_0056.png",
+    "folk_review_walk_0057.png",
+    "folk_review_walk_0058.png",
+    "folk_review_walk_0059.png",
+    "wild_z9.png",
+    "wild_z5.png"
+  ],
+  "cleanup": {
+    "owner": "run.sh",
+    "exitCode": 0,
+    "passMarker": true,
+    "orphanedProcesses": []
+  },
+  "elapsedMs": 56681.0068,
+  "tick": 0,
+  "player": {
+    "Id": 13,
+    "X": 20.5,
+    "Z": 50.5,
+    "Hp": 100,
+    "MaxHp": 100,
+    "Hunger": 0.03,
+    "Energy": 0.95000005,
+    "Stamina": 1,
+    "MaxStamina": 1,
+    "State": "idle",
+    "Talk": {
+      "Partner": 0,
+      "RemainingTicks": 0
+    },
+    "Faction": 0,
+    "FactionName": "Thistle",
+    "Fighting": null,
+    "Gathering": null,
+    "Alive": true,
+    "Arrived": false,
+    "Following": false,
+    "Failed": false,
+    "Status": [
+      {
+        "Kind": 1,
+        "Severity": 1,
+        "Urgency": 10,
+        "Icon": "fed",
+        "MoveSpeedMult": 1.05,
+        "WorkTimeMult": 0.95
+      }
+    ],
+    "Activity": null,
+    "Preference": "",
+    "Equipped": "",
+    "Carried": "",
+    "Look": {
+      "Hair": "long",
+      "Headwear": "cap",
+      "Beard": false,
+      "Vest": true,
+      "Apron": false,
+      "Cloak": false,
+      "Scarf": false,
+      "FaceWidth": 0.8296462,
+      "EyeSpacing": -0.5378812,
+      "NoseLength": -0.0023698928,
+      "FaceLength": 0.2657886,
+      "EyeTone": 55,
+      "Skin": 41,
+      "HairTone": 56,
+      "Cloth": 124,
+      "Trousers": 138,
+      "Leather": 113,
+      "Felt": 66,
+      "Stature": 0.93852925,
+      "Mass": -0.941447,
+      "Frame": 0.29529285
+    },
+    "Dest": [
+      20,
+      50
+    ],
+    "DestFine": [
+      -0.5,
+      -0.5
+    ]
+  },
+  "visibleEntities": 11,
+  "projectedCells": 183,
+  "homes": 1,
+  "buildings": 0,
+  "construction": 0,
+  "projectiles": 0,
+  "appliedPhase": 0,
+  "appliedWeather": "storm",
+  "hallsRendered": 1,
+  "sheen": 0,
+  "lanterns": 1,
+  "smoothLerps": 48,
+  "smoothSnaps": 0,
+  "sfx": [],
+  "events": [
+    {
+      "operation": "readability",
+      "tick": 0,
+      "ms": 4328,
+      "result": {
+        "zoom": 12
+      }
+    },
+    {
+      "operation": "readability",
+      "tick": 0,
+      "ms": 5032,
+      "result": {
+        "zoom": 9
+      }
+    },
+    {
+      "operation": "readability",
+      "tick": 0,
+      "ms": 5702,
+      "result": {
+        "zoom": 5
+      }
+    },
+    {
+      "operation": "figures",
+      "tick": 0,
+      "ms": 9023,
+      "result": {
+        "zoom": 9
+      }
+    },
+    {
+      "operation": "figures",
+      "tick": 0,
+      "ms": 9697,
+      "result": {
+        "zoom": 5
+      }
+    },
+    {
+      "operation": "folk_review",
+      "tick": 0,
+      "ms": 51324,
+      "result": {
+        "staged": true,
+        "source": "production Frontier Folk via PawnAppearance",
+        "captured": [
+          "day_z9",
+          "dusk_z9",
+          "front_z5",
+          "threequarter_z5",
+          "profile_z5",
+          "rear_z5"
+        ],
+        "profiles": [
+          {
+            "Name": "soft",
+            "look": {
+              "Hair": "crop",
+              "Headwear": "none",
+              "Beard": false,
+              "Vest": false,
+              "Apron": false,
+              "Cloak": false,
+              "Scarf": false,
+              "FaceWidth": -0.7,
+              "EyeSpacing": 0.20023865,
+              "NoseLength": -0.4575092,
+              "FaceLength": 0,
+              "EyeTone": 62,
+              "Skin": 138,
+              "HairTone": 177,
+              "Cloth": 8,
+              "Trousers": 240,
+              "Leather": 222,
+              "Felt": 33,
+              "Stature": 1,
+              "Mass": -0.25,
+              "Frame": -0.3
+            },
+            "faction": 0
+          },
+          {
+            "Name": "tall",
+            "look": {
+              "Hair": "long",
+              "Headwear": "none",
+              "Beard": false,
+              "Vest": true,
+              "Apron": false,
+              "Cloak": false,
+              "Scarf": false,
+              "FaceWidth": -0.3,
+              "EyeSpacing": 0.20023865,
+              "NoseLength": -0.4575092,
+              "FaceLength": 0.6,
+              "EyeTone": 62,
+              "Skin": 151,
+              "HairTone": 208,
+              "Cloth": 37,
+              "Trousers": 240,
+              "Leather": 222,
+              "Felt": 33,
+              "Stature": 1.07,
+              "Mass": -0.7,
+              "Frame": -0.15
+            },
+            "faction": 0
+          },
+          {
+            "Name": "broad",
+            "look": {
+              "Hair": "tail",
+              "Headwear": "none",
+              "Beard": false,
+              "Vest": false,
+              "Apron": true,
+              "Cloak": false,
+              "Scarf": false,
+              "FaceWidth": 0.85,
+              "EyeSpacing": 0.20023865,
+              "NoseLength": -0.4575092,
+              "FaceLength": 0.2,
+              "EyeTone": 62,
+              "Skin": 164,
+              "HairTone": 239,
+              "Cloth": 66,
+              "Trousers": 240,
+              "Leather": 222,
+              "Felt": 33,
+              "Stature": 1.03,
+              "Mass": 0.2,
+              "Frame": 1
+            },
+            "faction": 0
+          },
+          {
+            "Name": "round",
+            "look": {
+              "Hair": "bun",
+              "Headwear": "none",
+              "Beard": false,
+              "Vest": false,
+              "Apron": false,
+              "Cloak": true,
+              "Scarf": false,
+              "FaceWidth": 0.4,
+              "EyeSpacing": 0.20023865,
+              "NoseLength": -0.4575092,
+              "FaceLength": -0.4,
+              "EyeTone": 62,
+              "Skin": 177,
+              "HairTone": 14,
+              "Cloth": 95,
+              "Trousers": 240,
+              "Leather": 222,
+              "Felt": 33,
+              "Stature": 0.96,
+              "Mass": 1,
+              "Frame": 0
+            },
+            "faction": 1
+          },
+          {
+            "Name": "hips",
+            "look": {
+              "Hair": "long",
+              "Headwear": "cap",
+              "Beard": false,
+              "Vest": true,
+              "Apron": false,
+              "Cloak": false,
+              "Scarf": true,
+              "FaceWidth": -0.6,
+              "EyeSpacing": 0.20023865,
+              "NoseLength": -0.4575092,
+              "FaceLength": -0.2,
+              "EyeTone": 62,
+              "Skin": 190,
+              "HairTone": 45,
+              "Cloth": 124,
+              "Trousers": 240,
+              "Leather": 222,
+              "Felt": 33,
+              "Stature": 0.99,
+              "Mass": 0.5,
+              "Frame": -1
+            },
+            "faction": 1
+          },
+          {
+            "Name": "older",
+            "look": {
+              "Hair": "crop",
+              "Headwear": "brim",
+              "Beard": true,
+              "Vest": false,
+              "Apron": false,
+              "Cloak": false,
+              "Scarf": false,
+              "FaceWidth": 0.6,
+              "EyeSpacing": 0.20023865,
+              "NoseLength": -0.4575092,
+              "FaceLength": 0.4,
+              "EyeTone": 62,
+              "Skin": 203,
+              "HairTone": 76,
+              "Cloth": 153,
+              "Trousers": 240,
+              "Leather": 222,
+              "Felt": 33,
+              "Stature": 0.94,
+              "Mass": 0.6,
+              "Frame": 0.8
+            },
+            "faction": 1
+          }
+        ],
+        "posesCaptured": "idle and staged walking",
+        "humanArtApproval": false,
+        "bodyMeasurements": [
+          {
+            "Name": "soft",
+            "width": 0.39792138,
+            "scale": 1
+          },
+          {
+            "Name": "tall",
+            "width": 0.26349878,
+            "scale": 1.07
+          },
+          {
+            "Name": "broad",
+            "width": 0.35232037,
+            "scale": 1.03
+          },
+          {
+            "Name": "round",
+            "width": 0.5877103,
+            "scale": 0.96
+          },
+          {
+            "Name": "hips",
+            "width": 0.5646663,
+            "scale": 0.99
+          },
+          {
+            "Name": "older",
+            "width": 0.5766019,
+            "scale": 0.94
+          }
+        ],
+        "gaitFrames": 18,
+        "reviewAsset": "assets/characters/frontier_folk/frontier_folk.glb"
+      }
+    },
+    {
+      "operation": "wildlife-lineup",
+      "tick": 0,
+      "ms": 55601,
+      "result": {
+        "zoom": 9
+      }
+    },
+    {
+      "operation": "wildlife-lineup",
+      "tick": 0,
+      "ms": 56577,
+      "result": {
+        "zoom": 5
+      }
+    }
+  ],
+  "overIdeal": [
+    {
+      "operation": "folk_review",
+      "kind": "Rendered",
+      "ms": 41627,
+      "idealMs": 30000
+    }
+  ],
+  "renderLoop": {
+    "samples": 0,
+    "p50ProcessMs": null,
+    "p95ProcessMs": null,
+    "drawCalls": 783,
+    "primitives": 580382,
+    "renderingDevice": "llvmpipe (LLVM 22.1.8, 256 bits)"
+  },
+  "checkout": {
+    "commit": "48d177f22e50",
+    "branch": "art/makehuman-frontier-20261011",
+    "behindOriginMain": "0",
+    "dirty": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Thokk",
+  "base": "male",
+  "race": "orc",
+  "hair": "long",
+  "outfit": "frontier_vest",
+  "sliders": {
+    "Weight": 0.4
+  },
+  "colours": {
+    "hair": "231e1b",
+    "shirt": "686c60",
+    "vest": "4a4743",
+    "leather": "54392a"
+  }
+}
