@@ -1,0 +1,12 @@
+{
+  "name": "Grub",
+  "base": "male",
+  "race": "goblin",
+  "hair": "none",
+  "outfit": "frontier",
+  "colours": {
+    "shirt": "b9ae98",
+    "trousers": "6b5a45",
+    "eyes": "826338"
+  }
+}

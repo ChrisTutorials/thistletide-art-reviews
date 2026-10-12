@@ -1,0 +1,26 @@
+[
+  {
+    "base": "male",
+    "old_bytes": 25588220,
+    "new_bytes": 25790132,
+    "delta_bytes": 201912,
+    "body_vertices": 14517,
+    "body_triangles": 26756,
+    "uv2_bytes": 116136,
+    "sha256": "daa7612f0fda6dc375713724ae94f686b5fb4436b2c08ed40386c7ff9eebae5c",
+    "clips": 19,
+    "skin_joints": 55
+  },
+  {
+    "base": "female",
+    "old_bytes": 25128612,
+    "new_bytes": 25427476,
+    "delta_bytes": 298864,
+    "body_vertices": 14517,
+    "body_triangles": 26756,
+    "uv2_bytes": 116136,
+    "sha256": "e87ba3ecac0f6fbe690fdee8f4faf835eb1ae5dbcd5ce10349d307b4f39625f7",
+    "clips": 19,
+    "skin_joints": 55
+  }
+]

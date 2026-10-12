@@ -1,0 +1,22 @@
+{
+  "name": "Wren",
+  "base": "female",
+  "race": "human",
+  "hair": "bob",
+  "outfit": "frontier_cloak",
+  "sliders": {
+    "Height": -0.2,
+    "Weight": -0.12,
+    "Hips": 0.14,
+    "EyeSpacing": 0.06
+  },
+  "colours": {
+    "skin": "d4a688",
+    "hair": "9b7042",
+    "eyes": "4c6540",
+    "shirt": "7f97a3",
+    "trousers": "5d6450"
+  },
+  "face": "soft",
+  "neckwear": "scarf"
+}

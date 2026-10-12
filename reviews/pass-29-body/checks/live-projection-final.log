@@ -1,0 +1,27 @@
+run.sh: using 8 job(s)
+run.sh: checkout ffce2b623f63 (art/painterly-body-first-20261012) behind_origin_main=0 dirty=false
+run.sh: no PASS marker; first error:
+ERROR: System.InvalidOperationException: Axe held by 13 (stature 0.94) is 0.652 of their height, not 0.45.
+run.sh: last log lines:
+   at Thistletide.Presentation.ProofRun._Ready() in /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/ProofRun.cs:line 679
+   at: void Thistletide.Presentation.ProofRun+<_Ready>d__214.MoveNext() (res://ProofRun.cs:1065)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void Thistletide.Presentation.ProofRun+<_Ready>d__214.MoveNext() (/home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/ProofRun.cs:1065)
+       [2] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [3] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [4] void System.Threading.Tasks.Task.RunContinuations(object)
+       [5] void System.Threading.Tasks.Task.FinishSlow(bool)
+       [6] bool System.Threading.Tasks.Task.TrySetException(object)
+       [7] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(System.Exception, System.Threading.Tasks.Task`1[TResult]&)
+       [8] void Thistletide.Presentation.ProofRun+<ScenarioCommittedActivityAsync>d__106.MoveNext() (/home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/Proof/ProofRun.Interaction.cs:409)
+       [9] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [10] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [11] void System.Threading.Tasks.Task.RunContinuations(object)
+       [12] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [13] void Thistletide.Presentation.ProofRun+<DrawFrames>d__239.MoveNext() (/home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/ProofRun.cs:1421)
+       [14] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [15] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()
+       [16] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+run.sh: log    /home/chris/tmp/agent-tmp/body-first-20261012/live-projection-final/run.log
+run.sh: shots  /home/chris/tmp/agent-tmp/body-first-20261012/live-projection-final

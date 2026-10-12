@@ -1,0 +1,1626 @@
+{
+  "schema": 1,
+  "description": "Character kit: CC0 MakeHuman bodies with sliders, swappable clothes and hair. Read by scripts/asset_pipeline/build_character_kit.py (what to build) and by the Godot client's CharacterKit.cs (what a look may ask for).",
+  "macro_weight": 0.9902,
+  "game_scale": 0.689729,
+  "house_style": {
+    "HeadSize": 0.58,
+    "EyeSize": 0.18,
+    "NoseSize": -0.2,
+    "MouthWidth": -0.1,
+    "JawWidth": 0.0,
+    "Chin": 0.0,
+    "Muscle": 0.25,
+    "Chest": 0.12,
+    "TorsoLength": 0.4,
+    "LegLength": -0.4,
+    "ArmLength": -0.12,
+    "NeckLength": 0.08
+  },
+  "bases": {
+    "male": {
+      "macro": [
+        "macrodetails/caucasian-male-young",
+        "macrodetails/universal-male-young-averagemuscle-averageweight"
+      ],
+      "example": "assets/characters/mpfb_cc0/mpfb_male_work.glb",
+      "example_outfit": "Work",
+      "style": {
+        "Brow": 0.08,
+        "EyeSize": 0.12,
+        "JawWidth": 0.12,
+        "Lips": -0.08
+      },
+      "targets": [
+        [
+          "eyes/l-eye-bag-decr",
+          0.5
+        ],
+        [
+          "eyes/r-eye-bag-decr",
+          0.5
+        ],
+        [
+          "eyes/l-eye-height2-incr",
+          0.25
+        ],
+        [
+          "eyes/r-eye-height2-incr",
+          0.25
+        ],
+        [
+          "mouth/mouth-laugh-lines-in",
+          0.5
+        ],
+        [
+          "mouth/mouth-angles-up",
+          0.15
+        ],
+        [
+          "head/head-fat-decr",
+          0.6
+        ],
+        [
+          "cheek/l-cheek-volume-decr",
+          0.4
+        ],
+        [
+          "cheek/r-cheek-volume-decr",
+          0.4
+        ],
+        [
+          "cheek/l-cheek-bones-incr",
+          0.4
+        ],
+        [
+          "cheek/r-cheek-bones-incr",
+          0.4
+        ],
+        [
+          "chin/chin-bones-incr",
+          0.5
+        ],
+        [
+          "chin/chin-prominent-incr",
+          0.4
+        ],
+        [
+          "chin/chin-width-incr",
+          0.2
+        ],
+        [
+          "eyebrows/eyebrows-trans-down",
+          0.3
+        ],
+        [
+          "eyebrows/eyebrows-angle-down",
+          0.4
+        ],
+        [
+          "head/head-square",
+          0.2
+        ],
+        [
+          "mouth/mouth-upperlip-volume-incr",
+          0.05
+        ],
+        [
+          "mouth/mouth-lowerlip-volume-incr",
+          0.05
+        ],
+        [
+          "head/head-age-decr",
+          0
+        ],
+        [
+          "eyes/l-eye-corner1-up",
+          0.18
+        ],
+        [
+          "eyes/r-eye-corner1-up",
+          0.18
+        ]
+      ],
+      "hairline": {
+        "forehead": 0.072,
+        "sideburn": -0.004,
+        "nape": 0.012
+      },
+      "paint": {
+        "lips": [
+          0.91,
+          0.9,
+          0.89
+        ]
+      }
+    },
+    "female": {
+      "macro": [
+        "macrodetails/caucasian-female-young",
+        "macrodetails/universal-female-young-averagemuscle-averageweight"
+      ],
+      "example": "assets/characters/mpfb_cc0/mpfb_female_casual.glb",
+      "example_outfit": "Casual",
+      "style": {
+        "HeadSize": 0.58,
+        "EyeSize": 0.32,
+        "NoseSize": -0.28,
+        "NoseWidth": -0.3,
+        "MouthWidth": -0.25,
+        "Lips": 0.16,
+        "JawWidth": -0.3,
+        "Chin": -0.3,
+        "Brow": -0.32,
+        "FaceLength": -0.15
+      },
+      "targets": [
+        [
+          "head/head-oval",
+          1.0
+        ],
+        [
+          "head/head-age-decr",
+          0.25
+        ],
+        [
+          "eyes/l-eye-height2-incr",
+          0.5
+        ],
+        [
+          "eyes/r-eye-height2-incr",
+          0.5
+        ],
+        [
+          "eyes/l-eye-corner1-up",
+          0.35
+        ],
+        [
+          "eyes/r-eye-corner1-up",
+          0.35
+        ],
+        [
+          "eyes/l-eye-bag-decr",
+          0.7
+        ],
+        [
+          "eyes/r-eye-bag-decr",
+          0.7
+        ],
+        [
+          "nose/nose-point-width-decr",
+          0.5
+        ],
+        [
+          "nose/nose-hump-decr",
+          0.5
+        ],
+        [
+          "mouth/mouth-angles-up",
+          0.55
+        ],
+        [
+          "mouth/mouth-laugh-lines-in",
+          0.8
+        ],
+        [
+          "mouth/mouth-cupidsbow-incr",
+          0.4
+        ],
+        [
+          "cheek/l-cheek-volume-incr",
+          0.3
+        ],
+        [
+          "cheek/r-cheek-volume-incr",
+          0.3
+        ],
+        [
+          "chin/chin-bones-decr",
+          0.8
+        ],
+        [
+          "neck/neck-scale-horiz-decr",
+          0.85
+        ],
+        [
+          "head/head-fat-decr",
+          0.6
+        ],
+        [
+          "head/head-invertedtriangular",
+          0.5
+        ],
+        [
+          "chin/chin-width-decr",
+          0.3
+        ],
+        [
+          "chin/chin-prominent-incr",
+          0.6
+        ],
+        [
+          "mouth/mouth-lowerlip-volume-incr",
+          0.35
+        ],
+        [
+          "mouth/mouth-scale-horiz-incr",
+          0.4
+        ],
+        [
+          "eyebrows/eyebrows-trans-up",
+          0.4
+        ],
+        [
+          "eyebrows/eyebrows-angle-up",
+          0.4
+        ],
+        [
+          "cheek/l-cheek-volume-decr",
+          0.3
+        ],
+        [
+          "cheek/r-cheek-volume-decr",
+          0.3
+        ],
+        [
+          "eyes/l-eye-height3-incr",
+          0.4
+        ],
+        [
+          "eyes/r-eye-height3-incr",
+          0.4
+        ]
+      ],
+      "hairline": {
+        "forehead": 0.066,
+        "sideburn": 0.0,
+        "nape": 0.0
+      },
+      "paint": {
+        "lips": [
+          0.92,
+          0.87,
+          0.85
+        ],
+        "blush": [
+          0.99,
+          0.97,
+          0.96
+        ]
+      }
+    }
+  },
+  "sliders": [
+    {
+      "name": "Weight",
+      "group": "body",
+      "plus": [
+        [
+          "macrodetails/universal-{g}-young-averagemuscle-maxweight",
+          2.4755
+        ],
+        [
+          "macrodetails/universal-{g}-young-averagemuscle-averageweight",
+          -2.4755
+        ]
+      ],
+      "minus": [
+        [
+          "macrodetails/universal-{g}-young-averagemuscle-minweight",
+          1.4853
+        ],
+        [
+          "macrodetails/universal-{g}-young-averagemuscle-averageweight",
+          -1.4853
+        ]
+      ]
+    },
+    {
+      "name": "Muscle",
+      "group": "body",
+      "plus": [
+        [
+          "macrodetails/universal-{g}-young-maxmuscle-averageweight",
+          1.9804
+        ],
+        [
+          "macrodetails/universal-{g}-young-averagemuscle-averageweight",
+          -1.9804
+        ]
+      ],
+      "minus": [
+        [
+          "macrodetails/universal-{g}-young-minmuscle-averageweight",
+          1.9804
+        ],
+        [
+          "macrodetails/universal-{g}-young-averagemuscle-averageweight",
+          -1.9804
+        ]
+      ]
+    },
+    {
+      "name": "Height",
+      "group": "body",
+      "plus": [
+        [
+          "macrodetails/height/{g}-young-averagemuscle-averageweight-maxheight",
+          0.4951
+        ]
+      ],
+      "minus": [
+        [
+          "macrodetails/height/{g}-young-averagemuscle-averageweight-minheight",
+          0.9902
+        ]
+      ]
+    },
+    {
+      "name": "Shoulders",
+      "group": "body",
+      "plus": [
+        [
+          "torso/measure-shoulder-dist-incr",
+          2.5
+        ]
+      ],
+      "minus": [
+        [
+          "torso/measure-shoulder-dist-decr",
+          2.5
+        ]
+      ]
+    },
+    {
+      "name": "Chest",
+      "group": "body",
+      "plus": [
+        [
+          "torso/measure-bust-circ-incr",
+          1.5
+        ]
+      ],
+      "minus": [
+        [
+          "torso/measure-bust-circ-decr",
+          1.5
+        ]
+      ]
+    },
+    {
+      "name": "Waist",
+      "group": "body",
+      "plus": [
+        [
+          "torso/measure-waist-circ-incr",
+          3.0
+        ]
+      ],
+      "minus": [
+        [
+          "torso/measure-waist-circ-decr",
+          3.0
+        ]
+      ]
+    },
+    {
+      "name": "Hips",
+      "group": "body",
+      "plus": [
+        [
+          "torso/measure-hips-circ-incr",
+          1.6
+        ]
+      ],
+      "minus": [
+        [
+          "torso/measure-hips-circ-decr",
+          1.6
+        ]
+      ]
+    },
+    {
+      "name": "TorsoLength",
+      "group": "body",
+      "plus": [
+        [
+          "torso/measure-napetowaist-dist-incr",
+          1.5
+        ]
+      ],
+      "minus": [
+        [
+          "torso/measure-napetowaist-dist-decr",
+          1.5
+        ]
+      ]
+    },
+    {
+      "name": "LegLength",
+      "group": "body",
+      "plus": [
+        [
+          "legs/upperlegs-height-incr",
+          1.0
+        ],
+        [
+          "legs/lowerlegs-height-incr",
+          1.0
+        ]
+      ],
+      "minus": [
+        [
+          "legs/upperlegs-height-decr",
+          1.0
+        ],
+        [
+          "legs/lowerlegs-height-decr",
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "ArmLength",
+      "group": "body",
+      "plus": [
+        [
+          "arms/measure-upperarm-length-incr",
+          1.0
+        ],
+        [
+          "arms/measure-lowerarm-length-incr",
+          1.0
+        ]
+      ],
+      "minus": [
+        [
+          "arms/measure-upperarm-length-decr",
+          1.0
+        ],
+        [
+          "arms/measure-lowerarm-length-decr",
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "NeckLength",
+      "group": "body",
+      "plus": [
+        [
+          "neck/measure-neck-height-incr",
+          1.5
+        ]
+      ],
+      "minus": [
+        [
+          "neck/measure-neck-height-decr",
+          1.5
+        ]
+      ]
+    },
+    {
+      "name": "HeadSize",
+      "group": "body",
+      "plus": [
+        [
+          "head/head-scale-depth-incr",
+          2.0
+        ],
+        [
+          "head/head-scale-horiz-incr",
+          2.0
+        ],
+        [
+          "head/head-scale-vert-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "head/head-scale-depth-decr",
+          2.0
+        ],
+        [
+          "head/head-scale-horiz-decr",
+          2.0
+        ],
+        [
+          "head/head-scale-vert-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "JawWidth",
+      "group": "face",
+      "plus": [
+        [
+          "chin/chin-width-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "chin/chin-width-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "Chin",
+      "group": "face",
+      "plus": [
+        [
+          "chin/chin-prominent-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "chin/chin-prominent-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "FaceLength",
+      "group": "face",
+      "plus": [
+        [
+          "chin/chin-height-incr",
+          1.5
+        ]
+      ],
+      "minus": [
+        [
+          "chin/chin-height-decr",
+          1.5
+        ]
+      ]
+    },
+    {
+      "name": "Cheekbones",
+      "group": "face",
+      "plus": [
+        [
+          "cheek/l-cheek-bones-incr",
+          2.5
+        ],
+        [
+          "cheek/r-cheek-bones-incr",
+          2.5
+        ]
+      ],
+      "minus": [
+        [
+          "cheek/l-cheek-bones-decr",
+          2.5
+        ],
+        [
+          "cheek/r-cheek-bones-decr",
+          2.5
+        ]
+      ]
+    },
+    {
+      "name": "EyeSize",
+      "group": "face",
+      "plus": [
+        [
+          "eyes/l-eye-scale-incr",
+          2.5
+        ],
+        [
+          "eyes/r-eye-scale-incr",
+          2.5
+        ]
+      ],
+      "minus": [
+        [
+          "eyes/l-eye-scale-decr",
+          2.5
+        ],
+        [
+          "eyes/r-eye-scale-decr",
+          2.5
+        ]
+      ]
+    },
+    {
+      "name": "EyeSpacing",
+      "group": "face",
+      "plus": [
+        [
+          "eyes/l-eye-trans-out",
+          2.0
+        ],
+        [
+          "eyes/r-eye-trans-out",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "eyes/l-eye-trans-in",
+          2.0
+        ],
+        [
+          "eyes/r-eye-trans-in",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "NoseLength",
+      "group": "face",
+      "plus": [
+        [
+          "nose/nose-scale-vert-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "nose/nose-scale-vert-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "NoseWidth",
+      "group": "face",
+      "plus": [
+        [
+          "nose/nose-scale-horiz-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "nose/nose-scale-horiz-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "NoseSize",
+      "group": "face",
+      "plus": [
+        [
+          "nose/nose-volume-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "nose/nose-volume-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "MouthWidth",
+      "group": "face",
+      "plus": [
+        [
+          "mouth/mouth-scale-horiz-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "mouth/mouth-scale-horiz-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "Lips",
+      "group": "face",
+      "plus": [
+        [
+          "mouth/mouth-upperlip-volume-incr",
+          2.0
+        ],
+        [
+          "mouth/mouth-lowerlip-volume-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "mouth/mouth-upperlip-volume-decr",
+          2.0
+        ],
+        [
+          "mouth/mouth-lowerlip-volume-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "Brow",
+      "group": "face",
+      "plus": [
+        [
+          "forehead/forehead-nubian-incr",
+          1.0
+        ]
+      ],
+      "minus": [
+        [
+          "forehead/forehead-nubian-decr",
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "EarSize",
+      "group": "face",
+      "plus": [
+        [
+          "ears/l-ear-scale-incr",
+          2.0
+        ],
+        [
+          "ears/r-ear-scale-incr",
+          2.0
+        ]
+      ],
+      "minus": [
+        [
+          "ears/l-ear-scale-decr",
+          2.0
+        ],
+        [
+          "ears/r-ear-scale-decr",
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "EarPoint",
+      "group": "face",
+      "plus": [
+        [
+          "ears/l-ear-shape-pointed",
+          1.5
+        ],
+        [
+          "ears/r-ear-shape-pointed",
+          1.5
+        ]
+      ],
+      "minus": [
+        [
+          "ears/l-ear-shape-round",
+          1.5
+        ],
+        [
+          "ears/r-ear-shape-round",
+          1.5
+        ]
+      ]
+    },
+    {
+      "name": "EarWing",
+      "group": "face",
+      "plus": [
+        [
+          "ears/l-ear-wing-incr",
+          1.5
+        ],
+        [
+          "ears/r-ear-wing-incr",
+          1.5
+        ]
+      ],
+      "minus": [
+        [
+          "ears/l-ear-wing-decr",
+          1.5
+        ],
+        [
+          "ears/r-ear-wing-decr",
+          1.5
+        ]
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "name": "Blink",
+      "targets": [
+        [
+          "expression/units/caucasian/eye-left-closure",
+          1
+        ],
+        [
+          "expression/units/caucasian/eye-right-closure",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Smile",
+      "targets": [
+        [
+          "expression/units/caucasian/mouth-corner-puller",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "MouthOpen",
+      "targets": [
+        [
+          "expression/units/caucasian/mouth-open",
+          1
+        ]
+      ]
+    }
+  ],
+  "parts": {
+    "Eyes": {
+      "source": "example",
+      "mesh": "low-poly.001",
+      "colour": "sclera",
+      "lid_shade": true
+    },
+    "Irises": {
+      "source": "built",
+      "colour": "eyes"
+    },
+    "EyeShine": {
+      "source": "built",
+      "colour": "shine"
+    },
+    "Brows": {
+      "source": "example",
+      "mesh": "eyebrow001.001",
+      "colour": "hair",
+      "texture": "alpha",
+      "thicken": 1
+    },
+    "Lashes": {
+      "source": "example",
+      "mesh": "eyelashes01.001",
+      "colour": "lashes",
+      "texture": "alpha",
+      "thicken": 0,
+      "keep": "upper"
+    },
+    "HairShort": {
+      "source": "built",
+      "style": "short",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairBob": {
+      "source": "built",
+      "style": "bob",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairLong": {
+      "source": "built",
+      "style": "long",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairBun": {
+      "source": "built",
+      "style": "bun",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairBraid": {
+      "source": "built",
+      "style": "braid",
+      "colour": "hair",
+      "outline": true
+    },
+    "Shirt": {
+      "source": "built",
+      "colour": "shirt",
+      "hides": true,
+      "outline": true,
+      "fit": {
+        "under": [
+          "Body"
+        ],
+        "gap": 0.012,
+        "rigid": false
+      }
+    },
+    "Trousers": {
+      "source": "built",
+      "colour": "trousers",
+      "hides": true,
+      "outline": true,
+      "fit": {
+        "under": [
+          "Body"
+        ],
+        "gap": 0.005,
+        "rigid": false
+      }
+    },
+    "Boots": {
+      "source": "built",
+      "colour": "leather",
+      "hides": true,
+      "outline": true,
+      "fit": {
+        "under": [
+          "Body"
+        ],
+        "gap": 0.005,
+        "rigid": false
+      }
+    },
+    "Shoes": {
+      "source": "built",
+      "colour": "leather",
+      "hides": true,
+      "outline": true,
+      "fit": {
+        "under": [
+          "Body"
+        ],
+        "gap": 0.005,
+        "rigid": false
+      }
+    },
+    "Belt": {
+      "source": "built",
+      "colour": "leather",
+      "outline": true,
+      "fit": {
+        "under": [
+          "Shirt"
+        ],
+        "gap": 0.002,
+        "rigid": false
+      }
+    },
+    "Buckle": {
+      "source": "built",
+      "colour": "metal",
+      "fit": {
+        "under": [
+          "Belt"
+        ],
+        "gap": 0.002,
+        "rigid": true
+      }
+    },
+    "Vest": {
+      "source": "built",
+      "colour": "vest",
+      "outline": true,
+      "fit": {
+        "under": [
+          "Shirt"
+        ],
+        "gap": 0.026,
+        "rigid": false
+      }
+    },
+    "VestButtons": {
+      "source": "built",
+      "colour": "leather",
+      "fit": {
+        "under": [
+          "Vest"
+        ],
+        "gap": 0.001,
+        "rigid": true
+      }
+    },
+    "Tusks": {
+      "source": "built",
+      "colour": "tusk"
+    },
+    "HairCloseCrop": {
+      "source": "built",
+      "style": "close_crop",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairSwept": {
+      "source": "built",
+      "style": "swept",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairSidePart": {
+      "source": "built",
+      "style": "side_part",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairWaves": {
+      "source": "built",
+      "style": "waves",
+      "colour": "hair",
+      "outline": true
+    },
+    "HairCurls": {
+      "source": "built",
+      "style": "curls",
+      "colour": "hair",
+      "outline": true
+    },
+    "Apron": {
+      "source": "built",
+      "colour": "apron",
+      "outline": true,
+      "face": false,
+      "fit": {
+        "under": [
+          "Body",
+          "Shirt"
+        ],
+        "gap": 0.035,
+        "rigid": false
+      }
+    },
+    "Cloak": {
+      "source": "built",
+      "colour": "cloak",
+      "outline": true,
+      "face": false,
+      "fit": {
+        "under": [
+          "Body",
+          "Shirt"
+        ],
+        "gap": 0.008,
+        "rigid": false
+      }
+    },
+    "HatBrim": {
+      "source": "built",
+      "colour": "felt",
+      "outline": true,
+      "face": false
+    },
+    "HatCap": {
+      "source": "built",
+      "colour": "felt",
+      "outline": true,
+      "face": false
+    },
+    "Scarf": {
+      "source": "built",
+      "colour": "scarf",
+      "outline": true,
+      "face": false,
+      "fit": {
+        "under": [
+          "Body"
+        ],
+        "gap": 0.005,
+        "rigid": false
+      }
+    },
+    "BeardStubble": {
+      "source": "built",
+      "colour": "skin",
+      "outline": false,
+      "face": true
+    },
+    "BeardShort": {
+      "source": "built",
+      "colour": "hair",
+      "outline": false,
+      "face": true
+    },
+    "BeardFull": {
+      "source": "built",
+      "colour": "hair",
+      "outline": false,
+      "face": true
+    },
+    "Moustache": {
+      "source": "built",
+      "colour": "hair",
+      "outline": false,
+      "face": true
+    }
+  },
+  "always": [
+    "Body",
+    "Eyes",
+    "Irises",
+    "EyeShine",
+    "Brows",
+    "Lashes"
+  ],
+  "default_colours": {
+    "skin": "c8987a",
+    "sclera": "e9e4da",
+    "eyes": "6b4a2e",
+    "shine": "fbf8f0",
+    "hair": "5a3d2b",
+    "lashes": "6a5746",
+    "shirt": "cdbfa3",
+    "trousers": "524c44",
+    "leather": "6b4a2e",
+    "metal": "a8925f",
+    "vest": "3f5a45",
+    "tusk": "d6cbb0",
+    "apron": "a79575",
+    "cloak": "58634d",
+    "felt": "685d47",
+    "scarf": "7a5341"
+  },
+  "slots": {
+    "hair": {
+      "none": [],
+      "short": [
+        "HairShort"
+      ],
+      "bob": [
+        "HairBob"
+      ],
+      "long": [
+        "HairLong"
+      ],
+      "bun": [
+        "HairBun"
+      ],
+      "braid": [
+        "HairBraid"
+      ],
+      "close_crop": [
+        "HairCloseCrop"
+      ],
+      "swept": [
+        "HairSwept"
+      ],
+      "side_part": [
+        "HairSidePart"
+      ],
+      "waves": [
+        "HairWaves"
+      ],
+      "curls": [
+        "HairCurls"
+      ]
+    },
+    "outfit": {
+      "frontier": [
+        "Shirt",
+        "Trousers",
+        "Boots",
+        "Belt",
+        "Buckle"
+      ],
+      "frontier_vest": [
+        "Shirt",
+        "Trousers",
+        "Boots",
+        "Belt",
+        "Buckle",
+        "Vest",
+        "VestButtons"
+      ],
+      "frontier_apron": [
+        "Shirt",
+        "Trousers",
+        "Boots",
+        "Belt",
+        "Buckle",
+        "Apron"
+      ],
+      "frontier_cloak": [
+        "Shirt",
+        "Trousers",
+        "Boots",
+        "Belt",
+        "Buckle",
+        "Cloak"
+      ]
+    },
+    "headwear": {
+      "none": [],
+      "brim": [
+        "HatBrim"
+      ],
+      "cap": [
+        "HatCap"
+      ]
+    },
+    "beard": {
+      "none": [],
+      "stubble": [
+        "BeardStubble"
+      ],
+      "short": [
+        "BeardShort"
+      ],
+      "full": [
+        "BeardFull"
+      ],
+      "moustache": [
+        "Moustache"
+      ]
+    },
+    "neckwear": {
+      "none": [],
+      "scarf": [
+        "Scarf"
+      ]
+    }
+  },
+  "races": {
+    "human": {
+      "sliders": {},
+      "parts": [],
+      "colours": {}
+    },
+    "goblin": {
+      "sliders": {
+        "Height": -1,
+        "LegLength": -0.6,
+        "HeadSize": 0.6,
+        "EarSize": 1,
+        "EarPoint": 1,
+        "EarWing": 1,
+        "NoseLength": 0.8,
+        "MouthWidth": 0.6,
+        "Weight": -0.5,
+        "Chin": 0.5
+      },
+      "parts": [],
+      "colours": {
+        "skin": "7d8f3f",
+        "eyes": "c8a032"
+      }
+    },
+    "orc": {
+      "sliders": {
+        "Height": 0.9,
+        "Muscle": 1,
+        "Shoulders": 0.8,
+        "JawWidth": 1,
+        "Chin": 0.6,
+        "Brow": 0.8,
+        "NoseWidth": 0.8,
+        "EarPoint": 0.5
+      },
+      "parts": [
+        "Tusks"
+      ],
+      "colours": {
+        "skin": "7a8f58",
+        "eyes": "a0602a"
+      }
+    },
+    "vampire": {
+      "sliders": {
+        "Height": 0.6,
+        "Weight": -0.6,
+        "Cheekbones": 0.6,
+        "EarPoint": 0.6,
+        "FaceLength": 0.4,
+        "NoseLength": 0.3
+      },
+      "parts": [],
+      "colours": {
+        "skin": "aaa0b4",
+        "eyes": "7a1620"
+      }
+    }
+  },
+  "face_archetypes": {
+    "male": {
+      "soft": {
+        "Chin": -0.12,
+        "Cheekbones": -0.12,
+        "NoseWidth": -0.08,
+        "MouthWidth": 0.12,
+        "Lips": 0.1,
+        "Brow": -0.12,
+        "EyeSize": 0.08,
+        "JawWidth": -0.12,
+        "FaceLength": -0.08,
+        "EyeSpacing": 0.06,
+        "NoseLength": -0.08,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "rugged": {
+        "Chin": 0.22,
+        "Cheekbones": 0.25,
+        "NoseWidth": 0.2,
+        "NoseSize": 0.15,
+        "MouthWidth": 0.15,
+        "Lips": -0.1,
+        "Brow": 0.2,
+        "EyeSize": -0.08,
+        "JawWidth": 0.2,
+        "FaceLength": 0.12,
+        "EyeSpacing": -0.06,
+        "NoseLength": 0.12,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "square": {
+        "Chin": 0.2,
+        "Cheekbones": 0.1,
+        "NoseWidth": 0.12,
+        "MouthWidth": 0.22,
+        "Lips": -0.08,
+        "Brow": 0.14,
+        "JawWidth": 0.34,
+        "FaceLength": -0.04,
+        "EyeSpacing": 0.02,
+        "NoseLength": 0.04,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "narrow": {
+        "Chin": 0.06,
+        "Cheekbones": 0.28,
+        "NoseWidth": -0.2,
+        "NoseSize": 0.08,
+        "MouthWidth": -0.12,
+        "Brow": -0.06,
+        "JawWidth": -0.3,
+        "FaceLength": 0.25,
+        "EyeSpacing": -0.08,
+        "NoseLength": 0.2,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "round": {
+        "Chin": -0.15,
+        "Cheekbones": -0.28,
+        "NoseWidth": 0.18,
+        "NoseSize": -0.1,
+        "MouthWidth": 0.08,
+        "Lips": 0.1,
+        "Brow": -0.1,
+        "EyeSize": 0.05,
+        "JawWidth": 0.18,
+        "FaceLength": -0.22,
+        "EyeSpacing": 0.1,
+        "NoseLength": -0.12,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "mature": {
+        "Chin": 0.12,
+        "Cheekbones": 0.2,
+        "NoseWidth": 0.18,
+        "NoseSize": 0.24,
+        "MouthWidth": 0.12,
+        "Lips": -0.14,
+        "Brow": 0.24,
+        "EyeSize": -0.12,
+        "JawWidth": 0.12,
+        "FaceLength": 0.18,
+        "EyeSpacing": -0.04,
+        "NoseLength": 0.22,
+        "EarSize": 0.08,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      }
+    },
+    "female": {
+      "soft": {
+        "Chin": -0.08,
+        "Cheekbones": -0.1,
+        "NoseWidth": -0.06,
+        "MouthWidth": 0.1,
+        "Lips": 0.12,
+        "Brow": -0.06,
+        "JawWidth": -0.12,
+        "FaceLength": -0.08,
+        "EyeSpacing": 0.06,
+        "NoseLength": -0.08,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "rugged": {
+        "Chin": 0.18,
+        "Cheekbones": 0.24,
+        "NoseWidth": 0.18,
+        "NoseSize": 0.12,
+        "MouthWidth": 0.14,
+        "Lips": -0.08,
+        "Brow": 0.14,
+        "EyeSize": -0.06,
+        "JawWidth": 0.2,
+        "FaceLength": 0.12,
+        "EyeSpacing": -0.06,
+        "NoseLength": 0.12,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "square": {
+        "Chin": 0.16,
+        "Cheekbones": 0.1,
+        "NoseWidth": 0.06,
+        "MouthWidth": 0.2,
+        "Brow": 0.1,
+        "JawWidth": 0.34,
+        "FaceLength": -0.04,
+        "EyeSpacing": 0.02,
+        "NoseLength": 0.04,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "narrow": {
+        "Chin": 0.08,
+        "Cheekbones": 0.28,
+        "NoseWidth": -0.16,
+        "NoseSize": 0.08,
+        "MouthWidth": -0.12,
+        "Lips": 0.04,
+        "JawWidth": -0.3,
+        "FaceLength": 0.25,
+        "EyeSpacing": -0.08,
+        "NoseLength": 0.2,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "round": {
+        "Chin": -0.1,
+        "Cheekbones": -0.25,
+        "NoseWidth": 0.15,
+        "NoseSize": -0.06,
+        "MouthWidth": 0.12,
+        "Lips": 0.08,
+        "EyeSize": 0.06,
+        "JawWidth": 0.18,
+        "FaceLength": -0.22,
+        "EyeSpacing": 0.1,
+        "NoseLength": -0.12,
+        "EarSize": -0.04,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      },
+      "mature": {
+        "Chin": 0.16,
+        "Cheekbones": 0.2,
+        "NoseWidth": 0.16,
+        "NoseSize": 0.2,
+        "MouthWidth": 0.14,
+        "Lips": -0.1,
+        "Brow": 0.12,
+        "EyeSize": -0.1,
+        "JawWidth": 0.12,
+        "FaceLength": 0.18,
+        "EyeSpacing": -0.04,
+        "NoseLength": 0.22,
+        "EarSize": 0.08,
+        "EarPoint": 0,
+        "EarWing": 0.02
+      }
+    }
+  },
+  "body_archetypes": {
+    "lean": {
+      "Weight": -0.65,
+      "Waist": -0.42,
+      "Shoulders": -0.12,
+      "Height": 0.15,
+      "LegLength": 0.18
+    },
+    "average": {},
+    "stocky": {
+      "Weight": 0.35,
+      "Muscle": 0.35,
+      "Waist": 0.32,
+      "Shoulders": 0.35,
+      "Height": -0.55,
+      "NeckLength": -0.22
+    },
+    "broad": {
+      "Muscle": 0.75,
+      "Shoulders": 0.72,
+      "Chest": 0.35,
+      "Waist": 0.08,
+      "Height": 0.2
+    },
+    "heavy": {
+      "Weight": 1,
+      "Waist": 0.85,
+      "Hips": 0.25,
+      "Shoulders": 0.25,
+      "Chest": 0.22,
+      "Height": -0.1
+    },
+    "wiry": {
+      "Weight": -0.7,
+      "Muscle": 0.38,
+      "Waist": -0.5,
+      "Shoulders": 0.12,
+      "Height": 0.65,
+      "TorsoLength": 0.18,
+      "ArmLength": 0.15
+    }
+  },
+  "garment_correctives": [
+    {
+      "name": "Fit.Weight+.Waist+",
+      "drivers": [
+        "Weight+",
+        "Waist+"
+      ]
+    },
+    {
+      "name": "Fit.Weight+.Hips+",
+      "drivers": [
+        "Weight+",
+        "Hips+"
+      ]
+    },
+    {
+      "name": "Fit.Muscle+.Shoulders+",
+      "drivers": [
+        "Muscle+",
+        "Shoulders+"
+      ]
+    },
+    {
+      "name": "Fit.Chest+.Waist+",
+      "drivers": [
+        "Chest+",
+        "Waist+"
+      ]
+    },
+    {
+      "name": "Fit.Shoulders+.Chest+",
+      "drivers": [
+        "Shoulders+",
+        "Chest+"
+      ]
+    }
+  ],
+  "saved_hair_families": {
+    "none": [
+      "none"
+    ],
+    "crop": [
+      "short",
+      "close_crop",
+      "swept",
+      "side_part",
+      "waves",
+      "curls"
+    ],
+    "long": [
+      "long",
+      "long",
+      "bob"
+    ],
+    "tail": [
+      "braid"
+    ],
+    "bun": [
+      "bun"
+    ]
+  },
+  "saved_beard_family": [
+    "stubble",
+    "short",
+    "short",
+    "full",
+    "moustache"
+  ]
+}

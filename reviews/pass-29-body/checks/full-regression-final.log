@@ -1,0 +1,5 @@
+run.sh: using 8 job(s)
+run.sh: checkout ffce2b623f63 (art/painterly-body-first-20261012) behind_origin_main=0 dirty=false
+run.sh: PASS (headless; screenshots and pixel checks NOT RUN)  seed=137  report=/home/chris/tmp/agent-tmp/body-first-20261012/full-regression-final/scenario.json
+run.sh: log    /home/chris/tmp/agent-tmp/body-first-20261012/full-regression-final/run.log
+run.sh: shots  /home/chris/tmp/agent-tmp/body-first-20261012/full-regression-final

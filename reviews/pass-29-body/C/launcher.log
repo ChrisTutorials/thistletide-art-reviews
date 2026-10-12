@@ -1,0 +1,5 @@
+run.sh: using 8 job(s)
+run.sh: checkout ffce2b623f63 (art/painterly-body-first-20261012) behind_origin_main=0 dirty=false
+run.sh: PASS  seed=137  report=/home/chris/tmp/agent-tmp/body-first-20261012/C-brush-light/scenario.json
+run.sh: log    /home/chris/tmp/agent-tmp/body-first-20261012/C-brush-light/run.log
+run.sh: shots  /home/chris/tmp/agent-tmp/body-first-20261012/C-brush-light

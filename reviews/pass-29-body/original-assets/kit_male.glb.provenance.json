@@ -1,0 +1,32 @@
+{
+  "producer": "build_character_kit.py",
+  "blender": "4.5.13 LTS",
+  "generated_utc": "2026-10-12T15:27:39.378644+00:00",
+  "mpfb2_commit": "d0a32e57a7f915cb2f2b95410e2117648c7bbb7e",
+  "inputs_sha256": {
+    "assets/characters/kit/character_kit.spec.json": "8d72f336eb3764423ab5caa06545656b10a957458660cfe59a4d857fcbddb2e3",
+    "scripts/asset_pipeline/build_character_kit.py": "8ba1fe7234991b684b08919bcc14bd0167a87bbdb06549adfa8c36ede0e3bec2",
+    "scripts/asset_pipeline/character_kit_source.py": "ad655cec75e849d091bc8f93d9416b005c0ea8d3b5dabfb8335e6968b1db21ef",
+    "scripts/asset_pipeline/kit_hair.py": "f6363548f5fea298f564697c760e090fa601ddc860cbf2b42f397422a2f5da2c",
+    "scripts/asset_pipeline/kit_retarget.py": "0e7697c6182598f87fde9cc92eff4776dbd1c7c40ade7d471bde8abdffd347c9",
+    "scripts/asset_pipeline/kit_garments.py": "a2ab3289b8e11250ff42ffa394acbebe8593ac0eef49070b1c3643f51e1cce7f",
+    "scripts/asset_pipeline/kit_equipment.py": "43eff70c80867eda79c8e22d407233236d96312e278dc6bc5cba8f398c8b8a62",
+    "scripts/asset_pipeline/mpfb2_cc0_sources.json": "1275d9ab8aa596a5243529a1009188d37d23ce828ebca75f07d192a5b1b7559e",
+    "assets/characters/frontier_folk/frontier_folk.glb": "06480f76f9b56e424519b3b633083f271a1c5ea9ef84345d92707e9462f86468",
+    "assets/characters/mpfb_cc0/mpfb_male_work.glb": "ede8d46005fe4155192e7402d4ce5a5cc1830303048ae22425fc0de803c9f122",
+    "assets/characters/mpfb_cc0/mpfb_female_casual.glb": "d7f53e890b3764b19a0da507f95a4a443b5809da46eccd61361adec60cf75e11"
+  },
+  "house_style": {
+    "HeadSize": 0.45,
+    "EyeSize": 0.12,
+    "NoseSize": -0.2,
+    "MouthWidth": -0.1,
+    "JawWidth": 0.12,
+    "Chin": 0.0,
+    "Brow": 0.08,
+    "Lips": -0.08
+  },
+  "art_direction": "stylized late-medieval village dress, rough 1500-1600 feel; pre-firearms; owner direction 2026-10-11",
+  "approval": "pending owner visual review; TT_KIT_PAWNS remains opt-in",
+  "scope": "Thistletide character kit candidate, generated in Blender from CC0 MakeHuman inputs"
+}

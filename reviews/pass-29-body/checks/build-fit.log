@@ -1,0 +1,22 @@
+run.sh: using 8 job(s)
+run.sh: checkout a2fbb4978b25 (art/painterly-body-first-20261012) behind_origin_main=0 dirty=true
+run.sh: entry guard
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.23
+Test run for /home/chris/gamedev/tt-character-art-wt/clients/godot-csharp/tests/EntryGuard/bin/Release/net10.0/EntryGuard.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:  2037, Skipped:     0, Total:  2037, Duration: 15 s - EntryGuard.dll (net10.0)
+test_entryguard: OK
+run.sh: C# client
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.04
+run.sh: BUILD ONLY PASS (entry guard + client build green; Godot proof NOT RUN)
