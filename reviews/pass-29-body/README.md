@@ -14,7 +14,7 @@ Open `index.html` after downloading this directory for the native-resolution off
 | B |18 original 1280×720 PNGs|New proportions and corrected retarget roll under the existing material|
 | C |18 original 1280×720 PNGs|Identical B GLBs with anatomical paint, brushed light transitions and controlled lighting|
 
-![Latest actual Godot body diagnostic](C/body_detail_45.png)
+**Original anatomy renders contain nonsexual adult nudity.** [Open the original body diagnostic](C/body_detail_45.png).
 
 Seed 137; authored Aldric/Wren identities; identical common poses/cameras. The extra B/C sheets use the existing six physiques, each under Idle, Walk and PickUp. These are staged studies and held animation samples, **not moving simulation footage**. `source-identity.json` and launcher logs record the source heads. A was captured at 7db79e9503bd; B at d279d4ba4f5f; latest C at ffce2b623f63. Current branch head adds documentation only.
 
